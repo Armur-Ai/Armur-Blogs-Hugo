@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blogs.armur.ai/'
 languageCode = 'en-us'
 title = 'Armur Blogs'
 theme = 'hextra'

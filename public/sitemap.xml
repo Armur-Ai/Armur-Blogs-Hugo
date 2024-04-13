@@ -2,17 +2,96 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blogs.armur.ai/</loc>
     <lastmod>2024-04-10T23:30:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>https://blogs.armur.ai/posts/hello-world/</loc>
     <lastmod>2024-04-10T23:30:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://blogs.armur.ai/posts/</loc>
     <lastmod>2024-04-10T23:30:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blogs.armur.ai/tags/business/</loc>
+    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blogs.armur.ai/tags/</loc>
+    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/that-which-does-not-kill-us-makes-us-stronger/</loc>
+    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/work/</loc>
+    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/do-what-you-can-with-what-you-have-where-you-are/</loc>
+    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/life/</loc>
+    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/nature/</loc>
+    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/story/</loc>
+    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/if-you-cannot-do-great-things-do-small-things-in-a-great-way/</loc>
+    <lastmod>2023-11-11T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/notes/</loc>
+    <lastmod>2023-11-11T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/rest/</loc>
+    <lastmod>2023-11-11T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/remember-that-happiness-is-a-way-of-travel-not-a-destination/</loc>
+    <lastmod>2023-11-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/travels/</loc>
+    <lastmod>2023-11-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/a-journey-of-a-thousand-leagues-begins-beneath-one%C3%B4%C3%A7%C3%B6s-feet/</loc>
+    <lastmod>2023-11-09T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/lifestyle/</loc>
+    <lastmod>2023-11-09T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/fashion/</loc>
+    <lastmod>2023-11-08T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/life-shrinks-or-expands-in-proportion-to-one%C3%B4%C3%A7%C3%B6s-courage/</loc>
+    <lastmod>2023-11-08T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/what-you-do-speaks-so-loudly-that-i-cannot-hear-what-you-say/</loc>
+    <lastmod>2023-11-07T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/you-must-be-the-change-you-wish-to-see-in-the-world/</loc>
+    <lastmod>2023-11-06T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/believe-and-act-as-if-it-were-impossible-to-fail/</loc>
+    <lastmod>2023-11-05T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/the-way-i-see-it-every-life-is-a-pile-of-good-things/</loc>
+    <lastmod>2023-10-31T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/everything-has-beauty-but-not-everyone-can-see/</loc>
+    <lastmod>2023-05-29T18:05:55+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/strive-not-to-be-a-success-but-rather-to-be-of-value/</loc>
+    <lastmod>2023-04-24T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/tags/technology/</loc>
+    <lastmod>2023-04-24T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/posts/it-i-never-too-late-to-be-what-you-might-have-been/</loc>
+    <lastmod>2023-04-21T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>https://blogs.armur.ai/about/</loc>
+  </url><url>
+    <loc>https://blogs.armur.ai/categories/</loc>
+  </url><url>
+    <loc>https://blogs.armur.ai/contact/</loc>
+  </url><url>
+    <loc>https://blogs.armur.ai/styleguide/</loc>
   </url>
 </urlset>

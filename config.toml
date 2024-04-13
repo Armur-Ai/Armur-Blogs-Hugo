@@ -1,4 +1,4 @@
 baseURL = 'https://blogs.armur.ai/'
 languageCode = 'en-us'
 title = 'Armur Blogs'
-theme = 'hextra'
+theme = 'norlin'

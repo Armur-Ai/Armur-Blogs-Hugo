@@ -1,1 +1,1 @@
-armur blog
+armur blog yes

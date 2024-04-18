@@ -1,4 +1,4 @@
-baseURL = 'https://blogs.armur.ai/'
+baseURL = 'https://armur.ai/blogs/'
 languageCode = 'en-us'
 title = 'Armur Blogs'
 theme = 'Norlin'

@@ -24,6 +24,7 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST '
           cd /home/vm11082001/Armur-Blogs-Hugo &&
+          git stash &&
           git pull &&
           hugo &&
           pm2 restart hugo

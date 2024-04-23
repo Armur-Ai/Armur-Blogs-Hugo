@@ -2,7 +2,7 @@ baseURL = 'https://armur.ai/blogs/'
 languageCode = 'en-us'
 title = 'Armur Blogs'
 theme = 'Norlin'
-
+googleAnalytics = 'G-3GJ9DPN63X'
 
 # Main Menu
 [menu]

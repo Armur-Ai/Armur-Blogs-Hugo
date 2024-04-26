@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Armur Blogs</title>
-    <link>https://armur.ai/blogs/tags/</link>
+    <link>http://localhost:1313/blogs/tags/</link>
     <description>Recent content in Tags on Armur Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Nov 2023 15:01:35 +0300</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business</title>
-      <link>https://armur.ai/blogs/tags/business/</link>
+      <link>http://localhost:1313/blogs/tags/business/</link>
       <pubDate>Mon, 13 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/business/</guid>
+      <guid>http://localhost:1313/blogs/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Work</title>
-      <link>https://armur.ai/blogs/tags/work/</link>
+      <link>http://localhost:1313/blogs/tags/work/</link>
       <pubDate>Mon, 13 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/work/</guid>
+      <guid>http://localhost:1313/blogs/tags/work/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://armur.ai/blogs/tags/life/</link>
+      <link>http://localhost:1313/blogs/tags/life/</link>
       <pubDate>Sun, 12 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/life/</guid>
+      <guid>http://localhost:1313/blogs/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Nature</title>
-      <link>https://armur.ai/blogs/tags/nature/</link>
+      <link>http://localhost:1313/blogs/tags/nature/</link>
       <pubDate>Sun, 12 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/nature/</guid>
+      <guid>http://localhost:1313/blogs/tags/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>Story</title>
-      <link>https://armur.ai/blogs/tags/story/</link>
+      <link>http://localhost:1313/blogs/tags/story/</link>
       <pubDate>Sun, 12 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/story/</guid>
+      <guid>http://localhost:1313/blogs/tags/story/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://armur.ai/blogs/tags/notes/</link>
+      <link>http://localhost:1313/blogs/tags/notes/</link>
       <pubDate>Sat, 11 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/notes/</guid>
+      <guid>http://localhost:1313/blogs/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Rest</title>
-      <link>https://armur.ai/blogs/tags/rest/</link>
+      <link>http://localhost:1313/blogs/tags/rest/</link>
       <pubDate>Sat, 11 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/rest/</guid>
+      <guid>http://localhost:1313/blogs/tags/rest/</guid>
       <description></description>
     </item>
     <item>
       <title>Travels</title>
-      <link>https://armur.ai/blogs/tags/travels/</link>
+      <link>http://localhost:1313/blogs/tags/travels/</link>
       <pubDate>Fri, 10 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/travels/</guid>
+      <guid>http://localhost:1313/blogs/tags/travels/</guid>
       <description></description>
     </item>
     <item>
       <title>Lifestyle</title>
-      <link>https://armur.ai/blogs/tags/lifestyle/</link>
+      <link>http://localhost:1313/blogs/tags/lifestyle/</link>
       <pubDate>Thu, 09 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/lifestyle/</guid>
+      <guid>http://localhost:1313/blogs/tags/lifestyle/</guid>
       <description></description>
     </item>
     <item>
       <title>Fashion</title>
-      <link>https://armur.ai/blogs/tags/fashion/</link>
+      <link>http://localhost:1313/blogs/tags/fashion/</link>
       <pubDate>Wed, 08 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/fashion/</guid>
+      <guid>http://localhost:1313/blogs/tags/fashion/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://armur.ai/blogs/tags/technology/</link>
+      <link>http://localhost:1313/blogs/tags/technology/</link>
       <pubDate>Mon, 24 Apr 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/technology/</guid>
+      <guid>http://localhost:1313/blogs/tags/technology/</guid>
       <description></description>
     </item>
   </channel>

@@ -7,4 +7,11 @@ googleAnalytics = 'G-3GJ9DPN63X'
 # Main Menu
 [menu]
   [[menu.main]]
-    
+    name = "Back to Website"
+    url = "https://www.armur.ai/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "Get in touch"
+    url = "https://www.armur.ai/contact"
+    weight = 2

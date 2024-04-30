@@ -49,7 +49,7 @@ googleAnalytics = 'G-3GJ9DPN63X'
     link = "https://armur.medium.com/"
 
   [[params.social]]
-    icon = "fa-brands fa-linkdin"
+    icon = "fa-brands fa-linkedin"
     name = "linkdin"
     link = "https://www.linkedin.com/company/armurai/"
 

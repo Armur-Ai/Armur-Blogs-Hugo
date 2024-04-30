@@ -15,3 +15,48 @@ googleAnalytics = 'G-3GJ9DPN63X'
     name = "Get in touch"
     url = "https://www.armur.ai/contact"
     weight = 2
+
+[params]
+  [params.author]
+    name = "Akhil Sharma"
+    avatar = "https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&v=beta&t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo"
+
+  #-------------------------------
+  # Hero Settings
+  [params.hero]
+    hero__title = "Cybersecurity, AI and Deep Tech"
+    hero__description = "Weekly detailed articles on cutting edge tech."
+    hero__image = "/images/01.jpg"
+
+  [[params.social]]
+    icon = "fa-brands fa-x-twitter"
+    name = "Twitter"
+    link = "https://twitter.com/armur_ai"
+
+  [[params.social]]
+    icon = "fa-brands fa-facebook-f"
+    name = "Facebook"
+    link = "https://facebook.com"
+
+  [[params.social]]
+    icon = "fa-brands fa-instagram"
+    name = "Instagram"
+    link = "https://instagram.com"
+
+  [[params.social]]
+    icon = "fa-brands fa-youtube"
+    name = "Youtube"
+    link = "https://www.youtube.com/@AkhilSharmaTech"
+
+[related]
+  includeNewer = true
+  threshold = 85
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 40
+
+  [[related.indices]]
+  name = "date"
+  weight = 10

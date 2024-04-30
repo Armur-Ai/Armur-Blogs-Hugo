@@ -6,126 +6,77 @@
     <description>Recent content on Armur Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Apr 2024 23:30:01 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 02 Feb 2024 18:31:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/blogs/posts/hello-world/</link>
-      <pubDate>Wed, 10 Apr 2024 23:30:01 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/hello-world/</guid>
-      <description>Hi this is Testing if this blog is getting reflected on Server</description>
+      <title>Decentralized Botnets The Good, The Bad, and The Secure</title>
+      <link>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</guid>
+      <description>Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with nothing but code. In this thrilling expanse, there&amp;rsquo;s a new player in town: decentralized botnets. Imagine a swarm of drones, each with its own mind, yet united in purpose, buzzing through the digital skies. Some are here to protect the town, while others have more nefarious plans.</description>
     </item>
     <item>
-      <title>That which does not kill us makes us stronger</title>
-      <link>http://localhost:1313/blogs/posts/that-which-does-not-kill-us-makes-us-stronger/</link>
-      <pubDate>Mon, 13 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/that-which-does-not-kill-us-makes-us-stronger/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity</title>
+      <link>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</guid>
+      <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
-      <title>Do what you can, with what you have, where you are</title>
-      <link>http://localhost:1313/blogs/posts/do-what-you-can-with-what-you-have-where-you-are/</link>
-      <pubDate>Sun, 12 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/do-what-you-can-with-what-you-have-where-you-are/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>Measuring the Impact of Shift Left on Cybersecurity Posture</title>
+      <link>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</guid>
+      <description>In today&amp;rsquo;s digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present challenge to organizations across the globe. As these threats evolve, so too must the strategies to counteract them. Among the most innovative and effective strategies emerging in recent years is the Shift Left approach, which seeks to integrate security measures at the earliest stages of the software development lifecycle (SDLC).&#xA;This proactive methodology represents a paradigm shift from traditional reactive security measures, aiming to identify and mitigate vulnerabilities well before software products reach production.</description>
     </item>
     <item>
-      <title>If you cannot do great things, do small things in a great way</title>
-      <link>http://localhost:1313/blogs/posts/if-you-cannot-do-great-things-do-small-things-in-a-great-way/</link>
-      <pubDate>Sat, 11 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/if-you-cannot-do-great-things-do-small-things-in-a-great-way/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>Revolutionizing Cloud Security Posture Management with AI</title>
+      <link>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
+      <description>Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust cybersecurity measures has never been more critical. Picture this: a world where cybersecurity defenses not only react to threats but anticipate them, adapt to them, and neutralize them almost instantaneously. Welcome to 2024, where artificial intelligence (AI) is no longer just a buzzword but the backbone of cutting-edge cybersecurity strategies.</description>
     </item>
     <item>
-      <title>Remember that happiness is a way of travel, not a destination</title>
-      <link>http://localhost:1313/blogs/posts/remember-that-happiness-is-a-way-of-travel-not-a-destination/</link>
-      <pubDate>Fri, 10 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/remember-that-happiness-is-a-way-of-travel-not-a-destination/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>Revolutionizing Cloud Security Posture Management with AI</title>
+      <link>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</guid>
+      <description>Introduction In today&amp;rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing traditional Cloud Security Posture Management (CSPM) strategies to their limits. A staggering 90% of organizations admit to experiencing at least one cloud-based security breach, underscoring the critical need for more advanced and dynamic defense mechanisms. Enter Artificial Intelligence (AI) &amp;mdash; the game-changer in cloud security that&amp;rsquo;s shifting the paradigm from reactive to predictive security management.</description>
     </item>
     <item>
-      <title>A journey of a thousand leagues begins beneath one’s feet</title>
-      <link>http://localhost:1313/blogs/posts/a-journey-of-a-thousand-leagues-begins-beneath-one%C3%B4%C3%A7%C3%B6s-feet/</link>
-      <pubDate>Thu, 09 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/a-journey-of-a-thousand-leagues-begins-beneath-one%C3%B4%C3%A7%C3%B6s-feet/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>The Role of AI in Preventing DDoS Attacks on Blockchain Networks</title>
+      <link>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</guid>
+      <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
-      <title>Life shrinks or expands in proportion to one’s courage</title>
-      <link>http://localhost:1313/blogs/posts/life-shrinks-or-expands-in-proportion-to-one%C3%B4%C3%A7%C3%B6s-courage/</link>
-      <pubDate>Wed, 08 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/life-shrinks-or-expands-in-proportion-to-one%C3%B4%C3%A7%C3%B6s-courage/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>Understanding Web3 Cybersecurity Challenges</title>
+      <link>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</guid>
+      <description>Introduction: The New Frontier of Web3 As we stand on the brink of a digital revolution, the emergence of Web3 heralds a transformative era for the internet as we know it. This new phase, characterized by decentralization, blockchain technologies, and a push towards user sovereignty, redefines our interactions online, promising a future where users have unprecedented control over their data and digital identities.&#xA;Web3, in essence, represents a shift from centralized platforms, where data is stored in servers owned by a handful of corporations, to a decentralized network, built on the principles of blockchain technology.</description>
     </item>
     <item>
-      <title>What you do speaks so loudly that I cannot hear what you say</title>
-      <link>http://localhost:1313/blogs/posts/what-you-do-speaks-so-loudly-that-i-cannot-hear-what-you-say/</link>
-      <pubDate>Tue, 07 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/what-you-do-speaks-so-loudly-that-i-cannot-hear-what-you-say/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI</title>
+      <link>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</guid>
+      <description>Introduction Imagine having a magic mirror rather than a crystal ball, one that doesn&amp;rsquo;t just predict the future but actively shapes it, especially in the realms of Blockchain and Artificial Intelligence (AI). That&amp;rsquo;s exactly the role we&amp;rsquo;ve embraced here at Armur AI. Far from being mere spectators, we&amp;rsquo;re at the vanguard, merging the formidable powers of AI and Blockchain to redefine cybersecurity&amp;rsquo;s landscape.&#xA;Blockchain and AI, each a behemoth in its own right, have begun to converge in ways that promise to amplify their individual strengths.</description>
     </item>
     <item>
-      <title>You must be the change you wish to see in the world</title>
-      <link>http://localhost:1313/blogs/posts/you-must-be-the-change-you-wish-to-see-in-the-world/</link>
-      <pubDate>Mon, 06 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/you-must-be-the-change-you-wish-to-see-in-the-world/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
-    </item>
-    <item>
-      <title>Believe and act as if it were impossible to fail</title>
-      <link>http://localhost:1313/blogs/posts/believe-and-act-as-if-it-were-impossible-to-fail/</link>
-      <pubDate>Sun, 05 Nov 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/believe-and-act-as-if-it-were-impossible-to-fail/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
-    </item>
-    <item>
-      <title>The way I see it, every life is a pile of good things</title>
-      <link>http://localhost:1313/blogs/posts/the-way-i-see-it-every-life-is-a-pile-of-good-things/</link>
-      <pubDate>Tue, 31 Oct 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the-way-i-see-it-every-life-is-a-pile-of-good-things/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
-    </item>
-    <item>
-      <title>Everything has beauty, but not everyone can see</title>
-      <link>http://localhost:1313/blogs/posts/everything-has-beauty-but-not-everyone-can-see/</link>
-      <pubDate>Mon, 29 May 2023 18:05:55 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/everything-has-beauty-but-not-everyone-can-see/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
-    </item>
-    <item>
-      <title>Strive not to be a success, but rather to be of value</title>
-      <link>http://localhost:1313/blogs/posts/strive-not-to-be-a-success-but-rather-to-be-of-value/</link>
-      <pubDate>Mon, 24 Apr 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/strive-not-to-be-a-success-but-rather-to-be-of-value/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
-    </item>
-    <item>
-      <title>It is never too late to be what you might have been</title>
-      <link>http://localhost:1313/blogs/posts/it-i-never-too-late-to-be-what-you-might-have-been/</link>
-      <pubDate>Fri, 21 Apr 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/it-i-never-too-late-to-be-what-you-might-have-been/</guid>
-      <description>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias. Si longus, levis ampulla enim sit necne vel omnia vel partes genere plurima et maxima.</description>
+      <title>Best Practices for Securing Smart Contracts</title>
+      <link>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</link>
+      <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</guid>
+      <description>Introduction In the fascinating world of blockchain technology, smart contracts are akin to the wizards of automation, casting spells that execute transactions and agreements seamlessly, without the need for intermediaries. These digital contracts run on blockchain networks, self-executing when predetermined conditions are met, revolutionizing how agreements are formed and upheld in the digital age. From creating decentralized applications (dApps) to automating complex financial instruments, smart contracts are at the heart of blockchain&amp;rsquo;s promise for a more transparent, efficient, and secure digital future.</description>
     </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/blogs/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/about/</guid>
-      <description>Hi, my name is Robert Wilson. Sin tantum modo ad indicia veteris memoriae virtute cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam. Serpere genere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis.</description>
-    </item>
-    <item>
-      <title>Contact Me</title>
-      <link>http://localhost:1313/blogs/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/contact/</guid>
-      <description>Norlin comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.</description>
-    </item>
-    <item>
-      <title>Style Guide</title>
-      <link>http://localhost:1313/blogs/styleguide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/styleguide/</guid>
-      <description>A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman.&#xA;Headings by default: H1 Default styles for headings H2 Default styles for headings H3 Default styles for headings H4 Default styles for headings H5 Default styles for headings H6 Default styles for headings ## Heading first level ### Heading second level #### Heading third level Lists Ordered list example: Poutine drinking vinegar bitters.</description>
+      <description>Hi, my name is Akhil Sharma.</description>
     </item>
   </channel>
 </rss>

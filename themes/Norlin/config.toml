@@ -30,7 +30,6 @@ paginate = 8
     url = "/styleguide"
     weight = 4
 
-
 [params]
   logo = "" # You can add own logo. For example "/images/logo.png".
   description = "Norlin – A Beautiful Dark Blog Theme for Hugo."
@@ -98,7 +97,7 @@ paginate = 8
   #-------------------------------
   # Newsletter (partials/footer-widgets/widget-subscribe.html)
   [params.mailchimp]
-    mailchimp__title = "Get Interesting News"
+    mailchimp__title = "Get Interesting Blogs"
     mailchimp__text = "Subscribe to our newsletter and we’ll send you the emails of latest posts."
     mailchimp__identifier = "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp" # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
     mailchimp__button__text = "Join" # Add your button text

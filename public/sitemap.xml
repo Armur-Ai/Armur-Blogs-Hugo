@@ -3,95 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-04-10T23:30:01+05:30</lastmod>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/hello-world/</loc>
-    <lastmod>2024-04-10T23:30:01+05:30</lastmod>
+    <loc>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-04-10T23:30:01+05:30</lastmod>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/tags/business/</loc>
-    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
+    <loc>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
-    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
+    <loc>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/that-which-does-not-kill-us-makes-us-stronger/</loc>
-    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
+    <loc>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/tags/work/</loc>
-    <lastmod>2023-11-13T15:01:35+03:00</lastmod>
+    <loc>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/do-what-you-can-with-what-you-have-where-you-are/</loc>
-    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
+    <loc>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/tags/life/</loc>
-    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/nature/</loc>
-    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/story/</loc>
-    <lastmod>2023-11-12T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/if-you-cannot-do-great-things-do-small-things-in-a-great-way/</loc>
-    <lastmod>2023-11-11T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/notes/</loc>
-    <lastmod>2023-11-11T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/rest/</loc>
-    <lastmod>2023-11-11T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/remember-that-happiness-is-a-way-of-travel-not-a-destination/</loc>
-    <lastmod>2023-11-10T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/travels/</loc>
-    <lastmod>2023-11-10T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/a-journey-of-a-thousand-leagues-begins-beneath-one%C3%B4%C3%A7%C3%B6s-feet/</loc>
-    <lastmod>2023-11-09T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/lifestyle/</loc>
-    <lastmod>2023-11-09T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/fashion/</loc>
-    <lastmod>2023-11-08T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/life-shrinks-or-expands-in-proportion-to-one%C3%B4%C3%A7%C3%B6s-courage/</loc>
-    <lastmod>2023-11-08T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/what-you-do-speaks-so-loudly-that-i-cannot-hear-what-you-say/</loc>
-    <lastmod>2023-11-07T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/you-must-be-the-change-you-wish-to-see-in-the-world/</loc>
-    <lastmod>2023-11-06T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/believe-and-act-as-if-it-were-impossible-to-fail/</loc>
-    <lastmod>2023-11-05T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/the-way-i-see-it-every-life-is-a-pile-of-good-things/</loc>
-    <lastmod>2023-10-31T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/everything-has-beauty-but-not-everyone-can-see/</loc>
-    <lastmod>2023-05-29T18:05:55+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/strive-not-to-be-a-success-but-rather-to-be-of-value/</loc>
-    <lastmod>2023-04-24T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/technology/</loc>
-    <lastmod>2023-04-24T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/it-i-never-too-late-to-be-what-you-might-have-been/</loc>
-    <lastmod>2023-04-21T15:01:35+03:00</lastmod>
+    <loc>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</loc>
+    <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/about/</loc>
   </url><url>
     <loc>http://localhost:1313/blogs/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/blogs/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blogs/styleguide/</loc>
+    <loc>http://localhost:1313/blogs/tags/</loc>
   </url>
 </urlset>

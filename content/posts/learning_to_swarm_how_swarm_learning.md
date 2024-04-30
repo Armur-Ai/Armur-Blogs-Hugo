@@ -1,7 +1,7 @@
 ---
 title: 'Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity'
 date: 2024-02-02T18:31:22+05:30
-image: 'https://wallpaperaccess.com/full/2122583.png'
+image: 'https://i.ibb.co/k8tfQCH/Bzyvtd-P-famous-paintings-wallpaper.jpg'
 ---
 ### Introduction
 

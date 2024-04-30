@@ -1,7 +1,7 @@
 ---
 title: 'Decentralized Botnets The Good, The Bad, and The Secure'
 date: 2024-02-02T18:31:22+05:30
-image: 'https://wallpaperaccess.com/full/8615155.gif'
+image: 'https://i.ibb.co/6N6xX3w/wp6616174-oil-painting-desktop-wallpapers.jpg'
 ---
 
 Introduction

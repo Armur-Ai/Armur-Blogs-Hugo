@@ -1,7 +1,7 @@
 ---
 title: 'The Role of AI in Preventing DDoS Attacks on Blockchain Networks'
 date: 2024-02-02T18:31:22+05:30
-image: 'https://wallpaperaccess.com/full/9034056.jpg'
+image: 'https://wallpaperaccess.com/full/104185.jpg'
 ---
 ### Introduction
 

@@ -1,7 +1,7 @@
 ---
 title: Best Practices for Securing Smart Contracts
 date: 2023-12-18 15:01:35 +0300
-image: 'https://wallpaperaccess.com/full/8508787.jpg'
+image: 'https://i.ibb.co/cFJHk8r/wp8769095-old-paintings-wallpapers.jpg'
 ---
 
 # Introduction

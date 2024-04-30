@@ -1,7 +1,7 @@
 ---
 title: 'Measuring the Impact of Shift Left on Cybersecurity Posture'
 date: 2024-02-02T18:31:22+05:30
-image: 'https://wallpaperaccess.com/full/3496334.jpg'
+image: 'https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg'
 ---
 In today's digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present challenge to organizations across the globe. As these threats evolve, so too must the strategies to counteract them. Among the most innovative and effective strategies emerging in recent years is the Shift Left approach, which seeks to integrate security measures at the earliest stages of the software development lifecycle (SDLC).
 

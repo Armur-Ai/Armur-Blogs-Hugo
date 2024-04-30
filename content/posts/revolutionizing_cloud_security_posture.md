@@ -1,7 +1,7 @@
 ---
 title: 'Revolutionizing Cloud Security Posture Management with AI'
 date: 2024-02-02T18:31:22+05:30
-image: 'https://wallpaperaccess.com/full/1711593.gif'
+image: 'https://i.ibb.co/D773jXJ/wp8769005-old-paintings-wallpapers.jpg'
 ---
 
 **Introduction**

@@ -7,22 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>Posts | Armur Blogs</title>
+  <title>Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide | Armur Blogs</title>
   <meta name="description" content="">
 
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/posts/index.xml" title="Armur Blogs">
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Posts | Armur Blogs">
-  <meta name="twitter:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta name="twitter:image" content="http://localhost:1313/blogs/">
+  <meta name="twitter:title" content="Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide | Armur Blogs">
+  <meta name="twitter:description" content="Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&rsquo;t just a feature; it&rsquo;s the cornerstone.">
+  <meta name="twitter:image" content="https://wallpaperaccess.com/full/6992163.jpg">
 
   
-  <meta property="og:title" content="Posts | Armur Blogs">
-  <meta property="og:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta property="og:image" content="http://localhost:1313/blogs/">
+  <meta property="og:title" content="Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide | Armur Blogs">
+  <meta property="og:description" content="Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&rsquo;t just a feature; it&rsquo;s the cornerstone.">
+  <meta property="og:image" content="https://wallpaperaccess.com/full/6992163.jpg">
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -163,554 +162,265 @@
   <main class="content" aria-label="Content">
     
 
-<div class="container">
-  <div class="row">
-    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
-      <div class="tags__box">
-        <span class="tags__meta">14 posts tagged</span>
-        <h1 class="tags__title">Posts</h1>
+
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col col-6 col-t-12">
+        <div class="image-box">
+          <img class="post-image" src="https://wallpaperaccess.com/full/6992163.jpg" alt="Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide">
+        </div>
+      </div>
+      
+
+      <div class="col col-6 col-t-12">
+        <div class="post-head__box">
+
+          <div class="post__meta">
+            <span class="post__minutes">9 min read</span>
+            <time class="post__date" datetime=" 2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
+          </div>
+
+          <h2 class="post__title">Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</h2>
+
+          <div class="post__bottom">
+
+            <div class="post__author">
+              <a href="/about/" aria-label="Akhil Sharma">
+                <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
+              </a>
+            </div>
+
+            <div class="post__bottom-meta">
+              <a class="post__author-link" href="/about/">Akhil Sharma</a>
+              <span>in</span>
+              
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div class="container">
-  <div class="row grid">
+  <article class="post amimate">
+
+    <div class="post__content">
+      <h3 id="introduction">Introduction</h3>
+<p>Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&rsquo;t just a feature; it&rsquo;s the cornerstone. That&rsquo;s why diving into smart contracts with a focus on security is not just smart; it&rsquo;s essential.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*C8NAJgIr1ontaMzh.jpeg" alt=""></p>
+<h3 id="solidity-at-aglance">Solidity at a Glance</h3>
+<p>Solidity is more than just the primary programming language for writing smart contracts on the Ethereum blockchain; it&rsquo;s the backbone of a vast ecosystem of decentralized applications (dApps). Developed with influences from C++, Python, and JavaScript, Solidity is designed to be both accessible to those with programming experience and robust enough to create complex, secure, and high-performing contracts.</p>
+<h4 id="why-solidity">Why Solidity?</h4>
+<ul>
+<li><strong>Tailored for the Ethereum Virtual Machine (EVM):</strong> Solidity is specifically designed to compile code into EVM bytecode. The EVM is the runtime environment for smart contracts on Ethereum, ensuring that contracts execute in a secure and isolated environment.</li>
+<li><strong>Expressive and Flexible:</strong> Solidity&rsquo;s syntax and features support a wide range of programming concepts, including functions, inheritance, and user-defined types, making it possible to write highly expressive code that can model complex real-world scenarios.</li>
+<li><strong>Safety Features:</strong> Security is paramount in the blockchain space, and Solidity includes a variety of features and patterns designed to mitigate common vulnerabilities, such as reentrancy attacks and overflow issues. By using constructs like <code>require</code>, <code>revert</code>, and <code>SafeMath</code> library, developers can write safer code.</li>
+<li><strong>Community and Resources:</strong> Being the dominant language for Ethereum smart contracts has fostered a large, active community around Solidity. There&rsquo;s a wealth of tutorials, forums, and tools available, making it easier for newcomers to get started and for experienced developers to continue learning and improving their skills.</li>
+<li><strong>Innovation at Its Core:</strong> The development of Solidity and the Ethereum ecosystem is ongoing, with improvements and new features regularly introduced. This ensures that Solidity remains at the forefront of blockchain technology, enabling developers to leverage the latest advancements in their smart contracts.</li>
+</ul>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*O8RshDmtt7YmvE6q.jpeg" alt=""></p>
+<h4 id="soliditys-place-in-blockchain-development">Solidity&rsquo;s Place in Blockchain Development</h4>
+<p>Solidity enables the creation of contracts for voting, crowdfunding, blind auctions, multi-signature wallets, and more. Its ability to execute complex transactions, automate processes, and enforce agreements without intermediaries makes it a powerful tool for realizing the full potential of blockchain technology.</p>
+<p>By choosing Solidity, developers are not just picking a programming language; they are tapping into a rich ecosystem that extends far beyond the Ethereum blockchain. With the rise of blockchain interoperability and the advent of other blockchain platforms supporting Solidity or similar languages, the skills and concepts learned here are widely applicable across the decentralized world.</p>
+<p>In essence, learning Solidity opens the door to the vast, dynamic world of decentralized applications and smart contracts. It&rsquo;s not just about writing code; it&rsquo;s about reimagining the possibilities of what can be built on the blockchain.</p>
+<hr>
+<h3 id="step-by-step-guide-to-creating-your-first-hello-world-smart-contract-insolidity">Step-by-Step Guide to Creating Your First &ldquo;Hello, World!&rdquo; Smart Contract in Solidity</h3>
+<p>Creating a smart contract in Solidity can seem like a daunting task at first, but fear not! With these simple instructions, you&rsquo;ll be saying &ldquo;Hello, World!&rdquo; on the Ethereum blockchain in no time. Here&rsquo;s how:</p>
+<h4 id="1-setting-up-your-environment-with-remixide">1. Setting Up Your Environment with Remix IDE</h4>
+<p>First things first, let&rsquo;s get your development environment ready:</p>
+<ul>
+<li>Navigate to Remix IDE using your web browser. Remix is a powerful and user-friendly platform that allows you to write, compile, and deploy smart contracts, all in one place.</li>
+<li>Once you&rsquo;re on the Remix homepage, create a new file by clicking on the &ldquo;File Explorers&rdquo; icon on the left sidebar, then the &ldquo;Create New File&rdquo; icon. Name your file <code>HelloWorld.sol</code>.</li>
+</ul>
+<h4 id="2-writing-the-smartcontract">2. Writing the Smart Contract</h4>
+<p>Now, let&rsquo;s dive into the code. In your <code>HelloWorld.sol</code> file, enter the following Solidity code:</p>
+<p>// SPDX-License-Identifier: MIT<br>
+pragma solidity ^0.8.0;<br>
+contract HelloWorld {<br>
+string public greeting = &ldquo;Hello, World!&rdquo;;<br>
+function sayHello() public view returns (string memory) {<br>
+return greeting;<br>
+}<br>
+}</p>
+<p>Here&rsquo;s a quick breakdown of what each part does:</p>
+<ul>
+<li><code>// SPDX-License-Identifier: MIT</code> specifies the license for your code (MIT in this case).</li>
+<li><code>pragma solidity ^0.8.0;</code> tells Remix that your contract is written for Solidity version 0.8.0 or later.</li>
+<li><code>contract HelloWorld { ... }</code> defines a new contract named <code>HelloWorld</code>.</li>
+<li>Inside the contract, <code>string public greeting = &quot;Hello, World!&quot;;</code> declares a state variable named <code>greeting</code> that stores the string &ldquo;Hello, World!&rdquo;.</li>
+<li>The <code>sayHello</code> function allows anyone to call this function to get the <code>greeting</code> value, which will return &ldquo;Hello, World!&rdquo;.</li>
+</ul>
+<h4 id="3-compiling-yourcontract">3. Compiling Your Contract</h4>
+<ul>
+<li>To compile your contract, click on the &ldquo;Solidity compiler&rdquo; icon on the left sidebar.</li>
+<li>Choose the compiler version (make sure it matches the version specified in your contract, e.g., 0.8.0).</li>
+<li>Click on the &ldquo;Compile&rdquo; button. If there are no errors, your contract is ready to go!</li>
+</ul>
+<h4 id="4-deploying-yourcontract">4. Deploying Your Contract</h4>
+<ul>
+<li>After compiling, click on the &ldquo;Deploy &amp; run transactions&rdquo; icon.</li>
+<li>In the &ldquo;Environment&rdquo; dropdown, select &ldquo;JavaScript VM&rdquo; for testing purposes.</li>
+<li>Click the &ldquo;Deploy&rdquo; button. Remix will simulate deploying your contract to the blockchain, and you&rsquo;ll see it appear under the &ldquo;Deployed Contracts&rdquo; section.</li>
+</ul>
+<h4 id="5-interacting-with-yourcontract">5. Interacting with Your Contract</h4>
+<ul>
+<li>To interact with your deployed contract, expand it in the &ldquo;Deployed Contracts&rdquo; section.</li>
+<li>Click on the <code>sayHello</code> function. You&rsquo;ll see &ldquo;Hello, World!&rdquo; returned in the output area below, which means your contract is working as expected!</li>
+</ul>
+<h3 id="incorporating-security-best-practices">Incorporating Security Best Practices</h3>
+<p>Security in smart contract development cannot be overstated. Given the immutable nature of blockchain, a small oversight can lead to significant vulnerabilities. Let&rsquo;s explore how to fortify our simple &ldquo;Hello, World!&rdquo; smart contract with some foundational security practices.</p>
+<h4 id="understanding-the-security-landscape">Understanding the Security Landscape</h4>
+<p>Before we dive into coding practices, it&rsquo;s crucial to understand the types of vulnerabilities often encountered in smart contracts:</p>
+<ul>
+<li><strong>Reentrancy Attacks:</strong> Where an external contract calls back into the current contract before the first execution is complete.</li>
+<li><strong>Arithmetic Overflows and Underflows:</strong> When an operation exceeds the maximum or minimum limit of the variable type.</li>
+<li><strong>Unchecked External Calls:</strong> Every external call can potentially fail, and failing to handle these can lead to unexpected behaviors.</li>
+<li><strong>Gas Limitations and Loops:</strong> Contracts with loops can hit gas limits, causing transactions to fail.</li>
+<li><strong>Exposure of Private Data:</strong> On-chain data is public, and even &ldquo;private&rdquo; data can be accessed by determined individuals.</li>
+</ul>
+<h4 id="applying-best-practices-to-helloworld">Applying Best Practices to &ldquo;Hello, World!&rdquo;</h4>
+<p>Our &ldquo;Hello, World!&rdquo; contract is straightforward and, on the surface, might not seem to need extensive security measures. However, applying best practices from the start is a good habit for any developer. Here are some ways to ensure our simple contract adheres to security best practices:</p>
+<ul>
+<li><strong>Use the Latest Solidity Version:</strong> Always start with the latest stable version to benefit from improved security features and fixes. For our example, we specified <code>pragma solidity ^0.8.0;</code>, which includes protections against overflows and underflows by default.</li>
+</ul>
+<p>// SPDX-License-Identifier: MIT<br>
+pragma solidity ^0.8.0;<br>
+contract HelloWorld {<br>
+string public greeting = &ldquo;Hello, World!&rdquo;;<br>
+function sayHello() public view returns (string memory) {<br>
+return greeting;<br>
+}<br>
+}</p>
+<ul>
+<li><strong>Visibility and Access Control:</strong> Ensure that functions and variables have appropriate visibility. In our case, <code>greeting</code> is marked <code>public</code> intentionally, as we want it to be accessible. For functions and variables that should not be accessible by other contracts or accounts, use <code>private</code> or <code>internal</code>.</li>
+<li><strong>Gas Optimization:</strong> Although our simple contract doesn&rsquo;t use loops or complex computations, always be mindful of the gas costs associated with your functions. Optimizing for gas can prevent running into out-of-gas errors, especially in more complex contracts.</li>
+<li><strong>Error Handling:</strong> Solidity 0.8.0 and above automatically revert transactions on errors such as overflows, underflows, and division by zero. However, for other functions, use <code>require</code> statements to validate inputs and conditions, and <code>revert</code> to handle errors gracefully.</li>
+<li><strong>Commenting and Documentation:</strong> While our contract is simple, commenting and properly documenting your code is crucial for security and maintainability. Comments can help explain the purpose of functions, the reasoning behind certain decisions, and any potential risks or assumptions.</li>
+<li><strong>Regular Audits and Testing:</strong> Even the simplest contracts should undergo thorough testing and, if possible, a professional audit. Testing frameworks like Truffle or Hardhat can automate unit and integration tests to catch issues early.</li>
+</ul>
+<h4 id="continuous-learning-and-vigilance">Continuous Learning and Vigilance</h4>
+<p>Security in smart contract development is an ongoing process. Staying informed about the latest vulnerabilities, patches, and best practices is vital. Engage with the community, participate in security forums, and consider security workshops or audits for more complex projects.</p>
+<p>By embedding security into the DNA of your development process, from a simple &ldquo;Hello, World!&rdquo; contract to more complex dApps, you ensure not only the safety of your code but also the trust of your users.</p>
+<hr>
+<h3 id="in-conclusion-your-journey-has-justbegun">In Conclusion: Your Journey Has Just Begun</h3>
+<p>Congratulations! You&rsquo;ve just embarked on an incredible journey into the heart of blockchain technology and smart contract development. By crafting your first &ldquo;Hello, World!&rdquo; contract in Solidity, you&rsquo;ve taken a significant step towards understanding the power and potential of decentralized applications. But remember, this is just the beginning.</p>
+<p>The world of blockchain is vast and ever-evolving, with endless opportunities for innovation, creativity, and impact. As you continue to explore, experiment, and build, keep the principles of security, efficiency, and clarity at the forefront of your mind. The best blockchain developers are those who remain curious, vigilant, and committed to lifelong learning.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*nV1TTyxnSJmNl3HS.jpeg" alt=""></p>
+<p>Embrace the challenges and the successes alike, and never hesitate to reach out to the vibrant community of Solidity developers and enthusiasts. Together, we&rsquo;re not just writing code; we&rsquo;re building the future.</p>
+<h3 id="further-resources">Further Resources</h3>
+<p>To fuel your journey and help you navigate the exciting world of Solidity and smart contracts, here are some additional resources:</p>
+<ul>
+<li><strong>Solidity Documentation:</strong> The official Solidity documentation is an invaluable resource for developers of all levels. It&rsquo;s regularly updated and contains everything from basic syntax to advanced features.</li>
+<li><strong>Ethereum Smart Contract Best Practices:</strong> This guide by ConsenSys is a comprehensive resource for security best practices in smart contract development.</li>
+<li><strong>OpenZeppelin Contracts:</strong> A library of secure and reusable smart contracts for Ethereum and other EVM and eWASM blockchains. It&rsquo;s a fantastic resource for secure development practices.</li>
+<li><a href="https://cryptozombies.io/"><strong>CryptoZombies</strong></a><strong>:</strong> An interactive coding tutorial that teaches you to build your own crypto-collectibles game. It&rsquo;s a fun and engaging way to get hands-on experience with Solidity.</li>
+<li><a href="https://solidity-by-example.org/"><strong>Solidity by Example</strong></a><strong>:</strong> An excellent resource for beginners, offering simple, real-world examples of smart contracts to illustrate Solidity&rsquo;s capabilities.</li>
+<li><strong>Ethereum Developer Tools List:</strong> A comprehensive list of tools, resources, and documentation for Ethereum developers.</li>
+</ul>
+<p>As you dive into these resources and expand your knowledge, remember that the blockchain community is collaborative and supportive. Don&rsquo;t be afraid to ask questions, contribute to discussions, and share your own discoveries.</p>
+<p>Your adventure in blockchain development is just beginning, and the future is as bright and boundless as your imagination allows it to be. Keep exploring, keep building, and most importantly, keep securing the decentralized world, one smart contract at a time.</p>
+<p>Happy coding!</p>
+
+    </div>
+
+    <div class="post__share">
+  <div class="share__list">
+    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fcrafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide%2f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
+
+    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Crafting%20Your%20First%20Secure%20Smart%20Contract%20in%20Solidity%20A%20Beginner%e2%80%99s%20Guide&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fcrafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+
+    <a class="share__link share__pinterest"
+      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fcrafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f6992163.jpg&amp;description=Crafting%20Your%20First%20Secure%20Smart%20Contract%20in%20Solidity%20A%20Beginner%e2%80%99s%20Guide"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  </div>
+</div>
+
     
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="A Security Vulnerability In Rust&#39;s Cargo Tool">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime="2024-05-26T18:31:22&#43;05:30">May 26, 2024</time>
+    <div class="post__navigation">
+      
+      <a class="prev" href="http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/" style="background-image: url('https://wallpaperaccess.com/full/6338472.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
+            Page</div>
+          <h4 class="post__nav__title">Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</h4>
         </div>
-        
-        <h2 class="article__title">A Security Vulnerability In Rust&#39;s Cargo Tool</h2>
-
-        <p class="article__excerpt">Introduction In the ever-evolving world of software development, ensuring the security of our tools is very important. Recently, a security …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
+      </a>
+      
+      
+      <a class="next" href="http://localhost:1313/blogs/posts/best_practices_for_securing_smart/" style="background-image: url('https://i.ibb.co/cFJHk8r/wp8769095-old-paintings-wallpapers.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__next">Next Page <i class="fa-solid fa-arrow-right"></i></div>
+          <h4 class="post__nav__title">Best Practices for Securing Smart Contracts</h4>
         </div>
+      </a>
+      
+    </div>
+    
 
+  </article>
+</div>
+
+
+
+
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="disqus-inner">
+        <div id="disqus_thread" class="post-comments">
+          <div id="disqus_empty"></div>
+        </div>
       </div>
+    </div>
   </div>
 </div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
 
-    <a class="article__image" href="/blogs/posts/decentralized_botnets_the_good_the/">
-      <img class="lazy" data-src="https://i.ibb.co/6N6xX3w/wp6616174-oil-painting-desktop-wallpapers.jpg" alt="Decentralized Botnets The Good, The Bad, and The Secure">
-    </a>
+<script>
+  function load_disqus() {
+    var disqus_shortname = 'anvod-studio-test',
+      is_disqus_empty = document.getElementById('disqus_empty'),
+      disqus_target = document.getElementById('disqus_thread'),
+      disqus_embed = document.createElement('script'),
+      disqus_hook = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
 
-    <div class="article__content">
+    if (disqus_target && is_disqus_empty) {
+      disqus_embed.type = 'text/javascript';
+      disqus_embed.async = true;
+      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      disqus_hook.appendChild(disqus_embed);
+      is_disqus_empty.remove();
+    }
+  }
 
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Decentralized Botnets The Good, The Bad, and The Secure</h2>
+  window.addEventListener('scroll', function (e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
 
-        <p class="article__excerpt">Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with …</p>
+    if (disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150)) {
+      load_disqus('disqus_shortname');
+    }
+  }, false);
 
-        <div class="article__bottom">
+</script>
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
 
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
 
-        </div>
 
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/learning_to_swarm_how_swarm_learning/">
-      <img class="lazy" data-src="https://i.ibb.co/k8tfQCH/Bzyvtd-P-famous-paintings-wallpaper.jpg" alt="Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity</h2>
-
-        <p class="article__excerpt">Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/measuring_the_impact_of_shift_left/">
-      <img class="lazy" data-src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="Measuring the Impact of Shift Left on Cybersecurity Posture">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">9 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Measuring the Impact of Shift Left on Cybersecurity Posture</h2>
-
-        <p class="article__excerpt">In today&rsquo;s digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/how_ai_is_revolutionizing_cybersecurity/">
-      <img class="lazy" data-src="https://i.ibb.co/j4cgw6D/wp1959342-turner-wallpapers.jpg" alt="Revolutionizing Cloud Security Posture Management with AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">11 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Revolutionizing Cloud Security Posture Management with AI</h2>
-
-        <p class="article__excerpt">Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/revolutionizing_cloud_security_posture/">
-      <img class="lazy" data-src="https://i.ibb.co/D773jXJ/wp8769005-old-paintings-wallpapers.jpg" alt="Revolutionizing Cloud Security Posture Management with AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">13 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Revolutionizing Cloud Security Posture Management with AI</h2>
-
-        <p class="article__excerpt">Introduction In today&rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_role_of_ai_in_preventing_ddos/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/104185.jpg" alt="The Role of AI in Preventing DDoS Attacks on Blockchain Networks">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">The Role of AI in Preventing DDoS Attacks on Blockchain Networks</h2>
-
-        <p class="article__excerpt">Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/understanding_web3_cybersecurity/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/490634.jpg" alt="Understanding Web3 Cybersecurity Challenges">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Understanding Web3 Cybersecurity Challenges</h2>
-
-        <p class="article__excerpt">Introduction: The New Frontier of Web3 As we stand on the brink of a digital revolution, the emergence of Web3 heralds a transformative era …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/unlocking_the_future_predicting_the/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI</h2>
-
-        <p class="article__excerpt">Introduction Imagine having a magic mirror rather than a crystal ball, one that doesn&rsquo;t just predict the future but actively shapes it, …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/best_practices_for_securing_smart/">
-      <img class="lazy" data-src="https://i.ibb.co/cFJHk8r/wp8769095-old-paintings-wallpapers.jpg" alt="Best Practices for Securing Smart Contracts">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">6 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Best Practices for Securing Smart Contracts</h2>
-
-        <p class="article__excerpt">Introduction In the fascinating world of blockchain technology, smart contracts are akin to the wizards of automation, casting spells that …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6992163.jpg" alt="Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">9 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</h2>
-
-        <p class="article__excerpt">Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6338472.jpg" alt="Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">5 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</h2>
-
-        <p class="article__excerpt">Ah, the Internet of Things (IoT) &mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_blockchain_security_checklist_armur_ai/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/2896393.jpg" alt="The Blockchain Security Checklist by Armur AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">The Blockchain Security Checklist by Armur AI</h2>
-
-        <p class="article__excerpt">In the digital era, where blockchain technology is as revolutionary as it is complex, the armor of cybersecurity needs to be as unbreachable …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_importance_of_privacy_in_blockchain_applications/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515884.jpg" alt="The Importance of Privacy in Blockchain Applications">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">The Importance of Privacy in Blockchain Applications</h2>
-
-        <p class="article__excerpt">Introduction In the realm of blockchain technology, a paradox exists at its very core: the need for both transparency and privacy. On one …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-  </div>
-</div>
 
 
   </main>

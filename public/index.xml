@@ -4,10 +4,17 @@
     <title>Armur Blogs</title>
     <link>http://localhost:1313/blogs/</link>
     <description>Recent content on Armur Blogs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Feb 2024 18:31:22 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2024 18:31:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Security Vulnerability In Rust&#39;s Cargo Tool</title>
+      <link>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
+      <pubDate>Sun, 26 May 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
+      <description>Introduction In the ever-evolving world of software development, ensuring the security of our tools is very important. Recently, a security vulnerability that has surfaced in Rust&amp;rsquo;s Cargo tool. If you’re not familiar, Cargo is an essential tool for managing Rust projects. It handles tasks like building code and managing dependencies. However, a significant flaw was discovered in this tool. This vulnerability is tied to the way Cargo generates reports with the cargo build &amp;ndash;timings command.</description>
+    </item>
     <item>
       <title>Decentralized Botnets The Good, The Bad, and The Secure</title>
       <link>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</link>
@@ -70,6 +77,34 @@
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
       <guid>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</guid>
       <description>Introduction In the fascinating world of blockchain technology, smart contracts are akin to the wizards of automation, casting spells that execute transactions and agreements seamlessly, without the need for intermediaries. These digital contracts run on blockchain networks, self-executing when predetermined conditions are met, revolutionizing how agreements are formed and upheld in the digital age. From creating decentralized applications (dApps) to automating complex financial instruments, smart contracts are at the heart of blockchain&amp;rsquo;s promise for a more transparent, efficient, and secure digital future.</description>
+    </item>
+    <item>
+      <title>Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</title>
+      <link>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
+      <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
+      <description>Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&amp;rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&amp;rsquo;t just a feature; it&amp;rsquo;s the cornerstone.</description>
+    </item>
+    <item>
+      <title>Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</title>
+      <link>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
+      <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
+      <description>Ah, the Internet of Things (IoT) &amp;mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from your fridge to your car. But with great connectivity comes great responsibility, or in this case, a massive cybersecurity headache. As our devices chatter away, they open doors to potential cyber threats. Enter the dynamic duo of blockchain and artificial intelligence (AI). These technologies are not just reshaping the cybersecurity landscape; they&amp;rsquo;re redefining it, with pioneers like Armur AI leading the charge.</description>
+    </item>
+    <item>
+      <title>The Blockchain Security Checklist by Armur AI</title>
+      <link>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</link>
+      <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</guid>
+      <description>In the digital era, where blockchain technology is as revolutionary as it is complex, the armor of cybersecurity needs to be as unbreachable as possible. With cyber threats morphing faster than a chameleon on a rainbow, safeguarding the integrity and security of blockchain networks is more crucial than ever. Armur AI, standing tall as a beacon in the AI-driven cybersecurity landscape, unveils its master blueprint: The Blockchain Security Checklist. Consider this your compass in the vast sea of blockchain technology, guiding you through the stormy waters of cyber threats with wisdom gleaned from the very forefront of industry expertise.</description>
+    </item>
+    <item>
+      <title>The Importance of Privacy in Blockchain Applications</title>
+      <link>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</link>
+      <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</guid>
+      <description>Introduction In the realm of blockchain technology, a paradox exists at its very core: the need for both transparency and privacy. On one hand, blockchain&amp;rsquo;s transparency is lauded for its ability to offer unparalleled visibility into transactions, fostering trust among users. On the other, this very openness poses significant privacy concerns, revealing transaction details that users might prefer to keep private. This tension between transparency and privacy raises an essential question: How can blockchain applications maintain their inherent security and openness while also protecting the privacy of their users?</description>
     </item>
     <item>
       <title>About</title>

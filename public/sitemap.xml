@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>
-    <lastmod>2024-05-26T18:31:22+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-05-26T18:31:22+05:30</lastmod>
+    <lastmod>2024-05-28T23:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</loc>
+    <lastmod>2024-05-28T23:01:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/</loc>
+    <lastmod>2024-05-28T23:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>
     <lastmod>2024-05-26T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</loc>

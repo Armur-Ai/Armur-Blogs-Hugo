@@ -6,14 +6,21 @@
     <description>Recent content in Posts on Armur Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2024 18:31:22 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 23:01:35 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Critical Vulnerability found in the ‘net’ package in Go and Rust.</title>
+      <link>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
+      <pubDate>Tue, 28 May 2024 23:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
+      <description>The popular ‘net’ library used in GO and Rust was recently impacted by the mixed-format IP address validation vulnerability, a critical bug that made many applications extremely vulnerable. In this article, we will break it down and understand all about it.&#xA;Understanding the Vulnerability If you perform a simple search for &amp;ldquo;import net&amp;rdquo; on GitHub, it’ll reveal over 4 million files for Go alone relying on the net library, this means it’s a vulnerability of significant proportions.</description>
+    </item>
     <item>
       <title>A Security Vulnerability In Rust&#39;s Cargo Tool</title>
       <link>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
       <pubDate>Sun, 26 May 2024 18:31:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
-      <description>Introduction In the ever-evolving world of software development, ensuring the security of our tools is very important. Recently, a security vulnerability that has surfaced in Rust&amp;rsquo;s Cargo tool. If you’re not familiar, Cargo is an essential tool for managing Rust projects. It handles tasks like building code and managing dependencies. However, a significant flaw was discovered in this tool. This vulnerability is tied to the way Cargo generates reports with the cargo build &amp;ndash;timings command.</description>
+      <description>Introduction The tools we use to develop software should be secure and it is crucial to ensure that. Recently, a security vulnerability was found that surfaced in Rust&amp;rsquo;s Cargo tool. If you’re not familiar, Cargo is an essential tool for managing Rust projects. It handles tasks like building code and managing dependencies. However, a significant flaw was discovered in this tool. This vulnerability is tied to the way Cargo generates reports with the cargo build &amp;ndash;timings command.</description>
     </item>
     <item>
       <title>Decentralized Botnets The Good, The Bad, and The Secure</title>

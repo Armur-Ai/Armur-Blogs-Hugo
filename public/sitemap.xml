@@ -2,58 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>
+    <loc>http://localhost:40209/blogs/posts/windows_batch_file_vulnerability/</loc>
+    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:40209/blogs/</loc>
+    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:40209/blogs/posts/reentrancy_attacks/</loc>
+    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:40209/blogs/posts/</loc>
+    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:40209/blogs/posts/critical_vulnerability_found_in_the_net_package/</loc>
+    <lastmod>2024-05-31T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:40209/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>
     <lastmod>2024-05-26T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-05-26T18:31:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-05-26T18:31:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</loc>
+    <loc>http://localhost:40209/blogs/posts/decentralized_botnets_the_good_the/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</loc>
+    <loc>http://localhost:40209/blogs/posts/learning_to_swarm_how_swarm_learning/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</loc>
+    <loc>http://localhost:40209/blogs/posts/measuring_the_impact_of_shift_left/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</loc>
+    <loc>http://localhost:40209/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</loc>
+    <loc>http://localhost:40209/blogs/posts/revolutionizing_cloud_security_posture/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</loc>
+    <loc>http://localhost:40209/blogs/posts/the_role_of_ai_in_preventing_ddos/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</loc>
+    <loc>http://localhost:40209/blogs/posts/understanding_web3_cybersecurity/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</loc>
+    <loc>http://localhost:40209/blogs/posts/unlocking_the_future_predicting_the/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</loc>
+    <loc>http://localhost:40209/blogs/posts/best_practices_for_securing_smart/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</loc>
+    <loc>http://localhost:40209/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</loc>
+    <loc>http://localhost:40209/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</loc>
+    <loc>http://localhost:40209/blogs/posts/the_blockchain_security_checklist_armur_ai/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</loc>
+    <loc>http://localhost:40209/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/about/</loc>
+    <loc>http://localhost:40209/blogs/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/blogs/categories/</loc>
+    <loc>http://localhost:40209/blogs/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
+    <loc>http://localhost:40209/blogs/tags/</loc>
   </url>
 </urlset>

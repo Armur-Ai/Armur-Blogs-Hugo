@@ -2,122 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Armur Blogs</title>
-    <link>http://localhost:1313/blogs/</link>
+    <link>http://localhost:40209/blogs/</link>
     <description>Recent content on Armur Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 May 2024 09:00:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2024 18:00:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:40209/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Critical Vulnerability In Windows Batch file Execution</title>
+      <link>http://localhost:40209/blogs/posts/windows_batch_file_vulnerability/</link>
+      <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
+      <guid>http://localhost:40209/blogs/posts/windows_batch_file_vulnerability/</guid>
+      <description>A command injection flaw was found in Rust, exclusive to Windows environments. When invoking batch files on Windows using the Command API, Rust explicitly uses cmd.exe which has complicated parsing rules for arguments. If an attacker can control part of the command arguments of the batch file, this could bypass the argument escaping and inject arbitrary shell commands.&#xA;An overview of the vulnerability This issue arises when invoking batch files (with .</description>
+    </item>
+    <item>
+      <title>Learn About Reentracny Attacks and how to Prevent them</title>
+      <link>http://localhost:40209/blogs/posts/reentrancy_attacks/</link>
+      <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
+      <guid>http://localhost:40209/blogs/posts/reentrancy_attacks/</guid>
+      <description>What is a Solidity Reentrancy Attack? In Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
+    </item>
     <item>
       <title>Critical Vulnerability found in the ‘net’ package in Go and Rust.</title>
-      <link>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
+      <link>http://localhost:40209/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
       <pubDate>Fri, 31 May 2024 09:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
+      <guid>http://localhost:40209/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
       <description>The popular ‘net’ library used in GO and Rust was recently impacted by the mixed-format IP address validation vulnerability, a critical bug that made many applications extremely vulnerable. In this article, we will break it down and understand all about it.&#xA;Understanding the Vulnerability If you perform a simple search for &amp;ldquo;import net&amp;rdquo; on GitHub, it’ll reveal over 4 million files for Go alone relying on the net library, this means it’s a vulnerability of significant proportions.</description>
     </item>
     <item>
       <title>A Security Vulnerability In Rust&#39;s Cargo Tool</title>
-      <link>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
+      <link>http://localhost:40209/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
       <pubDate>Sun, 26 May 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
+      <guid>http://localhost:40209/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
       <description>Introduction The tools we use to develop software should be secure and it is crucial to ensure that. Recently, a security vulnerability was found that surfaced in Rust&amp;rsquo;s Cargo tool. If you’re not familiar, Cargo is an essential tool for managing Rust projects.&#xA;It handles tasks like building code and managing dependencies. However, a significant flaw was discovered in this tool. This vulnerability is tied to the way Cargo generates reports with the cargo build &amp;ndash;timings command.</description>
     </item>
     <item>
       <title>Decentralized Botnets The Good, The Bad, and The Secure</title>
-      <link>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</link>
+      <link>http://localhost:40209/blogs/posts/decentralized_botnets_the_good_the/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</guid>
+      <guid>http://localhost:40209/blogs/posts/decentralized_botnets_the_good_the/</guid>
       <description>Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with nothing but code. In this thrilling expanse, there&amp;rsquo;s a new player in town: decentralized botnets. Imagine a swarm of drones, each with its own mind, yet united in purpose, buzzing through the digital skies. Some are here to protect the town, while others have more nefarious plans.</description>
     </item>
     <item>
       <title>Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity</title>
-      <link>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</link>
+      <link>http://localhost:40209/blogs/posts/learning_to_swarm_how_swarm_learning/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</guid>
+      <guid>http://localhost:40209/blogs/posts/learning_to_swarm_how_swarm_learning/</guid>
       <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
       <title>Measuring the Impact of Shift Left on Cybersecurity Posture</title>
-      <link>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</link>
+      <link>http://localhost:40209/blogs/posts/measuring_the_impact_of_shift_left/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</guid>
+      <guid>http://localhost:40209/blogs/posts/measuring_the_impact_of_shift_left/</guid>
       <description>In today&amp;rsquo;s digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present challenge to organizations across the globe. As these threats evolve, so too must the strategies to counteract them. Among the most innovative and effective strategies emerging in recent years is the Shift Left approach, which seeks to integrate security measures at the earliest stages of the software development lifecycle (SDLC).&#xA;This proactive methodology represents a paradigm shift from traditional reactive security measures, aiming to identify and mitigate vulnerabilities well before software products reach production.</description>
     </item>
     <item>
       <title>Revolutionizing Cloud Security Posture Management with AI</title>
-      <link>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
+      <link>http://localhost:40209/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
+      <guid>http://localhost:40209/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
       <description>Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust cybersecurity measures has never been more critical. Picture this: a world where cybersecurity defenses not only react to threats but anticipate them, adapt to them, and neutralize them almost instantaneously. Welcome to 2024, where artificial intelligence (AI) is no longer just a buzzword but the backbone of cutting-edge cybersecurity strategies.</description>
     </item>
     <item>
       <title>Revolutionizing Cloud Security Posture Management with AI</title>
-      <link>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</link>
+      <link>http://localhost:40209/blogs/posts/revolutionizing_cloud_security_posture/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</guid>
+      <guid>http://localhost:40209/blogs/posts/revolutionizing_cloud_security_posture/</guid>
       <description>Introduction In today&amp;rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing traditional Cloud Security Posture Management (CSPM) strategies to their limits. A staggering 90% of organizations admit to experiencing at least one cloud-based security breach, underscoring the critical need for more advanced and dynamic defense mechanisms. Enter Artificial Intelligence (AI) &amp;mdash; the game-changer in cloud security that&amp;rsquo;s shifting the paradigm from reactive to predictive security management.</description>
     </item>
     <item>
       <title>The Role of AI in Preventing DDoS Attacks on Blockchain Networks</title>
-      <link>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</link>
+      <link>http://localhost:40209/blogs/posts/the_role_of_ai_in_preventing_ddos/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</guid>
+      <guid>http://localhost:40209/blogs/posts/the_role_of_ai_in_preventing_ddos/</guid>
       <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
       <title>Understanding Web3 Cybersecurity Challenges</title>
-      <link>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</link>
+      <link>http://localhost:40209/blogs/posts/understanding_web3_cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</guid>
+      <guid>http://localhost:40209/blogs/posts/understanding_web3_cybersecurity/</guid>
       <description>Introduction: The New Frontier of Web3 As we stand on the brink of a digital revolution, the emergence of Web3 heralds a transformative era for the internet as we know it. This new phase, characterized by decentralization, blockchain technologies, and a push towards user sovereignty, redefines our interactions online, promising a future where users have unprecedented control over their data and digital identities.&#xA;Web3, in essence, represents a shift from centralized platforms, where data is stored in servers owned by a handful of corporations, to a decentralized network, built on the principles of blockchain technology.</description>
     </item>
     <item>
       <title>Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI</title>
-      <link>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</link>
+      <link>http://localhost:40209/blogs/posts/unlocking_the_future_predicting_the/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</guid>
+      <guid>http://localhost:40209/blogs/posts/unlocking_the_future_predicting_the/</guid>
       <description>Introduction Imagine having a magic mirror rather than a crystal ball, one that doesn&amp;rsquo;t just predict the future but actively shapes it, especially in the realms of Blockchain and Artificial Intelligence (AI). That&amp;rsquo;s exactly the role we&amp;rsquo;ve embraced here at Armur AI. Far from being mere spectators, we&amp;rsquo;re at the vanguard, merging the formidable powers of AI and Blockchain to redefine cybersecurity&amp;rsquo;s landscape.&#xA;Blockchain and AI, each a behemoth in its own right, have begun to converge in ways that promise to amplify their individual strengths.</description>
     </item>
     <item>
       <title>Best Practices for Securing Smart Contracts</title>
-      <link>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</link>
+      <link>http://localhost:40209/blogs/posts/best_practices_for_securing_smart/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</guid>
+      <guid>http://localhost:40209/blogs/posts/best_practices_for_securing_smart/</guid>
       <description>Introduction In the fascinating world of blockchain technology, smart contracts are akin to the wizards of automation, casting spells that execute transactions and agreements seamlessly, without the need for intermediaries. These digital contracts run on blockchain networks, self-executing when predetermined conditions are met, revolutionizing how agreements are formed and upheld in the digital age. From creating decentralized applications (dApps) to automating complex financial instruments, smart contracts are at the heart of blockchain&amp;rsquo;s promise for a more transparent, efficient, and secure digital future.</description>
     </item>
     <item>
       <title>Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</title>
-      <link>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
+      <link>http://localhost:40209/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
+      <guid>http://localhost:40209/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
       <description>Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&amp;rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&amp;rsquo;t just a feature; it&amp;rsquo;s the cornerstone.</description>
     </item>
     <item>
       <title>Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</title>
-      <link>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
+      <link>http://localhost:40209/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
+      <guid>http://localhost:40209/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
       <description>Ah, the Internet of Things (IoT) &amp;mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from your fridge to your car. But with great connectivity comes great responsibility, or in this case, a massive cybersecurity headache. As our devices chatter away, they open doors to potential cyber threats. Enter the dynamic duo of blockchain and artificial intelligence (AI). These technologies are not just reshaping the cybersecurity landscape; they&amp;rsquo;re redefining it, with pioneers like Armur AI leading the charge.</description>
     </item>
     <item>
       <title>The Blockchain Security Checklist by Armur AI</title>
-      <link>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</link>
+      <link>http://localhost:40209/blogs/posts/the_blockchain_security_checklist_armur_ai/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</guid>
+      <guid>http://localhost:40209/blogs/posts/the_blockchain_security_checklist_armur_ai/</guid>
       <description>In the digital era, where blockchain technology is as revolutionary as it is complex, the armor of cybersecurity needs to be as unbreachable as possible. With cyber threats morphing faster than a chameleon on a rainbow, safeguarding the integrity and security of blockchain networks is more crucial than ever. Armur AI, standing tall as a beacon in the AI-driven cybersecurity landscape, unveils its master blueprint: The Blockchain Security Checklist. Consider this your compass in the vast sea of blockchain technology, guiding you through the stormy waters of cyber threats with wisdom gleaned from the very forefront of industry expertise.</description>
     </item>
     <item>
       <title>The Importance of Privacy in Blockchain Applications</title>
-      <link>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</link>
+      <link>http://localhost:40209/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</guid>
+      <guid>http://localhost:40209/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</guid>
       <description>Introduction In the realm of blockchain technology, a paradox exists at its very core: the need for both transparency and privacy. On one hand, blockchain&amp;rsquo;s transparency is lauded for its ability to offer unparalleled visibility into transactions, fostering trust among users. On the other, this very openness poses significant privacy concerns, revealing transaction details that users might prefer to keep private. This tension between transparency and privacy raises an essential question: How can blockchain applications maintain their inherent security and openness while also protecting the privacy of their users?</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/blogs/about/</link>
+      <link>http://localhost:40209/blogs/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/about/</guid>
+      <guid>http://localhost:40209/blogs/about/</guid>
       <description>Hi, my name is Akhil Sharma.</description>
     </item>
   </channel>

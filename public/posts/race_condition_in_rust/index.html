@@ -7,22 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>Posts | Armur Blogs</title>
+  <title>Race condition in std::fs::remove_dir_all in Rust | Armur Blogs</title>
   <meta name="description" content="">
 
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/posts/index.xml" title="Armur Blogs">
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Posts | Armur Blogs">
-  <meta name="twitter:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta name="twitter:image" content="http://localhost:1313/blogs/">
+  <meta name="twitter:title" content="Race condition in std::fs::remove_dir_all in Rust | Armur Blogs">
+  <meta name="twitter:description" content="Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type of vulnerability is clasified under CWE-363, which describes scenarios where a race condition allows an attacker to manipulate file links, potentially leading to unauthorized file or directory access.
+This issue has been assigned CVE-2022-21658.
+An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all presents a significant security risk. To illustrate, consider an attacker who has obtained unprivileged access to a system and wants to delete a system directory called sensitive/, but lacks the necessary permissions and privileges.">
+  <meta name="twitter:image" content="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg">
 
   
-  <meta property="og:title" content="Posts | Armur Blogs">
-  <meta property="og:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta property="og:image" content="http://localhost:1313/blogs/">
+  <meta property="og:title" content="Race condition in std::fs::remove_dir_all in Rust | Armur Blogs">
+  <meta property="og:description" content="Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type of vulnerability is clasified under CWE-363, which describes scenarios where a race condition allows an attacker to manipulate file links, potentially leading to unauthorized file or directory access.
+This issue has been assigned CVE-2022-21658.
+An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all presents a significant security risk. To illustrate, consider an attacker who has obtained unprivileged access to a system and wants to delete a system directory called sensitive/, but lacks the necessary permissions and privileges.">
+  <meta property="og:image" content="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg">
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -163,706 +166,189 @@
   <main class="content" aria-label="Content">
     
 
-<div class="container">
-  <div class="row">
-    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
-      <div class="tags__box">
-        <span class="tags__meta">18 posts tagged</span>
-        <h1 class="tags__title">Posts</h1>
+
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col col-6 col-t-12">
+        <div class="image-box">
+          <img class="post-image" src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="Race condition in std::fs::remove_dir_all in Rust">
+        </div>
+      </div>
+      
+
+      <div class="col col-6 col-t-12">
+        <div class="post-head__box">
+
+          <div class="post__meta">
+            <span class="post__minutes">3 min read</span>
+            <time class="post__date" datetime=" 2024-06-03T15:20:22&#43;05:30">Jun 3, 2024</time>
+          </div>
+
+          <h2 class="post__title">Race condition in std::fs::remove_dir_all in Rust</h2>
+
+          <div class="post__bottom">
+
+            <div class="post__author">
+              <a href="/about/" aria-label="Akhil Sharma">
+                <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
+              </a>
+            </div>
+
+            <div class="post__bottom-meta">
+              <a class="post__author-link" href="/about/">Akhil Sharma</a>
+              <span>in</span>
+              
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div class="container">
-  <div class="row grid">
+  <article class="post amimate">
+
+    <div class="post__content">
+      <h2 id="introduction">Introduction</h2>
+<p>In Rust, the <code>std::fs::remove_dir_all</code> function is vulnerable to a race condition that can lead to unintended following. This type of vulnerability is clasified under CWE-363, which describes scenarios where a race condition allows an attacker to manipulate file links, potentially leading to unauthorized file or directory access.</p>
+<p>This issue has been assigned <code>CVE-2022-21658</code>.</p>
+<h2 id="an-overview-of-this-vulnerability">An Overview of this vulnerability</h2>
+<p>The vulnerability in <code>std::fs::remove_dir_all</code> presents a significant security risk. To illustrate, consider an attacker who has obtained unprivileged access to a system and wants to delete a system directory called sensitive/, but lacks the necessary permissions and privileges.</p>
+<p>If <code>std::fs::remove_dir_all</code> followed symbolic links, the attacker could find a privileged program that removes a directory they have access to, such as temp/. By creating a symlink from temp/foo to sensitive/ and waiting for the privileged program to delete foo/, the program would follow the symlink from temp/foo to sensitive/ during recursive deletion, resulting in sensitive/ being deleted.</p>
+<h2 id="how-symbolic-links-work">How Symbolic Links Work</h2>
+<p>A symbolic link (or symlink) is a file that points to another file or directory. This is similar to shortcuts in Windows systems. Symlinks allow files or directories to be accessed indirectly through another path.
+Here&rsquo;s a simple Rust code example using <code>std::fs::remove_dir_all</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::fs;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() -&gt; <span style="color:#a6e22e">std</span>::io::Result<span style="color:#f92672">&lt;</span>()<span style="color:#f92672">&gt;</span> {
+</span></span><span style="display:flex;"><span>    fs::remove_dir_all(<span style="color:#e6db74">&#34;/some/dir&#34;</span>)<span style="color:#f92672">?</span>;
+</span></span><span style="display:flex;"><span>    Ok(())
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>However, this protection was implemented incorrectly in the standard library, resulting in a flow which is a race condition.</p>
+<p>Instead of instructing the system not to follow symlinks, the standard library first checked whether the item to be deleted was a symlink. If it wasn&rsquo;t, the function would proceed to recursively delete the directory.
+This created a race condition: an attacker could replace a directory with a symlink between the check and the deletion.</p>
+<p>Although this attack might not succeed on the first attempt, an experiment showed it could be reliably executed within a few seconds.</p>
+<h2 id="how-this-vulnerability-may-be-addressed">How this vulnerability may be addressed</h2>
+<p>To address this vulnerability, developers should update to the latest version of Rust where this issue has been patched. Ensuring that your code does not rely on the flawed behavior of <code>std::fs::remove_dir_all</code> is crucial for maintaining security.</p>
+<p>Here is an example of safe directory deletion that avoids the race condition:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::fs;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::path::Path;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">safe_remove_dir_all</span>(path: <span style="color:#66d9ef">&amp;</span><span style="color:#a6e22e">Path</span>) -&gt; <span style="color:#a6e22e">std</span>::io::Result<span style="color:#f92672">&lt;</span>()<span style="color:#f92672">&gt;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> path.is_symlink() {
+</span></span><span style="display:flex;"><span>        fs::remove_file(path)
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> entry <span style="color:#66d9ef">in</span> fs::read_dir(path)<span style="color:#f92672">?</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">let</span> entry <span style="color:#f92672">=</span> entry<span style="color:#f92672">?</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">let</span> path <span style="color:#f92672">=</span> entry.path();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> path.is_dir() {
+</span></span><span style="display:flex;"><span>                safe_remove_dir_all(<span style="color:#f92672">&amp;</span>path)<span style="color:#f92672">?</span>;
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                fs::remove_file(path)<span style="color:#f92672">?</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        fs::remove_dir(path)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>All versions of Rust before the patch addressing CVE-2022-21658 are affected if your code or its dependencies use std::fs::remove_dir_all with potentially untrusted input. It is crucial to update to the latest version to mitigate this vulnerability.
+This post highlights the importance of correctly handling symlinks in filesystem operations. Developers are urged to update to the latest version of Rust and review their use of std::fs::remove_dir_all to ensure it handles symlinks securely.</p>
+<h2 id="what-armur-is-doing-about-this">What Armur is doing about this?</h2>
+<p>These are the kinds of vulnerabilities that <a href="https://armur.ai">Armur</a> will protect you against. Armur has a set of developer security tools powered by LLMs and will help you scan your code scan thoroughly, identifying any security issues that may be present. Furthermore, it offers detailed recommendations on how to fix these issues, ensuring that your code remains robust and secure. Available tooling support for languages includes Rust, Go, Python, Javascript and Solidity.</p>
+<p>To stay updated with the latest security discussions, you can join our <a href="https://discord.gg/f9V7Z33P">discord server</a> where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out <a href="https://armur.ai">Armur</a> and get free 100 credits.</p>
+<p><img src="https://i.imgur.com/q14I8yd.png" alt="Armur Image"></p>
+
+    </div>
+
+    <div class="post__share">
+  <div class="share__list">
+    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2frace_condition_in_rust%2f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
+
+    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Race%20condition%20in%20std%3a%3afs%3a%3aremove_dir_all%20in%20Rust&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2frace_condition_in_rust%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+
+    <a class="share__link share__pinterest"
+      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2frace_condition_in_rust%2f&amp;media=https%3a%2f%2fi.ibb.co%2fWvHLRbL%2fwp8769017-old-paintings-wallpapers.jpg&amp;description=Race%20condition%20in%20std%3a%3afs%3a%3aremove_dir_all%20in%20Rust"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  </div>
+</div>
+
     
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/race_condition_in_rust/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="Race condition in std::fs::remove_dir_all in Rust">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime="2024-06-03T15:20:22&#43;05:30">Jun 3, 2024</time>
+    <div class="post__navigation">
+      
+      <a class="prev" href="http://localhost:1313/blogs/posts/windows_batch_file_vulnerability/" style="background-image: url('https://wallpaperaccess.com/full/2896393.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
+            Page</div>
+          <h4 class="post__nav__title">A Critical Vulnerability In Windows Batch file Execution</h4>
         </div>
-        
-        <h2 class="article__title">Race condition in std::fs::remove_dir_all in Rust</h2>
+      </a>
+      
+      
+    </div>
+    
 
-        <p class="article__excerpt">Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type …</p>
+  </article>
+</div>
 
-        <div class="article__bottom">
 
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
 
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
 
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="disqus-inner">
+        <div id="disqus_thread" class="post-comments">
+          <div id="disqus_empty"></div>
         </div>
-
       </div>
+    </div>
   </div>
 </div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
 
-    <a class="article__image" href="/blogs/posts/windows_batch_file_vulnerability/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/2896393.jpg" alt="A Critical Vulnerability In Windows Batch file Execution">
-    </a>
+<script>
+  function load_disqus() {
+    var disqus_shortname = 'anvod-studio-test',
+      is_disqus_empty = document.getElementById('disqus_empty'),
+      disqus_target = document.getElementById('disqus_thread'),
+      disqus_embed = document.createElement('script'),
+      disqus_hook = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
 
-    <div class="article__content">
+    if (disqus_target && is_disqus_empty) {
+      disqus_embed.type = 'text/javascript';
+      disqus_embed.async = true;
+      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      disqus_hook.appendChild(disqus_embed);
+      is_disqus_empty.remove();
+    }
+  }
 
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime="2024-06-01T18:00:00&#43;05:30">Jun 1, 2024</time>
-        </div>
-        
-        <h2 class="article__title">A Critical Vulnerability In Windows Batch file Execution</h2>
+  window.addEventListener('scroll', function (e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
 
-        <p class="article__excerpt">A command injection flaw was found in Rust, exclusive to Windows environments. When invoking batch files on Windows using the Command API, …</p>
+    if (disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150)) {
+      load_disqus('disqus_shortname');
+    }
+  }, false);
 
-        <div class="article__bottom">
+</script>
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
 
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
 
-        </div>
 
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/reentrancy_attacks/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="Learn About Reentracny Attacks and how to Prevent them">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2024-06-01T18:00:00&#43;05:30">Jun 1, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Learn About Reentracny Attacks and how to Prevent them</h2>
-
-        <p class="article__excerpt">What is a Solidity Reentrancy Attack? In Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/critical_vulnerability_found_in_the_net_package/">
-      <img class="lazy" data-src="https://i.ibb.co/cFJHk8r/wp8769095-old-paintings-wallpapers.jpg" alt="Critical Vulnerability found in the ‘net’ package in Go and Rust.">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2024-05-31T09:00:00&#43;03:00">May 31, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Critical Vulnerability found in the ‘net’ package in Go and Rust.</h2>
-
-        <p class="article__excerpt">The popular ‘net’ library used in GO and Rust was recently impacted by the mixed-format IP address validation vulnerability, a critical bug that made many applications extremely vulnerable. In this article, we will break it down and understand all about it.</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="A Security Vulnerability In Rust&#39;s Cargo Tool">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime="2024-05-26T18:31:22&#43;05:30">May 26, 2024</time>
-        </div>
-        
-        <h2 class="article__title">A Security Vulnerability In Rust&#39;s Cargo Tool</h2>
-
-        <p class="article__excerpt">Introduction The tools we use to develop software should be secure and it is crucial to ensure that. Recently, a security vulnerability was …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/decentralized_botnets_the_good_the/">
-      <img class="lazy" data-src="https://i.ibb.co/6N6xX3w/wp6616174-oil-painting-desktop-wallpapers.jpg" alt="Decentralized Botnets The Good, The Bad, and The Secure">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Decentralized Botnets The Good, The Bad, and The Secure</h2>
-
-        <p class="article__excerpt">Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/learning_to_swarm_how_swarm_learning/">
-      <img class="lazy" data-src="https://i.ibb.co/k8tfQCH/Bzyvtd-P-famous-paintings-wallpaper.jpg" alt="Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity</h2>
-
-        <p class="article__excerpt">Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/measuring_the_impact_of_shift_left/">
-      <img class="lazy" data-src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="Measuring the Impact of Shift Left on Cybersecurity Posture">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">9 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Measuring the Impact of Shift Left on Cybersecurity Posture</h2>
-
-        <p class="article__excerpt">In today&rsquo;s digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/how_ai_is_revolutionizing_cybersecurity/">
-      <img class="lazy" data-src="https://i.ibb.co/j4cgw6D/wp1959342-turner-wallpapers.jpg" alt="Revolutionizing Cloud Security Posture Management with AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">11 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Revolutionizing Cloud Security Posture Management with AI</h2>
-
-        <p class="article__excerpt">Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/revolutionizing_cloud_security_posture/">
-      <img class="lazy" data-src="https://i.ibb.co/D773jXJ/wp8769005-old-paintings-wallpapers.jpg" alt="Revolutionizing Cloud Security Posture Management with AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">13 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Revolutionizing Cloud Security Posture Management with AI</h2>
-
-        <p class="article__excerpt">Introduction In today&rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_role_of_ai_in_preventing_ddos/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/104185.jpg" alt="The Role of AI in Preventing DDoS Attacks on Blockchain Networks">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">The Role of AI in Preventing DDoS Attacks on Blockchain Networks</h2>
-
-        <p class="article__excerpt">Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/understanding_web3_cybersecurity/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/490634.jpg" alt="Understanding Web3 Cybersecurity Challenges">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Understanding Web3 Cybersecurity Challenges</h2>
-
-        <p class="article__excerpt">Introduction: The New Frontier of Web3 As we stand on the brink of a digital revolution, the emergence of Web3 heralds a transformative era …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/unlocking_the_future_predicting_the/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI</h2>
-
-        <p class="article__excerpt">Introduction Imagine having a magic mirror rather than a crystal ball, one that doesn&rsquo;t just predict the future but actively shapes it, …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/best_practices_for_securing_smart/">
-      <img class="lazy" data-src="https://i.ibb.co/cFJHk8r/wp8769095-old-paintings-wallpapers.jpg" alt="Best Practices for Securing Smart Contracts">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">6 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Best Practices for Securing Smart Contracts</h2>
-
-        <p class="article__excerpt">Introduction In the fascinating world of blockchain technology, smart contracts are akin to the wizards of automation, casting spells that …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6992163.jpg" alt="Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">9 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</h2>
-
-        <p class="article__excerpt">Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6338472.jpg" alt="Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">5 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</h2>
-
-        <p class="article__excerpt">Ah, the Internet of Things (IoT) &mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_blockchain_security_checklist_armur_ai/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/2896393.jpg" alt="The Blockchain Security Checklist by Armur AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">The Blockchain Security Checklist by Armur AI</h2>
-
-        <p class="article__excerpt">In the digital era, where blockchain technology is as revolutionary as it is complex, the armor of cybersecurity needs to be as unbreachable …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_importance_of_privacy_in_blockchain_applications/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515884.jpg" alt="The Importance of Privacy in Blockchain Applications">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">The Importance of Privacy in Blockchain Applications</h2>
-
-        <p class="article__excerpt">Introduction In the realm of blockchain technology, a paradox exists at its very core: the need for both transparency and privacy. On one …</p>
-
-        <div class="article__bottom">
-
-          <div class="article__author">
-            <a href="/about/" aria-label="Akhil Sharma">
-              <img class="article__author-image lazy" data-src="https://media.licdn.com/dms/image/D4D03AQEM30CriXyiqg/profile-displayphoto-shrink_400_400/0/1700669263324?e=1718841600&amp;v=beta&amp;t=YzSTyQaxROX2_illdBK8mv-ozmHdc4TU-9V984BiNBo" alt="Akhil Sharma's Picture">
-            </a>
-          </div>
-
-          <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">Akhil Sharma</a>
-            <span>in</span>
-            
-          </div>
-
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-  </div>
-</div>
 
 
   </main>
@@ -885,7 +371,7 @@
     <div class="recent-posts">
     
       
-        <a class="recent-posts__image" href="/blogs/posts/race_condition_in_rust/"><img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="Race condition in std::fs::remove_dir_all in Rust"></a>
+        <a class="recent-posts__image" href="/blogs/posts/race_condition_in_rust/"><img class="lazy" data-src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="Race condition in std::fs::remove_dir_all in Rust"></a>
       
     
       <div class="recent-posts__content">

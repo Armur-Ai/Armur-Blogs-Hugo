@@ -153,6 +153,9 @@ The confluence of blockchain and AI represents a synergy with the potential to r
 
 As we continue to innovate at the intersection of AI and blockchain, we invite you to join us in envisioning and shaping a future that's more secure, intelligent, and adaptable. The journey is just beginning, and together, we can navigate the exciting possibilities that lie at the nexus of these transformative technologies.
 
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
+
 [Share Armur's Cybersecurity Blog](https://armurblog.substack.com/?utm_source=substack&utm_medium=email&utm_content=share&action=share)
 
 [Subscribe now](%%checkout_url%%)
+

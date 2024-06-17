@@ -65,3 +65,5 @@ With AI and blockchain technology at our side, the potential to create an ever-m
 The quest for blockchain security is a collective marathon, not a solitary sprint. Armed with Armur AI's Blockchain Security Checklist, you're now part of an elite cadre, equipped with the knowledge and tools to fortify the blockchain ecosystem against the threats lurking in the digital shadows. Remember, the shield of security is forged not just by the strength of its materials but by the wisdom and vigilance of those who wield it.
 
 Together, we march forward into a future where blockchain's potential is unlocked safely, and its treasures are guarded with unyielding resolve.
+
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.

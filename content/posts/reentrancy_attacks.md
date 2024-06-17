@@ -127,6 +127,6 @@ The above code is susceptible to reentrancy attacks as the state is not updated 
 
 Reentrancy attacks are a significant vulnerability in Solidity smart contracts, enabling attackers to manipulate contract states and potentially drain funds. With [Armur](https://armur.ai), you can easily catch attacks like reentrancy by conducting smart contract audits. This tool will give you a detailed audit report with all the vulnerabilities in you code before you can eveing deploy your protocols.
 
-To stay updated with the latest security discussions, you can join our [discord server](https://discord.gg/f9V7Z33P) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
 
 ![Armur Image](https://i.imgur.com/PgDlWyK.png)

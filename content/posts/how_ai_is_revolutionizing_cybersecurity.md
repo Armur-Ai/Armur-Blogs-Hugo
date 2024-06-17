@@ -142,3 +142,5 @@ The future of AI in cybersecurity is bright, brimming with potential for innovat
 As we stand on the brink of this AI revolution in cybersecurity, the question is not whether AI will become indispensable to digital defense---it already is. The question is how we will harness this powerful tool to ensure a safer digital future for all. Let's embrace the AI revolution with open arms and a vigilant eye, paving the way for a cybersecurity landscape that's not only intelligent but also inclusive, ethical, and ultimately, more secure.
 
 Thanks for reading Armur's Cybersecurity Blog! Subscribe for free to receive new posts and support my work.
+
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.

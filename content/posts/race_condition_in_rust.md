@@ -70,6 +70,6 @@ This post highlights the importance of correctly handling symlinks in filesystem
 ## What Armur is doing about this?
 These are the kinds of vulnerabilities that [Armur](https://armur.ai) will protect you against. Armur has a set of developer security tools powered by LLMs and will help you scan your code scan thoroughly, identifying any security issues that may be present. Furthermore, it offers detailed recommendations on how to fix these issues, ensuring that your code remains robust and secure. Available tooling support for languages includes Rust, Go, Python, Javascript and Solidity.
 
-To stay updated with the latest security discussions, you can join our [discord server](https://discord.gg/f9V7Z33P) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
 
 ![Armur Image](https://i.imgur.com/q14I8yd.png)

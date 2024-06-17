@@ -157,3 +157,5 @@ The future of Web3 is still being written, and its full potential is yet to be r
 
 The journey into Web3 is an exciting one, filled with opportunities for growth, innovation, and transformation. As we move forward, Armur AI will continue to lead the way, securing the digital frontier and empowering users and developers alike. The promise of Web3 is vast, and with Armur AI, that promise is secure. Let's embrace this new era with confidence, knowing that the future of the internet is not just bright but also protected.
 
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
+

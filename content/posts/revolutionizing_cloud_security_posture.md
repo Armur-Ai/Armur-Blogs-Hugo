@@ -134,6 +134,8 @@ In the realm of real-world applications, we will likely see an expansion of AI-d
 
 As we look to the future, the potential of AI in transforming CSPM is both vast and inspiring. With continued innovation, collaboration, and a commitment to ethical principles, the journey ahead for cloud security promises to be one of unparalleled security and resilience. The evolution of AI-driven CSPM is not just a testament to technological advancement but a beacon of hope for a more secure digital world.
 
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
+
 ### Frequently Asked Questions (FAQ)
 
 1.  **What is Cloud Security Posture Management (CSPM)?**\

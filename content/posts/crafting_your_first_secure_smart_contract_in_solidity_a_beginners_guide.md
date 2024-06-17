@@ -136,6 +136,8 @@ The world of blockchain is vast and ever-evolving, with endless opportunities fo
 
 Embrace the challenges and the successes alike, and never hesitate to reach out to the vibrant community of Solidity developers and enthusiasts. Together, we're not just writing code; we're building the future.
 
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.
+
 ### Further Resources
 
 To fuel your journey and help you navigate the exciting world of Solidity and smart contracts, here are some additional resources:

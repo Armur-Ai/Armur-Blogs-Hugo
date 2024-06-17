@@ -101,3 +101,5 @@ Securing smart contracts is an ongoing process that begins with development and 
 ### Conclusion
 
 The development of secure smart contracts is critical for the success and reliability of blockchain applications. By implementing the best practices outlined above, developers can protect their contracts against common vulnerabilities and attacks, safeguarding the digital assets and transactions they govern. As the blockchain landscape continues to evolve, so too will the strategies for securing smart contracts. Embracing a culture of continuous learning, vigilance, and collaboration is key to staying ahead of potential threats.
+
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.

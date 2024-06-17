@@ -135,3 +135,5 @@ The quest for privacy and security in blockchain applications is a complex endea
 Armur AI stands at the forefront of this evolution, providing the tools and expertise necessary to navigate the privacy and security challenges of blockchain technology. By integrating advanced cryptographic techniques and prioritizing a security-first approach, Armur AI not only enhances the privacy and security of blockchain applications but also contributes to the broader goal of making blockchain technology accessible, reliable, and secure for all.
 
 In the end, the success of blockchain technology hinges on our ability to ensure privacy and security for users. With the continued efforts of innovators like Armur AI, the future of blockchain looks both secure and promising, paving the way for a digital world where privacy and transparency can coexist harmoniously.
+
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.

@@ -61,3 +61,5 @@ As we continue to weave the digital and physical worlds closer together, the rol
 In the age of IoT, cybersecurity is not just about protecting information; it's about safeguarding our way of life. With blockchain and AI as our guardians, we can look forward to a future where our digital and physical worlds can coexist, securely and seamlessly.
 
 The journey towards a secure IoT ecosystem is ongoing, but with the advances in blockchain and AI technology, particularly through solutions like Armur AI, we're better equipped than ever to face the challenges that lie ahead. So, here's to a safer, smarter world powered by the synergy of blockchain, AI, and IoT.
+
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.

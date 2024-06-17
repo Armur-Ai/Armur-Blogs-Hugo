@@ -122,3 +122,5 @@ The promise of swarm learning in cybersecurity is not just in its ability to def
 Let's not just adapt to the future; let's shape it by embracing the power of swarm learning and the innovative spirit of pioneers like Armur AI. Together, we can forge a safer, more secure digital world for generations to come.
 
 Thanks for reading Armur's Cybersecurity Blog! Subscribe for free to receive new posts and support my work.
+
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.

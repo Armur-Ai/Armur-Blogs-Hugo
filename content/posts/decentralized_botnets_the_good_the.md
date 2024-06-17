@@ -144,3 +144,4 @@ The future of cybersecurity is not set in stone; it is being written by innovato
 
 Thank you for joining me on this exploration of decentralized botnets. The future is uncertain, but armed with knowledge and innovation, we can steer it toward a safer, more secure digital tomorrow.
 
+To stay updated with the latest security discussions, you can join our [discord server](https://discord.com/invite/qGMMmgFnZD) where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out [Armur](https://armur.ai) and get free 100 credits.

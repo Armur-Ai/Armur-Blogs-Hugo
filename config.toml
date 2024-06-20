@@ -8,7 +8,7 @@ googleAnalytics = 'G-3GJ9DPN63X'
 [menu]
   [[menu.main]]
     name = "🏠︎ Blogs home"
-    url = "https://www.armur.ai/"
+    url = "https://www.armur.ai/blogs/"
     weight = 1
   
   [[menu.main]]

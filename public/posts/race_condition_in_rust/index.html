@@ -7,21 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>Race condition in std::fs::remove_dir_all in Rust | Armur Blogs</title>
+  <title>Race condition in std::fs::remove_dir_all in Rust | Armur</title>
   <meta name="description" content="">
 
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Race condition in std::fs::remove_dir_all in Rust | Armur Blogs">
+  <meta name="twitter:title" content="Race condition in std::fs::remove_dir_all in Rust | Armur">
   <meta name="twitter:description" content="Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type of vulnerability is clasified under CWE-363, which describes scenarios where a race condition allows an attacker to manipulate file links, potentially leading to unauthorized file or directory access.
 This issue has been assigned CVE-2022-21658.
 An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all presents a significant security risk. To illustrate, consider an attacker who has obtained unprivileged access to a system and wants to delete a system directory called sensitive/, but lacks the necessary permissions and privileges.">
   <meta name="twitter:image" content="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg">
 
   
-  <meta property="og:title" content="Race condition in std::fs::remove_dir_all in Rust | Armur Blogs">
+  <meta property="og:title" content="Race condition in std::fs::remove_dir_all in Rust | Armur">
   <meta property="og:description" content="Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type of vulnerability is clasified under CWE-363, which describes scenarios where a race condition allows an attacker to manipulate file links, potentially leading to unauthorized file or directory access.
 This issue has been assigned CVE-2022-21658.
 An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all presents a significant security risk. To illustrate, consider an attacker who has obtained unprivileged access to a system and wants to delete a system directory called sensitive/, but lacks the necessary permissions and privileges.">
@@ -48,25 +48,16 @@ An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all p
 <body>
 
   
-  
-    
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3GJ9DPN63X"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-3GJ9DPN63X');
-        }
-      </script>
-    
-  
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3GJ9DPN63X"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-3GJ9DPN63X', { 'anonymize_ip': false });
+}
+</script>
 
 
   
@@ -78,7 +69,7 @@ An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all p
         <div class="logo">
           <a class="logo__link" href="http://localhost:1313/blogs/">
             
-              Armur Blogs
+              Armur
             
           </a>
         </div>
@@ -96,11 +87,11 @@ An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all p
                     <ul class="nav__list list-reset">
                       
                       <li class="nav__item">
-                        <a href="https://www.armur.ai/" class="nav__link">Back to Website</a>
+                        <a href="https://www.armur.ai/blogs/" class="nav__link">🏠︎ Blogs home</a>
                       </li>
                       
                       <li class="nav__item">
-                        <a href="https://www.armur.ai/contact" class="nav__link">Get in touch</a>
+                        <a href="https://www.armur.ai/contact" class="nav__link">✉ Get in touch</a>
                       </li>
                       
                     </ul>
@@ -116,11 +107,11 @@ An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all p
             <ul class="nav__list list-reset">
               
               <li class="nav__item">
-                <a href="https://www.armur.ai/" class="nav__link">Back to Website</a>
+                <a href="https://www.armur.ai/blogs/" class="nav__link">🏠︎ Blogs home</a>
               </li>
               
               <li class="nav__item">
-                <a href="https://www.armur.ai/contact" class="nav__link">Get in touch</a>
+                <a href="https://www.armur.ai/contact" class="nav__link">✉ Get in touch</a>
               </li>
               
             </ul>
@@ -259,7 +250,7 @@ This created a race condition: an attacker could replace a directory with a syml
 This post highlights the importance of correctly handling symlinks in filesystem operations. Developers are urged to update to the latest version of Rust and review their use of std::fs::remove_dir_all to ensure it handles symlinks securely.</p>
 <h2 id="what-armur-is-doing-about-this">What Armur is doing about this?</h2>
 <p>These are the kinds of vulnerabilities that <a href="https://armur.ai">Armur</a> will protect you against. Armur has a set of developer security tools powered by LLMs and will help you scan your code scan thoroughly, identifying any security issues that may be present. Furthermore, it offers detailed recommendations on how to fix these issues, ensuring that your code remains robust and secure. Available tooling support for languages includes Rust, Go, Python, Javascript and Solidity.</p>
-<p>To stay updated with the latest security discussions, you can join our <a href="https://discord.gg/f9V7Z33P">discord server</a> where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out <a href="https://armur.ai">Armur</a> and get free 100 credits.</p>
+<p>To stay updated with the latest security discussions, you can join our <a href="https://discord.com/invite/qGMMmgFnZD">discord server</a> where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out <a href="https://armur.ai">Armur</a> and get free 100 credits.</p>
 <p><img src="https://i.imgur.com/q14I8yd.png" alt="Armur Image"></p>
 
     </div>
@@ -464,7 +455,7 @@ This post highlights the importance of correctly handling symlinks in filesystem
     <div class="row">
       <div class="col col-12">
         <div class="footer__inner">
-          <div class="copyright">2024 &copy; <a href="/">Armur Blogs</a>. Crafted &amp; Designed by <a href="https://armur.ai/">Armur.ai</a>.</div>
+          <div class="copyright">2024 &copy; <a href="/">Armur</a>. Crafted &amp; Designed by <a href="https://armur.ai/">Armur.ai</a>.</div>
           
 
 <div class="social">

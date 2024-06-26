@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secure on Armur</title>
+    <link>http://localhost:1313/blogs/tags/secure/</link>
+    <description>Recent content in Secure on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Feb 2024 18:31:22 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/tags/secure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decentralized Botnets The Good, The Bad, and The Secure</title>
+      <link>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</guid>
+      <description>Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with nothing but code. In this thrilling expanse, there&amp;rsquo;s a new player in town: decentralized botnets. Imagine a swarm of drones, each with its own mind, yet united in purpose, buzzing through the digital skies. Some are here to protect the town, while others have more nefarious plans.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,7 @@
 title: The Importance of Privacy in Blockchain Applications
 date: 2023-12-18 15:01:35 +0300
 image: 'https://wallpaperaccess.com/full/515884.jpg'
+tags: ["blockchain"]
 ---
 
 ### Introduction

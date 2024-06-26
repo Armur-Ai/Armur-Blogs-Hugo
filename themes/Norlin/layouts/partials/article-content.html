@@ -18,15 +18,15 @@
 
         <div class="article__bottom">
 
-          <div class="article__author">
+          <!-- <div class="article__author">
             <a href="/about/" aria-label="{{.Site.Params.author.name}}">
               <img class="article__author-image lazy" data-src="{{ .Site.Params.author.avatar | absURL }}" alt="{{.Site.Params.author.name}}'s Picture">
             </a>
-          </div>
+          </div> -->
 
           <div class="article__bottom-meta">
-            <a class="article__author-link" href="/about/">{{.Site.Params.author.name}}</a>
-            <span>in</span>
+            <!-- <a class="article__author-link" href="/about/">{{.Site.Params.author.name}}</a>
+            <span>in</span> -->
             {{ if .Params.tags }}
             <span class="article-tags">
               {{ range ($.GetTerms "tags") }}

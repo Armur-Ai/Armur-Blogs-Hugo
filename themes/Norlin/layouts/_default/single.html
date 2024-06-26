@@ -25,15 +25,15 @@
 
           <div class="post__bottom">
 
-            <div class="post__author">
+            <!-- <div class="post__author">
               <a href="/about/" aria-label="{{.Site.Params.author.name}}">
                 <img class="article__author-image lazy" data-src="{{ .Site.Params.author.avatar | absURL }}" alt="{{.Site.Params.author.name}}'s Picture">
               </a>
-            </div>
+            </div> -->
 
             <div class="post__bottom-meta">
-              <a class="post__author-link" href="/about/">{{.Site.Params.author.name}}</a>
-              <span>in</span>
+              <a class="post__author-link">{{.Site.Params.author.name}}</a>
+              <!-- <span>in</span> -->
               {{ if .Params.tags }}
               <span class="post-tags">
                 {{ range .Params.tags }}

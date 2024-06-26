@@ -2,6 +2,7 @@
 title: 'Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI'
 date: 2024-02-02T18:31:22+05:30
 image: 'https://wallpaperaccess.com/full/515990.jpg'
+tags: ["blockchain", "ai"]
 ---
 **Introduction**
 ----------------

@@ -2,6 +2,7 @@
 title: Cybersecurity in the IoT Era How Blockchain & AI Shield Your Devices
 date: 2023-12-18 15:01:35 +0300
 image: 'https://wallpaperaccess.com/full/6338472.jpg'
+tags: ["iot", "cybersecurity", "blockchain", "ai"]
 ---
 
 Ah, the Internet of Things (IoT) --- that futuristic concept we all dreamed about is now a tangible reality, connecting everything from your fridge to your car. But with great connectivity comes great responsibility, or in this case, a massive cybersecurity headache. As our devices chatter away, they open doors to potential cyber threats. Enter the dynamic duo of blockchain and artificial intelligence (AI). These technologies are not just reshaping the cybersecurity landscape; they're redefining it, with pioneers like Armur AI leading the charge.

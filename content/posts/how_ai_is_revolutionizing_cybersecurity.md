@@ -2,6 +2,7 @@
 title: 'Revolutionizing Cloud Security Posture Management with AI'
 date: 2024-02-02T18:31:22+05:30
 image: 'https://i.ibb.co/j4cgw6D/wp1959342-turner-wallpapers.jpg'
+tags: ["cybersecurity", "cloud", "ai"]
 ---
 Introduction
 ------------

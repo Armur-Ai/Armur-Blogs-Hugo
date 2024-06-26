@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solidity on Armur</title>
+    <link>http://localhost:1313/blogs/tags/solidity/</link>
+    <description>Recent content in Solidity on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2024 18:00:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/tags/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn About Reentracny Attacks and how to Prevent them</title>
+      <link>http://localhost:1313/blogs/posts/reentrancy_attacks/</link>
+      <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/reentrancy_attacks/</guid>
+      <description>What is a Solidity Reentrancy Attack? In Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
+    </item>
+    <item>
+      <title>Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</title>
+      <link>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
+      <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
+      <description>Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&amp;rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&amp;rsquo;t just a feature; it&amp;rsquo;s the cornerstone.</description>
+    </item>
+  </channel>
+</rss>

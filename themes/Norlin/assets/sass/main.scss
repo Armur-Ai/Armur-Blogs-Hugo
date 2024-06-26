@@ -104,3 +104,63 @@
 @import '4-layouts/tags-page';
 /* >>>>>>>>>>>>>> :: 4.4-Contact Page <<<<<<<<<<<<<<< */
 @import '4-layouts/contact-page';
+
+.tags-horizontal {
+  margin: 40px 0;
+
+  &__box {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: $white;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .tag-item {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 6px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: none;
+    border: 2px solid rgba($white, 0.2);
+    border-radius: 24px;
+    color: $gray;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $white;
+      border-color: $brand-color;
+    }
+  }
+}
+
+.article-tags .article__tag,
+.post-tags .post__tag {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 3px 2px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: none;
+  border: 2px solid rgba($white, 0.2);
+  border-radius: 24px;
+  color: $gray;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $white;
+    border-color: $brand-color;
+  }
+}

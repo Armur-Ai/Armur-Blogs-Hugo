@@ -17,25 +17,15 @@
         <p class="article__excerpt">{{ if .Description }}{{ .Description }}{{ else }}{{ truncate 142 .Summary | safeHTML }}{{ end }}</p>
 
         <div class="article__bottom">
-
-          <!-- <div class="article__author">
-            <a href="/about/" aria-label="{{.Site.Params.author.name}}">
-              <img class="article__author-image lazy" data-src="{{ .Site.Params.author.avatar | absURL }}" alt="{{.Site.Params.author.name}}'s Picture">
-            </a>
-          </div> -->
-
           <div class="article__bottom-meta">
-            <!-- <a class="article__author-link" href="/about/">{{.Site.Params.author.name}}</a>
-            <span>in</span> -->
             {{ if .Params.tags }}
             <span class="article-tags">
-              {{ range ($.GetTerms "tags") }}
-              <a href="{{ .Permalink }}" class="article__tag">{{ .LinkTitle }}</a>
-              {{ end }}
+              {{ range .Params.tags }}
+          <a href="{{ "/blogs/tags/" | relLangURL }}{{ . | urlize }}/" class="article__tag">{{ . }}</a>
+          {{ end }}
             </span>
             {{ end }}
           </div>
-
         </div>
 
       </div>

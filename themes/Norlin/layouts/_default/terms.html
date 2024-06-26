@@ -8,7 +8,13 @@
       </div>
       <div class="tags__name animate">
         {{ range .Pages }}
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ $title := .Title }}
+          {{ if eq (lower $title) "ai" }}
+            {{ $title = "AI" }}
+          {{ else }}
+            {{ $title = $title | title }}
+          {{ end }}
+          <a href="{{ .Permalink }}">{{ $title }}</a>
         {{ end }}
       </div>
       <hr>

@@ -34,13 +34,13 @@
             <div class="post__bottom-meta">
               <a class="post__author-link">{{.Site.Params.author.name}}</a>
               <!-- <span>in</span> -->
-              {{ if .Params.tags }}
+              <!-- {{ if .Params.tags }}
               <span class="post-tags">
                 {{ range .Params.tags }}
                 <a href="{{ printf "/tags/%s/" (. | urlize | lower) | absLangURL }}" class="article__tag">{{ . }}</a>
                 {{ end }}
               </span>
-              {{ end }}
+              {{ end }} -->
             </div>
           </div>
 

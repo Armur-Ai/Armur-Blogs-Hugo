@@ -21,8 +21,14 @@
             {{ if .Params.tags }}
             <span class="article-tags">
               {{ range .Params.tags }}
-          <a href="{{ "/blogs/tags/" | relLangURL }}{{ . | urlize }}/" class="article__tag">{{ . }}</a>
-          {{ end }}
+                {{ $tag := . }}
+                {{ if eq (lower $tag) "ai" }}
+                  {{ $tag = "AI" }}
+                {{ else }}
+                  {{ $tag = $tag | title }}
+                {{ end }}
+                <a href="{{ "/blogs/tags/" | relLangURL }}{{ . | urlize | lower }}/" class="article__tag">{{ $tag }}</a>
+              {{ end }}
             </span>
             {{ end }}
           </div>

@@ -2,6 +2,7 @@
 title: Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide
 date: 2023-12-18 15:01:35 +0300
 image: 'https://wallpaperaccess.com/full/6992163.jpg'
+tags: ["solidity", "smart contract"]
 ---
 
 ### Introduction

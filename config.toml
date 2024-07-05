@@ -1,19 +1,19 @@
 baseURL = 'https://armur.ai/blogs/'
 languageCode = 'en-us'
-title = 'Armur Blogs'
+title = 'Armur'
 theme = 'Norlin'
 googleAnalytics = 'G-3GJ9DPN63X'
 
 # Main Menu
 [menu]
   [[menu.main]]
-    name = "Back to Website"
-    url = "https://www.armur.ai/"
+    name = "🏠︎ Blogs home"
+    url = "https://armur.ai/blogs"
     weight = 1
   
   [[menu.main]]
-    name = "Get in touch"
-    url = "https://www.armur.ai/contact"
+    name = "✉ Get in touch"
+    url = "https://armur.ai/contact"
     weight = 2
 
 [params]

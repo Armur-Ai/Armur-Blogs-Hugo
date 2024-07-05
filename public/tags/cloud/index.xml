@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Armur</title>
+    <link>http://localhost:1313/blogs/tags/cloud/</link>
+    <description>Recent content in Cloud on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Feb 2024 18:31:22 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revolutionizing Cloud Security Posture Management with AI</title>
+      <link>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
+      <description>Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust cybersecurity measures has never been more critical. Picture this: a world where cybersecurity defenses not only react to threats but anticipate them, adapt to them, and neutralize them almost instantaneously. Welcome to 2024, where artificial intelligence (AI) is no longer just a buzzword but the backbone of cutting-edge cybersecurity strategies.</description>
+    </item>
+    <item>
+      <title>Revolutionizing Cloud Security Posture Management with AI</title>
+      <link>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</guid>
+      <description>Introduction In today&amp;rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing traditional Cloud Security Posture Management (CSPM) strategies to their limits. A staggering 90% of organizations admit to experiencing at least one cloud-based security breach, underscoring the critical need for more advanced and dynamic defense mechanisms. Enter Artificial Intelligence (AI) &amp;mdash; the game-changer in cloud security that&amp;rsquo;s shifting the paradigm from reactive to predictive security management.</description>
+    </item>
+  </channel>
+</rss>

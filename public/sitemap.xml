@@ -11,17 +11,47 @@
     <loc>http://localhost:1313/blogs/posts/race_condition_in_rust/</loc>
     <lastmod>2024-06-03T15:20:22+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/tags/rust/</loc>
+    <lastmod>2024-06-03T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-06-03T15:20:22+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/posts/windows_batch_file_vulnerability/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/reentrancy_attacks/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/tags/smart-contract/</loc>
+    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/solidity/</loc>
+    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/vulnerability/</loc>
+    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</loc>
+    <lastmod>2024-05-31T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/go/</loc>
     <lastmod>2024-05-31T09:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>
     <lastmod>2024-05-26T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/ai/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/blockchain/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/cloud/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/cybersecurity/</loc>
+    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
@@ -56,6 +86,9 @@
     <loc>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/tags/iot/</loc>
+    <lastmod>2023-12-18T15:01:35+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
@@ -65,7 +98,5 @@
     <loc>http://localhost:1313/blogs/about/</loc>
   </url><url>
     <loc>http://localhost:1313/blogs/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
   </url>
 </urlset>

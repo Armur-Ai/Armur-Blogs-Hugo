@@ -2,6 +2,7 @@
 title: "Learn About Reentracny Attacks and how to Prevent them"
 date: 2024-06-01T18:00:00+05:30
 image: "https://wallpaperaccess.com/full/515990.jpg"
+tags: ["solidity", "smart contract"]
 ---
 
 ### What is a Solidity Reentrancy Attack?

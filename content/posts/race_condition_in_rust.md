@@ -2,6 +2,7 @@
 title: Race condition in std::fs::remove_dir_all in Rust
 date: 2024-06-03T15:20:22+05:30
 image: 'https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg'
+tags: ["rust"]
 ---
 
 ## Introduction

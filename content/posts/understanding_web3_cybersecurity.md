@@ -2,6 +2,7 @@
 title: 'Understanding Web3 Cybersecurity Challenges'
 date: 2024-02-02T18:31:22+05:30
 image: 'https://wallpaperaccess.com/full/490634.jpg'
+tags: ["blockchain", "cybersecurity"]
 ---
 
 **Introduction: The New Frontier of Web3**

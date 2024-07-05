@@ -1,11 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Armur Blogs</title>
+    <title>Tags on Armur</title>
     <link>http://localhost:1313/blogs/tags/</link>
-    <description>Recent content in Tags on Armur Blogs</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Tags on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2024 15:20:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust</title>
+      <link>http://localhost:1313/blogs/tags/rust/</link>
+      <pubDate>Mon, 03 Jun 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smart Contract</title>
+      <link>http://localhost:1313/blogs/tags/smart-contract/</link>
+      <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/smart-contract/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solidity</title>
+      <link>http://localhost:1313/blogs/tags/solidity/</link>
+      <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/solidity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulnerability</title>
+      <link>http://localhost:1313/blogs/tags/vulnerability/</link>
+      <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/vulnerability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1313/blogs/tags/go/</link>
+      <pubDate>Fri, 31 May 2024 09:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/blogs/tags/ai/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blockchain</title>
+      <link>http://localhost:1313/blogs/tags/blockchain/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/blogs/tags/cloud/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/blogs/tags/cybersecurity/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iot</title>
+      <link>http://localhost:1313/blogs/tags/iot/</link>
+      <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/iot/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

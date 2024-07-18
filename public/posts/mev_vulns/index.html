@@ -7,22 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>Posts | Armur</title>
+  <title>What is Front Running and MEV? | Armur</title>
   <meta name="description" content="">
 
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/posts/index.xml" title="Armur">
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Posts | Armur">
-  <meta name="twitter:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta name="twitter:image" content="http://localhost:1313/blogs/">
+  <meta name="twitter:title" content="What is Front Running and MEV? | Armur">
+  <meta name="twitter:description" content="Front-running in Blockchain occurs when someone intentionally enters a transaction into a block before you to try to extract some value. Imagine you&rsquo;re at a high-stakes auction, bidding on a rare artifact. Just as you&rsquo;re about to place your bid, someone with inside information swoops in, outbids you, and resells the item at a profit moments later. This is the essence of front running in the crypto space, but with far-reaching implications for market integrity and individual traders.">
+  <meta name="twitter:image" content="https://wallpaperaccess.com/full/515884.jpg">
 
   
-  <meta property="og:title" content="Posts | Armur">
-  <meta property="og:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta property="og:image" content="http://localhost:1313/blogs/">
+  <meta property="og:title" content="What is Front Running and MEV? | Armur">
+  <meta property="og:description" content="Front-running in Blockchain occurs when someone intentionally enters a transaction into a block before you to try to extract some value. Imagine you&rsquo;re at a high-stakes auction, bidding on a rare artifact. Just as you&rsquo;re about to place your bid, someone with inside information swoops in, outbids you, and resells the item at a profit moments later. This is the essence of front running in the crypto space, but with far-reaching implications for market integrity and individual traders.">
+  <meta property="og:image" content="https://wallpaperaccess.com/full/515884.jpg">
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -154,843 +153,228 @@ if (!doNotTrack) {
   <main class="content" aria-label="Content">
     
 
-<div class="container">
-  <div class="row">
-    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
-      <div class="tags__box">
-        <span class="tags__meta">19 posts tagged</span>
-        <h1 class="tags__title">
-          Posts
-        </h1>
+
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col col-6 col-t-12">
+        <div class="image-box">
+          <img class="post-image" src="https://wallpaperaccess.com/full/515884.jpg" alt="What is Front Running and MEV?">
+        </div>
+      </div>
+      
+
+      <div class="col col-6 col-t-12">
+        <div class="post-head__box">
+
+          <div class="post__meta">
+            <span class="post__minutes">6 min read</span>
+            <time class="post__date" datetime=" 2024-07-18T15:20:22&#43;05:30">Jul 18, 2024</time>
+          </div>
+
+          <h2 class="post__title">What is Front Running and MEV?</h2>
+
+          <div class="post__bottom">
+
+            
+
+            <div class="post__bottom-meta">
+              <a class="post__author-link">Akhil Sharma</a>
+              
+              
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div class="container">
-  <div class="row grid">
+  <article class="post amimate">
+
+    <div class="post__content">
+      <p>Front-running in Blockchain occurs when someone intentionally enters a transaction into a block before you to try to extract some value.
+Imagine you&rsquo;re at a high-stakes auction, bidding on a rare artifact. Just as you&rsquo;re about to place your bid, someone with inside information swoops in, outbids you, and resells the item at a profit moments later. This is the essence of front running in the crypto space, but with far-reaching implications for market integrity and individual traders.
+Understanding Front Running in Cryptocurrency
+Front running in crypto occurs when an entity, be it a miner, validator, or savvy trader, deliberately places their transaction ahead of yours in a block to extract value. It&rsquo;s a high-tech version of cutting in line, but instead of saving time, the front-runner is potentially siphoning off your profits.</p>
+<h3 id="heres-a-detailed-breakdown-of-a-typical-front-running-scenario">Here&rsquo;s a detailed breakdown of a typical front running scenario:</h3>
+<p>You initiate a significant crypto transaction, say, a large token swap on a decentralized exchange (DEX).
+Your transaction enters the mempool, a holding area for unconfirmed transactions.
+A front-runner, using specialized software, identifies your pending transaction as potentially profitable.
+They quickly craft a similar transaction, but with a higher gas fee to ensure it&rsquo;s processed first.
+The front-runner&rsquo;s transaction is included in the next block, affecting market conditions.
+Your transaction is processed afterward, but now under less favorable terms.
+The result? The front-runner profits from the price movement caused by your transaction, while you potentially incur higher costs or receive fewer tokens than expected.</p>
+<h3 id="the-mempool-cryptos-open-playbook">The Mempool: Crypto&rsquo;s Open Playbook</h3>
+<p>To truly grasp front running, we need to understand the mempool. The mempool, short for memory pool, is essentially a waiting room for transactions. When you initiate a transaction, it doesn&rsquo;t immediately get added to the blockchain. Instead, it sits in this limbo state, waiting to be picked up by a miner or validator and included in the next block.</p>
+<h4 id="heres-what-makes-the-mempool-a-critical-player-in-front-running">Here&rsquo;s what makes the mempool a critical player in front running:</h4>
+<ol>
+<li>Public Visibility: In most blockchain networks, the mempool is publicly visible. Anyone can see the details of pending transactions, including token amounts, addresses, and gas fees.</li>
+<li>Transaction Ordering: Miners and validators have the power to determine the order of transactions within a block. They typically prioritize transactions with higher gas fees.</li>
+<li>Time Window: The time between a transaction entering the mempool and being included in a block creates an opportunity for front-runners to act.</li>
+<li>Network Congestion: During periods of high network activity, transactions may spend more time in the mempool, increasing the window for potential front running.</li>
+</ol>
+<h3 id="mev-the-hidden-profit-machine">MEV: The Hidden Profit Machine</h3>
+<p>MEV, or Maximum Extractable Value represents the maximum value that can be extracted from block production in excess of the standard block reward and gas fees. It&rsquo;s a measure of the profit a miner or validator can make through their ability to arbitrarily include, exclude, or re-order transactions within the blocks they produce.</p>
+<h4 id="lets-break-down-a-more-complex-mev-scenario">Let&rsquo;s break down a more complex MEV scenario:</h4>
+<p>A large decentralized exchange (DEX) trade appears in the mempool, swapping 1000 ETH for TokenX.
+An MEV bot detects this pending transaction and calculates that it will significantly move the price of TokenX.
+The bot quickly submits three transactions:
+a) A buy order for TokenX
+b) The original large swap transaction
+c) A sell order for TokenX
+A miner or validator, incentivized by higher gas fees, includes these transactions in the next block in this exact order.
+The bot&rsquo;s buy order executes first, acquiring TokenX at the current price.
+The large swap transaction then executes, driving up the price of TokenX.
+Finally, the bot&rsquo;s sell order executes, selling TokenX at the new, higher price.
+The result? The MEV bot has effectively &ldquo;sandwiched&rdquo; the original transaction, profiting from the price movement it caused.
+Code Example: The Vulnerable Withdraw</p>
+<h4 id="lets-examine-a-smart-contract-vulnerable-to-front-running">Let&rsquo;s examine a smart contract vulnerable to front running:</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-solidity" data-lang="solidity"><span style="display:flex;"><span><span style="color:#75715e">// SPDX-License-Identifier: MIT
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">pragma solidity</span> <span style="color:#ae81ff">0</span>.<span style="color:#ae81ff">8</span>.<span style="color:#ae81ff">18</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">contract</span> <span style="color:#a6e22e">WithdrawMe</span> {
+</span></span><span style="display:flex;"><span>error BadWithdraw();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">bytes32</span> <span style="color:#66d9ef">public</span> s_secretHash;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">event</span> <span style="color:#a6e22e">success</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">event</span> <span style="color:#a6e22e">fail</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">constructor</span>(<span style="color:#66d9ef">bytes32</span> secretHash) <span style="color:#66d9ef">payable</span> {
+</span></span><span style="display:flex;"><span>s_secretHash <span style="color:#f92672">=</span> secretHash;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">withdraw</span>(<span style="color:#66d9ef">string</span> <span style="color:#66d9ef">memory</span> password) <span style="color:#66d9ef">external</span> <span style="color:#66d9ef">payable</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(keccak256(abi.encodePacked(password)) <span style="color:#f92672">==</span> s_secretHash){
+</span></span><span style="display:flex;"><span>(<span style="color:#66d9ef">bool</span> sent, ) <span style="color:#f92672">=</span> msg.sender.call{value<span style="color:#f92672">:</span> <span style="color:#66d9ef">address</span>(this).balance}(<span style="color:#e6db74">&#34;&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>sent){
+</span></span><span style="display:flex;"><span>revert BadWithdraw();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>emit success();
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>emit fail();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">balance</span>() <span style="color:#66d9ef">external</span> <span style="color:#66d9ef">view</span> <span style="color:#66d9ef">returns</span>(<span style="color:#66d9ef">uint256</span>){
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> <span style="color:#66d9ef">address</span>(this).balance;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This contract seems secure at first glance. It requires a password to withdraw funds, and the password is stored as a hash. However, it&rsquo;s vulnerable to front running because:</p>
+<p>The password is sent in plain text as part of the transaction data.
+Once a correct password is used in a transaction, it becomes visible in the mempool.
+A front-runner can copy this transaction, increase the gas fee, and submit it before the original transaction is processed.
+Protecting Against Front Running
+Defending against front running requires a multi-faceted approach:
+Use Private RPCs: These are special endpoints that don&rsquo;t broadcast your transaction to the public mempool. Examples include Flashbots Protect and MEV-Blocker.
+Implement Time Locks: Add a delay between transaction submission and execution, allowing you to cancel if you detect front running.
+Gas Price Auctions: Gradually increase your gas price over time, making it harder for front-runners to consistently outbid you.
+Slippage Protection: Set strict slippage tolerances in your trades. Here&rsquo;s an example using Uniswap&rsquo;s router:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-solidity" data-lang="solidity"><span style="display:flex;"><span>ISwapRouter.ExactInputSingleParams({
+</span></span><span style="display:flex;"><span>tokenIn<span style="color:#f92672">:</span> DAI,
+</span></span><span style="display:flex;"><span>tokenOut<span style="color:#f92672">:</span> WETH9,
+</span></span><span style="display:flex;"><span>fee<span style="color:#f92672">:</span> poolFee,
+</span></span><span style="display:flex;"><span>recipient<span style="color:#f92672">:</span> msg.sender,
+</span></span><span style="display:flex;"><span>deadline<span style="color:#f92672">:</span> block.timestamp <span style="color:#f92672">+</span> <span style="color:#ae81ff">300</span>, <span style="color:#75715e">// 5 minutes from now
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>amountIn<span style="color:#f92672">:</span> amountIn,
+</span></span><span style="display:flex;"><span>amountOutMinimum<span style="color:#f92672">:</span> expectedAmountOut <span style="color:#f92672">*</span> <span style="color:#ae81ff">995</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">1000</span>, <span style="color:#75715e">// 0.5% slippage tolerance
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>sqrtPriceLimitX96<span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>This code sets a deadline 5 minutes in the future and allows for a maximum of 0.5% slippage, protecting against dramatic price changes caused by front running.
+Commit-Reveal Schemes: For sensitive operations, use a two-step process where you first commit a hash of your action, then reveal the details in a separate transaction.</p>
+<p>The Ongoing Ethical Debate
+The practice of front running and MEV extraction remains controversial in the crypto community. Proponents argue it&rsquo;s a natural part of free market dynamics and helps improve market efficiency. Critics contend it undermines fairness, especially for smaller traders, and could deter participation in decentralized finance (DeFi).</p>
+<p>Regulatory bodies are increasingly taking notice. The U.S. Commodity Futures Trading Commission (CFTC) has suggested that some forms of MEV extraction could be considered market manipulation.</p>
+<p>As the blockchain space evolves, we&rsquo;re likely to see continued innovation in both MEV extraction techniques and protective measures. Projects like Chainlink&rsquo;s Fair Sequencing Services and Ethereum&rsquo;s proposed inclusion of &ldquo;builder proposer separation&rdquo; aim to create more equitable transaction ordering systems.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Front running and MEV represent some of the most complex and contentious issues in the crypto space. As a trader or developer, staying informed about these practices is crucial. Remember, in the wild world of crypto, knowledge isn&rsquo;t just power – it&rsquo;s profit. Stay vigilant, implement protective measures, and may your transactions always find fair execution in the blocks of the future.</p>
+
+    </div>
+
+    <div class="post__share">
+  <div class="share__list">
+    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fmev_vulns%2f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
+
+    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=What%20is%20Front%20Running%20and%20MEV%3f&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fmev_vulns%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+
+    <a class="share__link share__pinterest"
+      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fmev_vulns%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f515884.jpg&amp;description=What%20is%20Front%20Running%20and%20MEV%3f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  </div>
+</div>
+
     
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/race_condition_in_rust/">
-      <img class="lazy" data-src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="Race condition in std::fs::remove_dir_all in Rust">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime="2024-06-03T15:20:22&#43;05:30">Jun 3, 2024</time>
+    <div class="post__navigation">
+      
+      <a class="prev" href="http://localhost:1313/blogs/posts/race_condition_in_rust/" style="background-image: url('https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
+            Page</div>
+          <h4 class="post__nav__title">Race condition in std::fs::remove_dir_all in Rust</h4>
         </div>
-        
-        <h2 class="article__title">Race condition in std::fs::remove_dir_all in Rust</h2>
+      </a>
+      
+      
+    </div>
+    
 
-        <p class="article__excerpt">Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type …</p>
+  </article>
+</div>
 
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/rust/" class="article__tag">Rust</a>
-              
-            </span>
-            
-          </div>
+
+
+
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="disqus-inner">
+        <div id="disqus_thread" class="post-comments">
+          <div id="disqus_empty"></div>
         </div>
-
       </div>
+    </div>
   </div>
 </div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
 
-    <a class="article__image" href="/blogs/posts/windows_batch_file_vulnerability/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/2896393.jpg" alt="A Critical Vulnerability In Windows Batch file Execution">
-    </a>
+<script>
+  function load_disqus() {
+    var disqus_shortname = 'anvod-studio-test',
+      is_disqus_empty = document.getElementById('disqus_empty'),
+      disqus_target = document.getElementById('disqus_thread'),
+      disqus_embed = document.createElement('script'),
+      disqus_hook = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
+
+    if (disqus_target && is_disqus_empty) {
+      disqus_embed.type = 'text/javascript';
+      disqus_embed.async = true;
+      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      disqus_hook.appendChild(disqus_embed);
+      is_disqus_empty.remove();
+    }
+  }
+
+  window.addEventListener('scroll', function (e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
+
+    if (disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150)) {
+      load_disqus('disqus_shortname');
+    }
+  }, false);
+
+</script>
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 
-    <div class="article__content">
 
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime="2024-06-01T18:00:00&#43;05:30">Jun 1, 2024</time>
-        </div>
-        
-        <h2 class="article__title">A Critical Vulnerability In Windows Batch file Execution</h2>
 
-        <p class="article__excerpt">A command injection flaw was found in Rust, exclusive to Windows environments. When invoking batch files on Windows using the Command API, …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/vulnerability/" class="article__tag">Vulnerability</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/reentrancy_attacks/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="Learn About Reentracny Attacks and how to Prevent them">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2024-06-01T18:00:00&#43;05:30">Jun 1, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Learn About Reentracny Attacks and how to Prevent them</h2>
-
-        <p class="article__excerpt">What is a Solidity Reentrancy Attack? In Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/solidity/" class="article__tag">Solidity</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/smart-contract/" class="article__tag">Smart Contract</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/critical_vulnerability_found_in_the_net_package/">
-      <img class="lazy" data-src="https://i.ibb.co/cFJHk8r/wp8769095-old-paintings-wallpapers.jpg" alt="Critical Vulnerability found in the ‘net’ package in Go and Rust.">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2024-05-31T09:00:00&#43;03:00">May 31, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Critical Vulnerability found in the ‘net’ package in Go and Rust.</h2>
-
-        <p class="article__excerpt">The popular ‘net’ library used in GO and Rust was recently impacted by the mixed-format IP address validation vulnerability, a critical bug that made many applications extremely vulnerable. In this article, we will break it down and understand all about it.</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/go/" class="article__tag">Go</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/rust/" class="article__tag">Rust</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/vulnerability/" class="article__tag">Vulnerability</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="A Security Vulnerability In Rust&#39;s Cargo Tool">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime="2024-05-26T18:31:22&#43;05:30">May 26, 2024</time>
-        </div>
-        
-        <h2 class="article__title">A Security Vulnerability In Rust&#39;s Cargo Tool</h2>
-
-        <p class="article__excerpt">Introduction The tools we use to develop software should be secure and it is crucial to ensure that. Recently, a security vulnerability was …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/rust/" class="article__tag">Rust</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/vulnerability/" class="article__tag">Vulnerability</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/decentralized_botnets_the_good_the/">
-      <img class="lazy" data-src="https://i.ibb.co/6N6xX3w/wp6616174-oil-painting-desktop-wallpapers.jpg" alt="Decentralized Botnets The Good, The Bad, and The Secure">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Decentralized Botnets The Good, The Bad, and The Secure</h2>
-
-        <p class="article__excerpt">Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/learning_to_swarm_how_swarm_learning/">
-      <img class="lazy" data-src="https://i.ibb.co/k8tfQCH/Bzyvtd-P-famous-paintings-wallpaper.jpg" alt="Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity</h2>
-
-        <p class="article__excerpt">Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/measuring_the_impact_of_shift_left/">
-      <img class="lazy" data-src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="Measuring the Impact of Shift Left on Cybersecurity Posture">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">9 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Measuring the Impact of Shift Left on Cybersecurity Posture</h2>
-
-        <p class="article__excerpt">In today&rsquo;s digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/how_ai_is_revolutionizing_cybersecurity/">
-      <img class="lazy" data-src="https://i.ibb.co/j4cgw6D/wp1959342-turner-wallpapers.jpg" alt="Revolutionizing Cloud Security Posture Management with AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">11 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Revolutionizing Cloud Security Posture Management with AI</h2>
-
-        <p class="article__excerpt">Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cloud/" class="article__tag">Cloud</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/ai/" class="article__tag">AI</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/revolutionizing_cloud_security_posture/">
-      <img class="lazy" data-src="https://i.ibb.co/D773jXJ/wp8769005-old-paintings-wallpapers.jpg" alt="Revolutionizing Cloud Security Posture Management with AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">13 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Revolutionizing Cloud Security Posture Management with AI</h2>
-
-        <p class="article__excerpt">Introduction In today&rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cloud/" class="article__tag">Cloud</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/ai/" class="article__tag">AI</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_role_of_ai_in_preventing_ddos/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/104185.jpg" alt="The Role of AI in Preventing DDoS Attacks on Blockchain Networks">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">The Role of AI in Preventing DDoS Attacks on Blockchain Networks</h2>
-
-        <p class="article__excerpt">Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/ai/" class="article__tag">AI</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/understanding_web3_cybersecurity/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/490634.jpg" alt="Understanding Web3 Cybersecurity Challenges">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Understanding Web3 Cybersecurity Challenges</h2>
-
-        <p class="article__excerpt">Introduction: The New Frontier of Web3 As we stand on the brink of a digital revolution, the emergence of Web3 heralds a transformative era …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/unlocking_the_future_predicting_the/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515990.jpg" alt="Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI</h2>
-
-        <p class="article__excerpt">Introduction Imagine having a magic mirror rather than a crystal ball, one that doesn&rsquo;t just predict the future but actively shapes it, …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/ai/" class="article__tag">AI</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/mev_vulns/">
-      <img class="lazy" data-src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="What is Front Running and MEV?">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">6 min read</span>
-          <time class="article__date" datetime="2024-02-02T18:31:22&#43;05:30">Feb 2, 2024</time>
-        </div>
-        
-        <h2 class="article__title">What is Front Running and MEV?</h2>
-
-        <p class="article__excerpt">What is Front Running and MEV?
-Front-running in Blockchain occurs when someone intentionally enters a transaction into a block before you to …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/solidity/" class="article__tag">Solidity</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/best_practices_for_securing_smart/">
-      <img class="lazy" data-src="https://i.ibb.co/cFJHk8r/wp8769095-old-paintings-wallpapers.jpg" alt="Best Practices for Securing Smart Contracts">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">6 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Best Practices for Securing Smart Contracts</h2>
-
-        <p class="article__excerpt">Introduction In the fascinating world of blockchain technology, smart contracts are akin to the wizards of automation, casting spells that …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/smart-contract/" class="article__tag">Smart Contract</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6992163.jpg" alt="Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">9 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</h2>
-
-        <p class="article__excerpt">Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/solidity/" class="article__tag">Solidity</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/smart-contract/" class="article__tag">Smart Contract</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6338472.jpg" alt="Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">5 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</h2>
-
-        <p class="article__excerpt">Ah, the Internet of Things (IoT) &mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/iot/" class="article__tag">Iot</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/ai/" class="article__tag">AI</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_blockchain_security_checklist_armur_ai/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/2896393.jpg" alt="The Blockchain Security Checklist by Armur AI">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">The Blockchain Security Checklist by Armur AI</h2>
-
-        <p class="article__excerpt">In the digital era, where blockchain technology is as revolutionary as it is complex, the armor of cybersecurity needs to be as unbreachable …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/the_importance_of_privacy_in_blockchain_applications/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/515884.jpg" alt="The Importance of Privacy in Blockchain Applications">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">10 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
-        </div>
-        
-        <h2 class="article__title">The Importance of Privacy in Blockchain Applications</h2>
-
-        <p class="article__excerpt">Introduction In the realm of blockchain technology, a paradox exists at its very core: the need for both transparency and privacy. On one …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-  </div>
-</div>
 
 
   </main>
@@ -1013,6 +397,26 @@ Front-running in Blockchain occurs when someone intentionally enters a transacti
     <div class="recent-posts">
     
       
+        <a class="recent-posts__image" href="/blogs/posts/mev_vulns/"><img class="lazy" data-src="https://wallpaperaccess.com/full/515884.jpg" alt="What is Front Running and MEV?"></a>
+      
+    
+      <div class="recent-posts__content">
+
+        <div class="article__meta">
+          <span class="article__minutes">6 min read</span>
+          <time class="article__date" datetime=" 2024-07-18T15:20:22&#43;05:30">Jul 18, 2024</time>
+        </div>
+
+        <h4 class="recent-posts__title"><a href="/blogs/posts/mev_vulns/">What is Front Running and MEV?</a></h4>
+
+        
+      </div>
+    
+    </div>
+    
+    <div class="recent-posts">
+    
+      
         <a class="recent-posts__image" href="/blogs/posts/race_condition_in_rust/"><img class="lazy" data-src="https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg" alt="Race condition in std::fs::remove_dir_all in Rust"></a>
       
     
@@ -1024,26 +428,6 @@ Front-running in Blockchain occurs when someone intentionally enters a transacti
         </div>
 
         <h4 class="recent-posts__title"><a href="/blogs/posts/race_condition_in_rust/">Race condition in std::fs::remove_dir_all in Rust</a></h4>
-
-        
-      </div>
-    
-    </div>
-    
-    <div class="recent-posts">
-    
-      
-        <a class="recent-posts__image" href="/blogs/posts/windows_batch_file_vulnerability/"><img class="lazy" data-src="https://wallpaperaccess.com/full/2896393.jpg" alt="A Critical Vulnerability In Windows Batch file Execution"></a>
-      
-    
-      <div class="recent-posts__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">3 min read</span>
-          <time class="article__date" datetime=" 2024-06-01T18:00:00&#43;05:30">Jun 1, 2024</time>
-        </div>
-
-        <h4 class="recent-posts__title"><a href="/blogs/posts/windows_batch_file_vulnerability/">A Critical Vulnerability In Windows Batch file Execution</a></h4>
 
         
       </div>

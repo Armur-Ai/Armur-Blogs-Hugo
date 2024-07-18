@@ -16,6 +16,13 @@
       <description>What is a Solidity Reentrancy Attack? In Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
     </item>
     <item>
+      <title>What is Front Running and MEV?</title>
+      <link>http://localhost:1313/blogs/posts/mev_vulns/</link>
+      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/mev_vulns/</guid>
+      <description>What is Front Running and MEV?&#xA;Front-running in Blockchain occurs when someone intentionally enters a transaction into a block before you to try to extract some value. Imagine you&amp;rsquo;re at a high-stakes auction, bidding on a rare artifact. Just as you&amp;rsquo;re about to place your bid, someone with inside information swoops in, outbids you, and resells the item at a profit moments later. This is the essence of front running in the crypto space, but with far-reaching implications for market integrity and individual traders.</description>
+    </item>
+    <item>
       <title>Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</title>
       <link>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>

@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-06-03T15:20:22+05:30</lastmod>
+    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/blockchain/</loc>
+    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-06-03T15:20:22+05:30</lastmod>
+    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/solidity/</loc>
+    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/what-is-front-running-and-mev/</loc>
+    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/race_condition_in_rust/</loc>
     <lastmod>2024-06-03T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/rust/</loc>
-    <lastmod>2024-06-03T15:20:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
     <lastmod>2024-06-03T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/windows_batch_file_vulnerability/</loc>
@@ -24,9 +33,6 @@
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/smart-contract/</loc>
-    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/solidity/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/vulnerability/</loc>
@@ -42,9 +48,6 @@
     <lastmod>2024-05-26T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/ai/</loc>
-    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/blockchain/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/cloud/</loc>
@@ -77,9 +80,6 @@
     <loc>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/mev_vulns/</loc>
-    <lastmod>2024-02-02T18:31:22+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
@@ -97,8 +97,6 @@
   </url><url>
     <loc>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/about/</loc>
   </url><url>
     <loc>http://localhost:1313/blogs/categories/</loc>
   </url>

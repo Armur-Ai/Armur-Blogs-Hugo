@@ -17,7 +17,7 @@ googleAnalytics = 'G-3GJ9DPN63X'
     weight = 2
 
 [params]
-  logo = "/images/logo.webp"
+  logo = "https://i.ibb.co/N9b7dbJ/armur-logo.webp"
 
   [params.author]
     name = "Akhil Sharma"

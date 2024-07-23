@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/blockchain/</loc>
-    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
+    <lastmod>2024-07-23T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/</loc>
+    <lastmod>2024-07-23T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/blockchain/</loc>
     <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/solidity/</loc>

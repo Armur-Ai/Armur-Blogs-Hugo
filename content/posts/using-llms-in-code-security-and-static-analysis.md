@@ -1,8 +1,8 @@
 ---
 title: 'Using LLMs in Code Security and Static Analysis'
-date: 2024-07-23T15:20:22+05:30
+date: 2024-07-22T15:20:22+05:30
 image: 'https://wallpaperaccess.com/full/416167.jpg'
-tags: ["llm", "security"]
+tags: ["llms", "security"]
 ---
 
 ## Introduction

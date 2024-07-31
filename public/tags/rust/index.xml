@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rust on Armur</title>
-    <link>https://armur.ai/blogs/tags/rust/</link>
+    <link>http://localhost:1313/blogs/tags/rust/</link>
     <description>Recent content in Rust on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jul 2024 15:20:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLMs Enhancing Security: Automated Code Review in Rust Projects</title>
-      <link>https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/</link>
+      <link>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/</guid>
+      <guid>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</guid>
       <description>Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&amp;rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny.</description>
     </item>
     <item>
       <title>Race condition in std::fs::remove_dir_all in Rust</title>
-      <link>https://armur.ai/blogs/posts/race_condition_in_rust/</link>
+      <link>http://localhost:1313/blogs/posts/race_condition_in_rust/</link>
       <pubDate>Mon, 03 Jun 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/race_condition_in_rust/</guid>
+      <guid>http://localhost:1313/blogs/posts/race_condition_in_rust/</guid>
       <description>Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type of vulnerability is clasified under CWE-363, which describes scenarios where a race condition allows an attacker to manipulate file links, potentially leading to unauthorized file or directory access.&#xA;This issue has been assigned CVE-2022-21658.&#xA;An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all presents a significant security risk. To illustrate, consider an attacker who has obtained unprivileged access to a system and wants to delete a system directory called sensitive/, but lacks the necessary permissions and privileges.</description>
     </item>
     <item>
       <title>Critical Vulnerability found in the ‘net’ package in Go and Rust.</title>
-      <link>https://armur.ai/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
+      <link>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
       <pubDate>Fri, 31 May 2024 09:00:00 +0300</pubDate>
-      <guid>https://armur.ai/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
+      <guid>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
       <description>The popular ‘net’ library used in GO and Rust was recently impacted by the mixed-format IP address validation vulnerability, a critical bug that made many applications extremely vulnerable. In this article, we will break it down and understand all about it.&#xA;Understanding the Vulnerability If you perform a simple search for &amp;ldquo;import net&amp;rdquo; on GitHub, it’ll reveal over 4 million files for Go alone relying on the net library, this means it’s a vulnerability of significant proportions.</description>
     </item>
     <item>
       <title>A Security Vulnerability In Rust&#39;s Cargo Tool</title>
-      <link>https://armur.ai/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
+      <link>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
       <pubDate>Sun, 26 May 2024 18:31:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
+      <guid>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
       <description>Introduction The tools we use to develop software should be secure and it is crucial to ensure that. Recently, a security vulnerability was found that surfaced in Rust&amp;rsquo;s Cargo tool. If you’re not familiar, Cargo is an essential tool for managing Rust projects.&#xA;It handles tasks like building code and managing dependencies. However, a significant flaw was discovered in this tool. This vulnerability is tied to the way Cargo generates reports with the cargo build &amp;ndash;timings command.</description>
     </item>
   </channel>

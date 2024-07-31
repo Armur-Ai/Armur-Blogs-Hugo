@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solidity on Armur</title>
-    <link>https://armur.ai/blogs/tags/solidity/</link>
+    <link>http://localhost:1313/blogs/tags/solidity/</link>
     <description>Recent content in Solidity on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jul 2024 15:20:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/solidity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Front Running and MEV?</title>
-      <link>https://armur.ai/blogs/posts/what-is-front-running-and-mev/</link>
+      <link>http://localhost:1313/blogs/posts/what-is-front-running-and-mev/</link>
       <pubDate>Thu, 18 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/what-is-front-running-and-mev/</guid>
+      <guid>http://localhost:1313/blogs/posts/what-is-front-running-and-mev/</guid>
       <description>Front-running in Blockchain occurs when someone intentionally enters a transaction into a block before you to try to extract some value. Imagine you&amp;rsquo;re at a high-stakes auction, bidding on a rare artifact. Just as you&amp;rsquo;re about to place your bid, someone with inside information swoops in, outbids you, and resells the item at a profit moments later. This is the essence of front running in the crypto space, but with far-reaching implications for market integrity and individual traders.</description>
     </item>
     <item>
       <title>Learn About Reentracny Attacks and how to Prevent them</title>
-      <link>https://armur.ai/blogs/posts/reentrancy_attacks/</link>
+      <link>http://localhost:1313/blogs/posts/reentrancy_attacks/</link>
       <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/reentrancy_attacks/</guid>
+      <guid>http://localhost:1313/blogs/posts/reentrancy_attacks/</guid>
       <description>What is a Solidity Reentrancy Attack? In Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
     </item>
     <item>
       <title>Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</title>
-      <link>https://armur.ai/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
+      <link>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
+      <guid>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
       <description>Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&amp;rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&amp;rsquo;t just a feature; it&amp;rsquo;s the cornerstone.</description>
     </item>
   </channel>

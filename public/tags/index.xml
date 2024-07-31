@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Armur</title>
-    <link>https://armur.ai/blogs/tags/</link>
+    <link>http://localhost:1313/blogs/tags/</link>
     <description>Recent content in Tags on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jul 2024 15:20:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go</title>
-      <link>https://armur.ai/blogs/tags/go/</link>
+      <link>http://localhost:1313/blogs/tags/go/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/go/</guid>
+      <guid>http://localhost:1313/blogs/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>https://armur.ai/blogs/tags/rust/</link>
+      <link>http://localhost:1313/blogs/tags/rust/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/rust/</guid>
+      <guid>http://localhost:1313/blogs/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://armur.ai/blogs/tags/security/</link>
+      <link>http://localhost:1313/blogs/tags/security/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/security/</guid>
+      <guid>http://localhost:1313/blogs/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Llms</title>
-      <link>https://armur.ai/blogs/tags/llms/</link>
+      <link>http://localhost:1313/blogs/tags/llms/</link>
       <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/llms/</guid>
+      <guid>http://localhost:1313/blogs/tags/llms/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockchain</title>
-      <link>https://armur.ai/blogs/tags/blockchain/</link>
+      <link>http://localhost:1313/blogs/tags/blockchain/</link>
       <pubDate>Thu, 18 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/blockchain/</guid>
+      <guid>http://localhost:1313/blogs/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Solidity</title>
-      <link>https://armur.ai/blogs/tags/solidity/</link>
+      <link>http://localhost:1313/blogs/tags/solidity/</link>
       <pubDate>Thu, 18 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/solidity/</guid>
+      <guid>http://localhost:1313/blogs/tags/solidity/</guid>
       <description></description>
     </item>
     <item>
       <title>Smart Contract</title>
-      <link>https://armur.ai/blogs/tags/smart-contract/</link>
+      <link>http://localhost:1313/blogs/tags/smart-contract/</link>
       <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/smart-contract/</guid>
+      <guid>http://localhost:1313/blogs/tags/smart-contract/</guid>
       <description></description>
     </item>
     <item>
       <title>Vulnerability</title>
-      <link>https://armur.ai/blogs/tags/vulnerability/</link>
+      <link>http://localhost:1313/blogs/tags/vulnerability/</link>
       <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/vulnerability/</guid>
+      <guid>http://localhost:1313/blogs/tags/vulnerability/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>https://armur.ai/blogs/tags/ai/</link>
+      <link>http://localhost:1313/blogs/tags/ai/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/ai/</guid>
+      <guid>http://localhost:1313/blogs/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://armur.ai/blogs/tags/cloud/</link>
+      <link>http://localhost:1313/blogs/tags/cloud/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/cloud/</guid>
+      <guid>http://localhost:1313/blogs/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>https://armur.ai/blogs/tags/cybersecurity/</link>
+      <link>http://localhost:1313/blogs/tags/cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/tags/cybersecurity/</guid>
+      <guid>http://localhost:1313/blogs/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Iot</title>
-      <link>https://armur.ai/blogs/tags/iot/</link>
+      <link>http://localhost:1313/blogs/tags/iot/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/tags/iot/</guid>
+      <guid>http://localhost:1313/blogs/tags/iot/</guid>
       <description></description>
     </item>
   </channel>

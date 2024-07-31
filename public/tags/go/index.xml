@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Armur</title>
-    <link>https://armur.ai/blogs/tags/go/</link>
+    <link>http://localhost:1313/blogs/tags/go/</link>
     <description>Recent content in Go on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jul 2024 15:20:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using LLMs to Find Golang Vulnerabilities and Fixes </title>
-      <link>https://armur.ai/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</link>
+      <link>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</guid>
-      <description>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications. We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.</description>
+      <guid>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</guid>
+      <description>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.&#xA;We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.</description>
     </item>
     <item>
       <title>Critical Vulnerability found in the ‘net’ package in Go and Rust.</title>
-      <link>https://armur.ai/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
+      <link>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
       <pubDate>Fri, 31 May 2024 09:00:00 +0300</pubDate>
-      <guid>https://armur.ai/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
+      <guid>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
       <description>The popular ‘net’ library used in GO and Rust was recently impacted by the mixed-format IP address validation vulnerability, a critical bug that made many applications extremely vulnerable. In this article, we will break it down and understand all about it.&#xA;Understanding the Vulnerability If you perform a simple search for &amp;ldquo;import net&amp;rdquo; on GitHub, it’ll reveal over 4 million files for Go alone relying on the net library, this means it’s a vulnerability of significant proportions.</description>
     </item>
   </channel>

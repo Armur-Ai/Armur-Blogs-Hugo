@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/blogs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blogs/livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,12 +15,14 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Using LLMs to Find Golang Vulnerabilities and Fixes  | Armur">
-  <meta name="twitter:description" content="Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications. We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.">
+  <meta name="twitter:description" content="Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.
+We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.">
   <meta name="twitter:image" content="https://wallpaperaccess.com/full/416197.jpg">
 
   
   <meta property="og:title" content="Using LLMs to Find Golang Vulnerabilities and Fixes  | Armur">
-  <meta property="og:description" content="Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications. We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.">
+  <meta property="og:description" content="Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.
+We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.">
   <meta property="og:image" content="https://wallpaperaccess.com/full/416197.jpg">
 
   
@@ -198,10 +200,10 @@ if (!doNotTrack) {
   <article class="post amimate">
 
     <div class="post__content">
-      <p>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.
-We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code. By using Large Language Models (LLMs), Armur can analyze code and identify potential vulnerabilities more effectively. This article will guide you on how to use Armur with LLMs to improve the security of your Go applications.
-Finding vulnerabilites on your go code
-We will be focusing on a golang code snippet as follows.</p>
+      <p>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.</p>
+<p>We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code. By using Large Language Models (LLMs), Armur can analyze code and identify potential vulnerabilities more effectively. This article will guide you on how to use Armur with LLMs to improve the security of your Go applications.</p>
+<h3 id="finding-vulnerabilites-on-your-go-code">Finding vulnerabilites on your Go code</h3>
+<p>We will be focusing on a golang code snippet as follows.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
@@ -226,27 +228,30 @@ We will be focusing on a golang code snippet as follows.</p>
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">saveUserData</span>(<span style="color:#e6db74">&#34;admin&#34;</span>, <span style="color:#e6db74">&#34;super_secret_password&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">saveUserData</span>(<span style="color:#e6db74">&#34;config&#34;</span>, <span style="color:#e6db74">&#34;&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;&#34;</span>)
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>The code defines a basic program that saves user data into a map while ensuring thread safety using a mutex. The data variable is a map that stores key-value pairs of strings, and mu is a mutex used to control access to the map. The saveUserData function adds a key-value pair to the data map and prints the saved data to the console. It uses mu.Unlock() to release the mutex lock at the end of the function, ensuring that concurrent access to the map does not cause data races. The main function demonstrates the usage of saveUserData by saving an admin password and a configuration script.
-Someone without proper experience my use this code in their projects, or in production even if it’s full of vulnerabilities and has room for improvements. Let’s assume you don’t see any problems and decide to use armur agents either way for double checking.</p>
-<p>Findings using LLM Agents
-Guess what, the code is not secure and our agents picked that out. Let’s go over all the vulnerabilities as well as solutions.</p>
+</span></span></code></pre></div><p>The code defines a basic program that saves user data into a map while ensuring thread safety using a mutex. The <code>data</code> variable is a map that stores key-value pairs of strings, and mu is a mutex used to control access to the map. The <code>saveUserData</code> function adds a key-value pair to the data map and prints the saved data to the console. It uses <code>mu.Unlock()</code> to release the mutex lock at the end of the function, ensuring that concurrent access to the map does not cause data races. The main function demonstrates the usage of saveUserData by saving an admin password and a configuration script.</p>
+<p>Someone without proper experience my use this code in their projects, or in production even if it’s full of vulnerabilities and has room for improvements. Let’s assume you don’t see any problems and decide to use armur agents either way for double checking.</p>
+<h3 id="findings-using-llm-agents">Findings using LLM Agents</h3>
+<p>Guess what, the code is not secure and our agents picked that out. Let’s go over all the vulnerabilities as well as solutions.</p>
 <ol>
-<li>Mutex Locking Issue
-Problem: The saveUserData function uses a sync.Mutex for thread safety. However, the defer mu.Unlock() statement is employed without a prior mu.Lock() statement. This results in incorrect usage which could lead to a panic at runtime.
-Solution: Ensure correct usage of the mutex by locking it before accessing the shared resource.</li>
-</ol>
+<li>
+<p>Mutex Locking Issue
+<strong>Problem</strong>: The saveUserData function uses a sync.Mutex for thread safety. However, the defer mu.Unlock() statement is employed without a prior mu.Lock() statement. This results in incorrect usage which could lead to a panic at runtime.
+<strong>Solution</strong>: Ensure correct usage of the mutex by locking it before accessing the shared resource.</p>
+</li>
+<li>
 <p>Plaintext Password Storage
-Problem: Storing passwords as plaintext (e.g., admin:super_secret_password) is highly insecure and can lead to credential theft if the data is accessed by an unauthorized party.
-Solution: Use a hashing function to store passwords securely. Libraries like bcrypt can be used for this purpose.
-First let’s create a function that will hash the password</p>
-<p>then let’s look at the usage</p>
+<strong>Problem</strong>: Storing passwords as plaintext (e.g., admin:super_secret_password) is highly insecure and can lead to credential theft if the data is accessed by an unauthorized party.
+<strong>Solution</strong>: Use a hashing function to store passwords securely. Libraries like bcrypt can be used for this purpose.</p>
+</li>
+<li>
 <p>Cross-Site Scripting (XSS)
-Problem: The application allows potentially dangerous inputs (e.g., <!-- raw HTML omitted -->alert(&lsquo;XSS&rsquo;)<!-- raw HTML omitted -->) to be stored, which could lead to XSS attacks if the data is used in HTML contexts.
-Solution: Escape or sanitize inputs that are meant to be displayed in web contexts to prevent execution of harmful scripts. In the context of a web application, you would typically use a library like html/template in Go.
-For demonstration purposes:</p>
+<strong>Problem</strong>: The application allows potentially dangerous inputs (e.g., <!-- raw HTML omitted -->alert(&lsquo;XSS&rsquo;)<!-- raw HTML omitted -->) to be stored, which could lead to XSS attacks if the data is used in HTML contexts.
+<strong>Solution</strong>: Escape or sanitize inputs that are meant to be displayed in web contexts to prevent execution of harmful scripts. In the context of a web application, you would typically use a library like html/template in Go.</p>
+</li>
+</ol>
 <p>Now we have went over all the issues that were present on the code.</p>
-<p>Full Code with Security Fixes
-Below is the complete code incorporating all the suggested fixes:</p>
+<h3 id="full-code-with-security-fixes">Full Code with Security Fixes</h3>
+<p>Below is the complete code incorporating all the suggested fixes:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
@@ -295,22 +300,22 @@ Below is the complete code incorporating all the suggested fixes:</p>
 <p>By implementing the above security best practices, we can significantly improve the security posture of the code:
 Mutex Locking: Ensuring proper mutex lock/unlock sequences to avoid race conditions and panics.
 Password Hashing: Storing sensitive information like passwords securely using industry-standard hashing algorithms (e.g., bcrypt).
-XSS Protection: Preventing XSS vulnerabilities by escaping potentially unsafe characters before storing input data that might be rendered in an HTML context.
-Following these practices will make the code more secure and robust against common security threats.
+XSS Protection: Preventing XSS vulnerabilities by escaping potentially unsafe characters before storing input data that might be rendered in an HTML context.</p>
+<p>Following these practices will make the code more secure and robust against common security threats.
 Additionally, Large Language Models (LLMs) play a crucial role in identifying these vulnerabilities and providing solutions. LLMs can analyze code patterns, detect security flaws, and suggest best practices to mitigate potential risks, enhancing the overall security of the application.</p>
 
     </div>
 
     <div class="post__share">
   <div class="share__list">
-    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2farmur.ai%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f"
+    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f"
       onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
       title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
 
-    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Using%20LLMs%20to%20Find%20Golang%20Vulnerabilities%20and%20Fixes%20&url=https%3a%2f%2farmur.ai%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Using%20LLMs%20to%20Find%20Golang%20Vulnerabilities%20and%20Fixes%20&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
 
     <a class="share__link share__pinterest"
-      href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2farmur.ai%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f416197.jpg&amp;description=Using%20LLMs%20to%20Find%20Golang%20Vulnerabilities%20and%20Fixes%20"
+      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f416197.jpg&amp;description=Using%20LLMs%20to%20Find%20Golang%20Vulnerabilities%20and%20Fixes%20"
       onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
       title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
   </div>
@@ -319,7 +324,7 @@ Additionally, Large Language Models (LLMs) play a crucial role in identifying th
     
     <div class="post__navigation">
       
-      <a class="prev" href="https://armur.ai/blogs/posts/a-small-security-vulnerability-that-halted-the-world/" style="background-image: url('https://wallpaperaccess.com/full/112747.jpg')">
+      <a class="prev" href="http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/" style="background-image: url('https://wallpaperaccess.com/full/112747.jpg')">
         <div class="post__nav-box">
           <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
             Page</div>
@@ -328,7 +333,7 @@ Additionally, Large Language Models (LLMs) play a crucial role in identifying th
       </a>
       
       
-      <a class="next" href="https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/" style="background-image: url('https://wallpaperaccess.com/full/416144.jpg')">
+      <a class="next" href="http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/" style="background-image: url('https://wallpaperaccess.com/full/416144.jpg')">
         <div class="post__nav-box">
           <div class="post__nav post__nav__next">Next Page <i class="fa-solid fa-arrow-right"></i></div>
           <h4 class="post__nav__title">LLMs Enhancing Security: Automated Code Review in Rust Projects</h4>
@@ -536,8 +541,8 @@ Additionally, Large Language Models (LLMs) play a crucial role in identifying th
 
 
 
-<script src="/blogs/js/scripts.min.d180205ba07f892d0386a5c069b57e8b33346a3ad997bc5c4b15a7a915f951c2.js"></script>
-<script src="/blogs/js/common.min.361774ff9b023e435c635f4c24290719e26a4a2571e6282f55fd61e123c64ea6.js"></script>
+<script src="http://localhost:1313/blogs/js/scripts.js"></script>
+<script src="http://localhost:1313/blogs/js/common.js"></script>
 
 
 </body>

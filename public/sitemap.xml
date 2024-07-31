@@ -2,120 +2,120 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://armur.ai/blogs/</loc>
+    <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/go/</loc>
+    <loc>http://localhost:1313/blogs/tags/go/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/</loc>
+    <loc>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/</loc>
+    <loc>http://localhost:1313/blogs/posts/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/rust/</loc>
+    <loc>http://localhost:1313/blogs/tags/rust/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/security/</loc>
+    <loc>http://localhost:1313/blogs/tags/security/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/</loc>
+    <loc>http://localhost:1313/blogs/tags/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</loc>
+    <loc>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</loc>
+    <loc>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</loc>
     <lastmod>2024-07-22T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/llms/</loc>
+    <loc>http://localhost:1313/blogs/tags/llms/</loc>
     <lastmod>2024-07-22T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/using-llms-in-code-security-and-static-analysis/</loc>
+    <loc>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</loc>
     <lastmod>2024-07-22T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/blockchain/</loc>
+    <loc>http://localhost:1313/blogs/tags/blockchain/</loc>
     <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/solidity/</loc>
+    <loc>http://localhost:1313/blogs/tags/solidity/</loc>
     <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/what-is-front-running-and-mev/</loc>
+    <loc>http://localhost:1313/blogs/posts/what-is-front-running-and-mev/</loc>
     <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/race_condition_in_rust/</loc>
+    <loc>http://localhost:1313/blogs/posts/race_condition_in_rust/</loc>
     <lastmod>2024-06-03T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/windows_batch_file_vulnerability/</loc>
+    <loc>http://localhost:1313/blogs/posts/windows_batch_file_vulnerability/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/reentrancy_attacks/</loc>
+    <loc>http://localhost:1313/blogs/posts/reentrancy_attacks/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/smart-contract/</loc>
+    <loc>http://localhost:1313/blogs/tags/smart-contract/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/vulnerability/</loc>
+    <loc>http://localhost:1313/blogs/tags/vulnerability/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/critical_vulnerability_found_in_the_net_package/</loc>
+    <loc>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</loc>
     <lastmod>2024-05-31T09:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>
+    <loc>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>
     <lastmod>2024-05-26T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/ai/</loc>
+    <loc>http://localhost:1313/blogs/tags/ai/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/cloud/</loc>
+    <loc>http://localhost:1313/blogs/tags/cloud/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/cybersecurity/</loc>
+    <loc>http://localhost:1313/blogs/tags/cybersecurity/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/decentralized_botnets_the_good_the/</loc>
+    <loc>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/learning_to_swarm_how_swarm_learning/</loc>
+    <loc>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/measuring_the_impact_of_shift_left/</loc>
+    <loc>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</loc>
+    <loc>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/revolutionizing_cloud_security_posture/</loc>
+    <loc>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/the_role_of_ai_in_preventing_ddos/</loc>
+    <loc>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/understanding_web3_cybersecurity/</loc>
+    <loc>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/unlocking_the_future_predicting_the/</loc>
+    <loc>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</loc>
     <lastmod>2024-02-02T18:31:22+05:30</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/best_practices_for_securing_smart/</loc>
+    <loc>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</loc>
+    <loc>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</loc>
+    <loc>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/tags/iot/</loc>
+    <loc>http://localhost:1313/blogs/tags/iot/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/the_blockchain_security_checklist_armur_ai/</loc>
+    <loc>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</loc>
+    <loc>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</loc>
     <lastmod>2023-12-18T15:01:35+03:00</lastmod>
   </url><url>
-    <loc>https://armur.ai/blogs/categories/</loc>
+    <loc>http://localhost:1313/blogs/categories/</loc>
   </url>
 </urlset>

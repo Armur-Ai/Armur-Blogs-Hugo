@@ -16,6 +16,13 @@
       <description>Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&amp;rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny.</description>
     </item>
     <item>
+      <title>Using LLMs to Find Golang Vulnerabilities and Fixes </title>
+      <link>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</link>
+      <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</guid>
+      <description>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications. We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.</description>
+    </item>
+    <item>
       <title>A Small Security Vulnerability That Halted The World</title>
       <link>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</link>
       <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>

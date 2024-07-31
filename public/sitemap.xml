@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/tags/go/</loc>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
@@ -18,6 +21,9 @@
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</loc>
@@ -54,9 +60,6 @@
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</loc>
-    <lastmod>2024-05-31T09:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/go/</loc>
     <lastmod>2024-05-31T09:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</loc>

@@ -7,22 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>Iot | Armur</title>
+  <title>LLMs Enhancing Security: Automated Code Review in Rust Projects | Armur</title>
   <meta name="description" content="">
 
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/tags/iot/index.xml" title="Armur">
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Iot | Armur">
-  <meta name="twitter:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta name="twitter:image" content="http://localhost:1313/blogs/">
+  <meta name="twitter:title" content="LLMs Enhancing Security: Automated Code Review in Rust Projects | Armur">
+  <meta name="twitter:description" content="Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny.">
+  <meta name="twitter:image" content="https://wallpaperaccess.com/full/416144.jpg">
 
   
-  <meta property="og:title" content="Iot | Armur">
-  <meta property="og:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta property="og:image" content="http://localhost:1313/blogs/">
+  <meta property="og:title" content="LLMs Enhancing Security: Automated Code Review in Rust Projects | Armur">
+  <meta property="og:description" content="Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny.">
+  <meta property="og:image" content="https://wallpaperaccess.com/full/416144.jpg">
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,7 +57,7 @@ if (!doNotTrack) {
 
 
   
-<header class="header header--top">
+<header class="header">
   <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
@@ -154,80 +153,243 @@ if (!doNotTrack) {
   <main class="content" aria-label="Content">
     
 
-<div class="container">
-  <div class="row">
-    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
-      <div class="tags__box">
-        <span class="tags__meta">1 post tagged</span>
-        <h1 class="tags__title">
-          Iot
-        </h1>
+
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col col-6 col-t-12">
+        <div class="image-box">
+          <img class="post-image" src="https://wallpaperaccess.com/full/416144.jpg" alt="LLMs Enhancing Security: Automated Code Review in Rust Projects">
+        </div>
+      </div>
+      
+
+      <div class="col col-6 col-t-12">
+        <div class="post-head__box">
+
+          <div class="post__meta">
+            <span class="post__minutes">6 min read</span>
+            <time class="post__date" datetime=" 2024-07-30T15:20:22&#43;05:30">Jul 30, 2024</time>
+          </div>
+
+          <h2 class="post__title">LLMs Enhancing Security: Automated Code Review in Rust Projects</h2>
+
+          <div class="post__bottom">
+
+            
+
+            <div class="post__bottom-meta">
+              <a class="post__author-link">Akhil Sharma</a>
+              
+              
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div class="container">
-  <div class="row grid">
+  <article class="post amimate">
+
+    <div class="post__content">
+      <p>Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny. This is where Large Language Models (LLMs) are making a substantial impact, particularly helping developers by automated code reviews.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Rust&rsquo;s design philosophy prioritizes memory safety and thread safety, making it an excellent choice for developing secure systems. However, as projects grow in size and complexity, maintaining high security standards becomes increasingly challenging. Traditional code review processes, while valuable, can be time-consuming and prone to human error. Enter LLMs – sophisticated AI models that can understand and analyze code at a level approaching human comprehension.
+The Role of LLMs in Code Review</p>
+<p>LLMs bring a new dimension to code review by leveraging their vast knowledge of programming patterns, best practices, and common vulnerabilities. Unlike rule-based static analysis tools, LLMs can understand context, identify subtle issues, and even suggest improvements that align with idiomatic Rust.</p>
+<h3 id="advantages-of-llm-powered-code-review-include">Advantages of LLM-powered code review include:</h3>
+<p>Consistency: LLMs apply the same level of scrutiny to every line of code, avoiding human fatigue.
+Speed: They can analyze large codebases in a fraction of the time it would take a human reviewer.
+Continuous learning: As new vulnerabilities and best practices emerge, LLMs can be updated to incorporate this knowledge.
+When it comes to Rust projects, LLMs can focus on several key areas:
+a) Memory safety checks: While Rust&rsquo;s ownership system prevents many memory-related issues, LLMs can identify potential misuses of unsafe code or complex ownership patterns that might lead to vulnerabilities.
+b) Concurrency and thread safety analysis: LLMs can detect race conditions, deadlocks, and other concurrency issues that might slip past Rust&rsquo;s compile-time checks.
+c) Identification of unsafe code blocks: LLMs can scrutinize unsafe blocks, ensuring they&rsquo;re necessary and properly implemented.
+d) Detection of potential integer overflow vulnerabilities: Although Rust checks for integer overflow in debug builds, LLMs can identify scenarios where overflow might occur in release builds.
+Using LLM agents on Rust Code Review
+We will be taking a look at the following example.
+The provided Rust program demonstrates a simple multi-threaded counter. The program creates ten threads, each of which increments a shared counter 1,000 times. The counter is wrapped in an AtomicUsize and shared between threads using Arc to ensure that each thread can access and modify the counter safely.
+The program should increment the counter a total of 10,000 times (10 threads * 1,000 increments each). Once all threads have completed their execution, the final value of the counter should be printed.
+Result: 10000
+Here’s the example</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// src/main.rs
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::thread;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::sync::Arc;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::sync::atomic::{AtomicUsize, Ordering};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> counter <span style="color:#f92672">=</span> Arc::new(AtomicUsize::new(<span style="color:#ae81ff">0</span>));
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> handles <span style="color:#f92672">=</span> vec![];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> _ <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">..</span><span style="color:#ae81ff">10</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> counter <span style="color:#f92672">=</span> Arc::clone(<span style="color:#f92672">&amp;</span>counter);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> handle <span style="color:#f92672">=</span> thread::spawn(<span style="color:#66d9ef">move</span> <span style="color:#f92672">||</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> _ <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">..</span><span style="color:#ae81ff">1000</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">let</span> current_value <span style="color:#f92672">=</span> counter.load(Ordering::Relaxed);
+</span></span><span style="display:flex;"><span>                counter.store(current_value <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, Ordering::Relaxed);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>        handles.push(handle);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> handle <span style="color:#66d9ef">in</span> handles {
+</span></span><span style="display:flex;"><span>        handle.join().unwrap();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    println!(<span style="color:#e6db74">&#34;Result: </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span>, counter.load(Ordering::Relaxed));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>As mentioned, the output should be 10000.  Let’s run the program 3 times. Note, you might be getting different numbers from the ones written here.
+1st run: 7790, 2nd run: 6530, 3rd run: 6350.
+Based on the results, we are seeing different changes in the output. Let’s do a code review and see the issues we’re getting.</p>
+<h3 id="results-and-fixes">Results and Fixes</h3>
+<p>We got that the  Rust code creates multiple threads that increment a shared counter. While it runs without crashing and produces the expected result, it has security and correctness issues related to the use of atomic operations. Below, we outline these issues and provide solutions.
+Relaxed Memory Ordering: The code uses Ordering::Relaxed for both loading and storing the counter&rsquo;s value. Relaxed ordering does not impose any synchronization or ordering constraints on other operations. While AtomicUsize ensures atomicity, Ordering::Relaxed allows for potential visibility issues across threads, leading to race conditions and undefined behavior. Using Ordering::Relaxed basically means that the increment operations might not be properly synchronized across threads. This could cause the final value to be incorrect because threads may not see the most up-to-date value of the counter.
+Solution: To correct this, you should use Ordering::SeqCst (Sequential Consistency) for both load and store operations. This ordering provides the strongest form of synchronization, guaranteeing that all operations happen in a strict order across threads, thus preventing visibility issues.
+Fetch and Increment Optimization: Even with Ordering::SeqCst, the process of loading a value, incrementing it, and then storing it back isn&rsquo;t optimal because it&rsquo;s not atomic. If multiple threads execute counter.load and counter.store simultaneously, they might load the same value, leading to lost updates.
+Solution: To atomically increment the counter, use the fetch_add method provided by AtomicUsize. This method ensures that the increment operation is performed atomically.
+Atomic Operations: Replacing non-atomic load and store with the atomic fetch_add operation ensures that increment operations are performed safely across multiple threads, without the need for additional synchronization mechanisms like locks.</p>
+<p>Here’s the provided code with fixes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#75715e">// src/main.rs
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::thread;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::sync::Arc;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::sync::atomic::{AtomicUsize, Ordering};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> counter <span style="color:#f92672">=</span> Arc::new(AtomicUsize::new(<span style="color:#ae81ff">0</span>));
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> handles <span style="color:#f92672">=</span> vec![];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> _ <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">..</span><span style="color:#ae81ff">10</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> counter <span style="color:#f92672">=</span> Arc::clone(<span style="color:#f92672">&amp;</span>counter);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> handle <span style="color:#f92672">=</span> thread::spawn(<span style="color:#66d9ef">move</span> <span style="color:#f92672">||</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> _ <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">..</span><span style="color:#ae81ff">1000</span> {
+</span></span><span style="display:flex;"><span>                counter.fetch_add(<span style="color:#ae81ff">1</span>, Ordering::SeqCst);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>        handles.push(handle);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> handle <span style="color:#66d9ef">in</span> handles {
+</span></span><span style="display:flex;"><span>        handle.join().unwrap();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    println!(<span style="color:#e6db74">&#34;Result: </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span>, counter.load(Ordering::SeqCst));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now, when you run this, you get the desired output which is 10000. You can try it again, still the same answer. Manual review of understanding might have costed you a lot of time but using LLMs identifies these issues, and solves them.</p>
+<p>Implications on a large scale
+Now this is a simple example but if these issues are found on a large scale software, some of the following could happen:
+Potential Denial of Service (DoS):
+If counters are used for rate limiting or resource allocation, inaccurate counts could lead to unintended resource exhaustion.
+Attackers might exploit the race condition to bypass rate limits, potentially overwhelming the system.
+Scalability Issues:
+As concurrency increases, the likelihood and impact of race conditions grow exponentially.
+The system may become increasingly unstable or unreliable as it scales up, with more threads competing for the shared counter.
+Performance may degrade unexpectedly under high load due to increased contention and lost updates.
+Potential Financial Losses:
+If the counter represents financial transactions or billable events, lost updates could directly translate to revenue loss.
+Inaccurate data could lead to incorrect billing, potentially resulting in either undercharging (financial loss) or overcharging (legal risk).
+Unpredictable Behavior in Critical Operations:
+Critical operations relying on accurate counter values may behave erratically.
+Decision-making processes based on these counters could lead to incorrect actions, potentially affecting system integrity or user experience.
+Inconsistent behavior could undermine trust in the system, especially in mission-critical applications.
+These implications highlight how seemingly small concurrency issues can have far-reaching consequences in large-scale systems, potentially affecting security, reliability, and financial stability.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Large Language Models are improving code review processes, particularly in security-critical languages like Rust. By providing fast, consistent, and context-aware analysis, LLMs are becoming an invaluable tool in the developer&rsquo;s arsenal. While they cannot replace human expertise entirely, LLMs significantly enhance our ability to create secure, robust Rust applications. As these technologies continue to evolve, their integration into development workflows will likely become standard practice, further strengthening the security posture of Rust projects worldwide.</p>
+
+    </div>
+
+    <div class="post__share">
+  <div class="share__list">
+    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fautomated-code-review-in-rust-projects%2f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
+
+    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=LLMs%20Enhancing%20Security%3a%20Automated%20Code%20Review%20in%20Rust%20Projects&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fautomated-code-review-in-rust-projects%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+
+    <a class="share__link share__pinterest"
+      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fautomated-code-review-in-rust-projects%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f416144.jpg&amp;description=LLMs%20Enhancing%20Security%3a%20Automated%20Code%20Review%20in%20Rust%20Projects"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  </div>
+</div>
+
     
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6338472.jpg" alt="Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">5 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
+    <div class="post__navigation">
+      
+      <a class="prev" href="http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/" style="background-image: url('https://wallpaperaccess.com/full/112747.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
+            Page</div>
+          <h4 class="post__nav__title">A Small Security Vulnerability That Halted The World</h4>
         </div>
-        
-        <h2 class="article__title">Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</h2>
+      </a>
+      
+      
+    </div>
+    
 
-        <p class="article__excerpt">Ah, the Internet of Things (IoT) &mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from …</p>
+  </article>
+</div>
 
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/iot/" class="article__tag">Iot</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/ai/" class="article__tag">AI</a>
-              
-            </span>
-            
-          </div>
+
+
+
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="disqus-inner">
+        <div id="disqus_thread" class="post-comments">
+          <div id="disqus_empty"></div>
         </div>
-
       </div>
+    </div>
   </div>
 </div>
-    
-  </div>
-</div>
+
+<script>
+  function load_disqus() {
+    var disqus_shortname = 'anvod-studio-test',
+      is_disqus_empty = document.getElementById('disqus_empty'),
+      disqus_target = document.getElementById('disqus_thread'),
+      disqus_embed = document.createElement('script'),
+      disqus_hook = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
+
+    if (disqus_target && is_disqus_empty) {
+      disqus_embed.type = 'text/javascript';
+      disqus_embed.async = true;
+      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      disqus_hook.appendChild(disqus_embed);
+      is_disqus_empty.remove();
+    }
+  }
+
+  window.addEventListener('scroll', function (e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
+
+    if (disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150)) {
+      load_disqus('disqus_shortname');
+    }
+  }, false);
+
+</script>
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+
+
 
 
   </main>

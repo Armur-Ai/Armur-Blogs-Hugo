@@ -7,22 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>Iot | Armur</title>
+  <title>Using LLMs to Find Golang Vulnerabilities and Fixes  | Armur</title>
   <meta name="description" content="">
 
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/tags/iot/index.xml" title="Armur">
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Iot | Armur">
-  <meta name="twitter:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta name="twitter:image" content="http://localhost:1313/blogs/">
+  <meta name="twitter:title" content="Using LLMs to Find Golang Vulnerabilities and Fixes  | Armur">
+  <meta name="twitter:description" content="Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications. We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.">
+  <meta name="twitter:image" content="https://wallpaperaccess.com/full/416197.jpg">
 
   
-  <meta property="og:title" content="Iot | Armur">
-  <meta property="og:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta property="og:image" content="http://localhost:1313/blogs/">
+  <meta property="og:title" content="Using LLMs to Find Golang Vulnerabilities and Fixes  | Armur">
+  <meta property="og:description" content="Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications. We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.">
+  <meta property="og:image" content="https://wallpaperaccess.com/full/416197.jpg">
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,7 +57,7 @@ if (!doNotTrack) {
 
 
   
-<header class="header header--top">
+<header class="header">
   <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
@@ -154,80 +153,245 @@ if (!doNotTrack) {
   <main class="content" aria-label="Content">
     
 
-<div class="container">
-  <div class="row">
-    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
-      <div class="tags__box">
-        <span class="tags__meta">1 post tagged</span>
-        <h1 class="tags__title">
-          Iot
-        </h1>
+
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col col-6 col-t-12">
+        <div class="image-box">
+          <img class="post-image" src="https://wallpaperaccess.com/full/416197.jpg" alt="Using LLMs to Find Golang Vulnerabilities and Fixes ">
+        </div>
+      </div>
+      
+
+      <div class="col col-6 col-t-12">
+        <div class="post-head__box">
+
+          <div class="post__meta">
+            <span class="post__minutes">4 min read</span>
+            <time class="post__date" datetime=" 2024-07-30T15:20:22&#43;05:30">Jul 30, 2024</time>
+          </div>
+
+          <h2 class="post__title">Using LLMs to Find Golang Vulnerabilities and Fixes </h2>
+
+          <div class="post__bottom">
+
+            
+
+            <div class="post__bottom-meta">
+              <a class="post__author-link">Akhil Sharma</a>
+              
+              
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div class="container">
-  <div class="row grid">
+  <article class="post amimate">
+
+    <div class="post__content">
+      <p>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.
+We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code. By using Large Language Models (LLMs), Armur can analyze code and identify potential vulnerabilities more effectively. This article will guide you on how to use Armur with LLMs to improve the security of your Go applications.
+Finding vulnerabilites on your go code
+We will be focusing on a golang code snippet as follows.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;sync&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">data</span> = make(<span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">string</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">mu</span>   <span style="color:#a6e22e">sync</span>.<span style="color:#a6e22e">Mutex</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">saveUserData</span>(<span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">value</span> <span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">mu</span>.<span style="color:#a6e22e">Unlock</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">data</span>[<span style="color:#a6e22e">key</span>] = <span style="color:#a6e22e">value</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Saved: %s = %s\n&#34;</span>, <span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">value</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Example usage
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">saveUserData</span>(<span style="color:#e6db74">&#34;admin&#34;</span>, <span style="color:#e6db74">&#34;super_secret_password&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">saveUserData</span>(<span style="color:#e6db74">&#34;config&#34;</span>, <span style="color:#e6db74">&#34;&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The code defines a basic program that saves user data into a map while ensuring thread safety using a mutex. The data variable is a map that stores key-value pairs of strings, and mu is a mutex used to control access to the map. The saveUserData function adds a key-value pair to the data map and prints the saved data to the console. It uses mu.Unlock() to release the mutex lock at the end of the function, ensuring that concurrent access to the map does not cause data races. The main function demonstrates the usage of saveUserData by saving an admin password and a configuration script.
+Someone without proper experience my use this code in their projects, or in production even if it’s full of vulnerabilities and has room for improvements. Let’s assume you don’t see any problems and decide to use armur agents either way for double checking.</p>
+<p>Findings using LLM Agents
+Guess what, the code is not secure and our agents picked that out. Let’s go over all the vulnerabilities as well as solutions.</p>
+<ol>
+<li>Mutex Locking Issue
+Problem: The saveUserData function uses a sync.Mutex for thread safety. However, the defer mu.Unlock() statement is employed without a prior mu.Lock() statement. This results in incorrect usage which could lead to a panic at runtime.
+Solution: Ensure correct usage of the mutex by locking it before accessing the shared resource.</li>
+</ol>
+<p>Plaintext Password Storage
+Problem: Storing passwords as plaintext (e.g., admin:super_secret_password) is highly insecure and can lead to credential theft if the data is accessed by an unauthorized party.
+Solution: Use a hashing function to store passwords securely. Libraries like bcrypt can be used for this purpose.
+First let’s create a function that will hash the password</p>
+<p>then let’s look at the usage</p>
+<p>Cross-Site Scripting (XSS)
+Problem: The application allows potentially dangerous inputs (e.g., <!-- raw HTML omitted -->alert(&lsquo;XSS&rsquo;)<!-- raw HTML omitted -->) to be stored, which could lead to XSS attacks if the data is used in HTML contexts.
+Solution: Escape or sanitize inputs that are meant to be displayed in web contexts to prevent execution of harmful scripts. In the context of a web application, you would typically use a library like html/template in Go.
+For demonstration purposes:</p>
+<p>Now we have went over all the issues that were present on the code.</p>
+<p>Full Code with Security Fixes
+Below is the complete code incorporating all the suggested fixes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;golang.org/x/crypto/bcrypt&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;html&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;sync&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">data</span> = make(<span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">string</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">mu</span>   <span style="color:#a6e22e">sync</span>.<span style="color:#a6e22e">Mutex</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">hashPassword</span>(<span style="color:#a6e22e">password</span> <span style="color:#66d9ef">string</span>) (<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">hashedPassword</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">bcrypt</span>.<span style="color:#a6e22e">GenerateFromPassword</span>([]byte(<span style="color:#a6e22e">password</span>), <span style="color:#a6e22e">bcrypt</span>.<span style="color:#a6e22e">DefaultCost</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#a6e22e">err</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> string(<span style="color:#a6e22e">hashedPassword</span>), <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">saveUserData</span>(<span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">value</span> <span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">mu</span>.<span style="color:#a6e22e">Lock</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">mu</span>.<span style="color:#a6e22e">Unlock</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">key</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;admin&#34;</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">hashedPassword</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">hashPassword</span>(<span style="color:#a6e22e">value</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Error hashing password:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">data</span>[<span style="color:#a6e22e">key</span>] = <span style="color:#a6e22e">hashedPassword</span>
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">data</span>[<span style="color:#a6e22e">key</span>] = <span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">EscapeString</span>(<span style="color:#a6e22e">value</span>) <span style="color:#75715e">// Escape potentially dangerous characters for HTML
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Saved: %s = %s\n&#34;</span>, <span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">value</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Example usage
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">saveUserData</span>(<span style="color:#e6db74">&#34;admin&#34;</span>, <span style="color:#e6db74">&#34;super_secret_password&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">saveUserData</span>(<span style="color:#e6db74">&#34;config&#34;</span>, <span style="color:#e6db74">&#34;&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="summary">Summary</h3>
+<p>By implementing the above security best practices, we can significantly improve the security posture of the code:
+Mutex Locking: Ensuring proper mutex lock/unlock sequences to avoid race conditions and panics.
+Password Hashing: Storing sensitive information like passwords securely using industry-standard hashing algorithms (e.g., bcrypt).
+XSS Protection: Preventing XSS vulnerabilities by escaping potentially unsafe characters before storing input data that might be rendered in an HTML context.
+Following these practices will make the code more secure and robust against common security threats.
+Additionally, Large Language Models (LLMs) play a crucial role in identifying these vulnerabilities and providing solutions. LLMs can analyze code patterns, detect security flaws, and suggest best practices to mitigate potential risks, enhancing the overall security of the application.</p>
+
+    </div>
+
+    <div class="post__share">
+  <div class="share__list">
+    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
+
+    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Using%20LLMs%20to%20Find%20Golang%20Vulnerabilities%20and%20Fixes%20&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+
+    <a class="share__link share__pinterest"
+      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fusing-llms-to-find-golang-vulnerabilities-and-fixes%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f416197.jpg&amp;description=Using%20LLMs%20to%20Find%20Golang%20Vulnerabilities%20and%20Fixes%20"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  </div>
+</div>
+
     
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/6338472.jpg" alt="Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">5 min read</span>
-          <time class="article__date" datetime="2023-12-18T15:01:35&#43;03:00">Dec 18, 2023</time>
+    <div class="post__navigation">
+      
+      <a class="prev" href="http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/" style="background-image: url('https://wallpaperaccess.com/full/112747.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
+            Page</div>
+          <h4 class="post__nav__title">A Small Security Vulnerability That Halted The World</h4>
         </div>
-        
-        <h2 class="article__title">Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</h2>
-
-        <p class="article__excerpt">Ah, the Internet of Things (IoT) &mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/iot/" class="article__tag">Iot</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/cybersecurity/" class="article__tag">Cybersecurity</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/blockchain/" class="article__tag">Blockchain</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/ai/" class="article__tag">AI</a>
-              
-            </span>
-            
-          </div>
+      </a>
+      
+      
+      <a class="next" href="http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/" style="background-image: url('https://wallpaperaccess.com/full/416144.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__next">Next Page <i class="fa-solid fa-arrow-right"></i></div>
+          <h4 class="post__nav__title">LLMs Enhancing Security: Automated Code Review in Rust Projects</h4>
         </div>
+      </a>
+      
+    </div>
+    
 
+  </article>
+</div>
+
+
+
+
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="disqus-inner">
+        <div id="disqus_thread" class="post-comments">
+          <div id="disqus_empty"></div>
+        </div>
       </div>
+    </div>
   </div>
 </div>
-    
-  </div>
-</div>
+
+<script>
+  function load_disqus() {
+    var disqus_shortname = 'anvod-studio-test',
+      is_disqus_empty = document.getElementById('disqus_empty'),
+      disqus_target = document.getElementById('disqus_thread'),
+      disqus_embed = document.createElement('script'),
+      disqus_hook = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
+
+    if (disqus_target && is_disqus_empty) {
+      disqus_embed.type = 'text/javascript';
+      disqus_embed.async = true;
+      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      disqus_hook.appendChild(disqus_embed);
+      is_disqus_empty.remove();
+    }
+  }
+
+  window.addEventListener('scroll', function (e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
+
+    if (disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150)) {
+      load_disqus('disqus_shortname');
+    }
+  }, false);
+
+</script>
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+
+
 
 
   </main>
@@ -270,17 +434,17 @@ if (!doNotTrack) {
     <div class="recent-posts">
     
       
-        <a class="recent-posts__image" href="/blogs/posts/a-small-security-vulnerability-that-halted-the-world/"><img class="lazy" data-src="https://wallpaperaccess.com/full/112747.jpg" alt="A Small Security Vulnerability That Halted The World"></a>
+        <a class="recent-posts__image" href="/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/"><img class="lazy" data-src="https://wallpaperaccess.com/full/416197.jpg" alt="Using LLMs to Find Golang Vulnerabilities and Fixes "></a>
       
     
       <div class="recent-posts__content">
 
         <div class="article__meta">
           <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime=" 2024-07-22T15:20:22&#43;05:30">Jul 22, 2024</time>
+          <time class="article__date" datetime=" 2024-07-30T15:20:22&#43;05:30">Jul 30, 2024</time>
         </div>
 
-        <h4 class="recent-posts__title"><a href="/blogs/posts/a-small-security-vulnerability-that-halted-the-world/">A Small Security Vulnerability That Halted The World</a></h4>
+        <h4 class="recent-posts__title"><a href="/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/">Using LLMs to Find Golang Vulnerabilities and Fixes </a></h4>
 
         
       </div>

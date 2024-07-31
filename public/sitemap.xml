@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-07-23T15:20:22+05:30</lastmod>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</loc>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-07-23T15:20:22+05:30</lastmod>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/rust/</loc>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/security/</loc>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</loc>
+    <lastmod>2024-07-22T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/llms/</loc>
+    <lastmod>2024-07-22T15:20:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</loc>
+    <lastmod>2024-07-22T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/blockchain/</loc>
     <lastmod>2024-07-18T15:20:22+05:30</lastmod>
@@ -14,16 +35,10 @@
     <loc>http://localhost:1313/blogs/tags/solidity/</loc>
     <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
-    <lastmod>2024-07-18T15:20:22+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/posts/what-is-front-running-and-mev/</loc>
     <lastmod>2024-07-18T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/race_condition_in_rust/</loc>
-    <lastmod>2024-06-03T15:20:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/rust/</loc>
     <lastmod>2024-06-03T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/windows_batch_file_vulnerability/</loc>

@@ -6,12 +6,26 @@
     <description>Recent content in Security on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jul 2024 15:20:22 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2024 15:20:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLMs Enhancing Security: Automated Code Review in Rust Projects</title>
+      <link>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</link>
+      <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</guid>
+      <description>Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&amp;rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny.</description>
+    </item>
+    <item>
+      <title>A Small Security Vulnerability That Halted The World</title>
+      <link>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</link>
+      <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</guid>
+      <description>On July 19, 2024, the world experienced a disruption that reminded us the importance of secure, robust release processes and security checks in software systems. CrowdStrike, a leading cybersecurity company, released an update that inadvertently caused widespread system failures. Let&amp;rsquo;s dive into what happened, why it was so impactful, and what we can learn from it.&#xA;The Incident at a Glance CrowdStrike&amp;rsquo;s routine sensor configuration update, released at 04:09 UTC, triggered a logic error that resulted in system crashes and Blue Screen of Death (BSOD) errors on approximately 8.</description>
+    </item>
     <item>
       <title>Using LLMs in Code Security and Static Analysis</title>
       <link>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</link>
-      <pubDate>Thu, 18 Jul 2024 15:20:22 +0530</pubDate>
+      <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</guid>
       <description>Introduction One of the fundamental building blocks of software development is code quality. High-quality code is directly linked to secure, stable, and reliable applications. Traditionally, static analysis has been a key technique to maintain this quality, but recent advancements have introduced a transformative element: Large Language Models (LLMs). These advanced AI systems are now playing a major role in enhancing code security and ensuring issues are identified before software is released into production.</description>
     </item>

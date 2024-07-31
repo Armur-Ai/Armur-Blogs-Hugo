@@ -6,12 +6,12 @@
     <description>Recent content in Llms on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jul 2024 15:20:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2024 15:20:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/llms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using LLMs in Code Security and Static Analysis</title>
       <link>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</link>
-      <pubDate>Thu, 18 Jul 2024 15:20:22 +0530</pubDate>
+      <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</guid>
       <description>Introduction One of the fundamental building blocks of software development is code quality. High-quality code is directly linked to secure, stable, and reliable applications. Traditionally, static analysis has been a key technique to maintain this quality, but recent advancements have introduced a transformative element: Large Language Models (LLMs). These advanced AI systems are now playing a major role in enhancing code security and ensuring issues are identified before software is released into production.</description>
     </item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analysis on Armur</title>
+    <link>http://localhost:1313/blogs/tags/analysis/</link>
+    <description>Recent content in Analysis on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Aug 2024 16:44:22 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Static Analysis: The Backbone of Secure Software Development</title>
+      <link>http://localhost:1313/blogs/posts/what_is_static_analysis/</link>
+      <pubDate>Wed, 14 Aug 2024 16:44:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/what_is_static_analysis/</guid>
+      <description>In today&amp;rsquo;s fast-paced digital world, software applications drive every aspect of business operations, from customer engagement to data management. As organizations increasingly rely on these applications, ensuring their security, performance, and quality becomes paramount. However, testing and securing code late in the Software Development Lifecycle (SDLC) can lead to costly errors, security vulnerabilities, and even catastrophic failures in production. To mitigate these risks, engineering teams must adopt robust practices like static analysis early in the SDLC.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blogs/tags/analysis/</loc>
+    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
+    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/</loc>
+    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/static/</loc>
+    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/what_is_static_analysis/</loc>
+    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/risks/</loc>
+    <lastmod>2024-08-14T16:30:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/top_ten_web_application_security_risks/</loc>
+    <lastmod>2024-08-14T16:30:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/vulnerability/</loc>
+    <lastmod>2024-08-14T16:30:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/web/</loc>
+    <lastmod>2024-08-14T16:30:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/go/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
@@ -11,16 +38,10 @@
     <loc>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/tags/rust/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/security/</loc>
-    <lastmod>2024-07-30T15:20:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
     <lastmod>2024-07-30T15:20:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</loc>
@@ -54,9 +75,6 @@
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/smart-contract/</loc>
-    <lastmod>2024-06-01T18:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/vulnerability/</loc>
     <lastmod>2024-06-01T18:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</loc>

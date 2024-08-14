@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jul 2024 15:20:22 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 16:44:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis</title>
+      <link>http://localhost:1313/blogs/tags/analysis/</link>
+      <pubDate>Wed, 14 Aug 2024 16:44:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static</title>
+      <link>http://localhost:1313/blogs/tags/static/</link>
+      <pubDate>Wed, 14 Aug 2024 16:44:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/static/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Risks</title>
+      <link>http://localhost:1313/blogs/tags/risks/</link>
+      <pubDate>Wed, 14 Aug 2024 16:30:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/risks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulnerability</title>
+      <link>http://localhost:1313/blogs/tags/vulnerability/</link>
+      <pubDate>Wed, 14 Aug 2024 16:30:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/vulnerability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/blogs/tags/web/</link>
+      <pubDate>Wed, 14 Aug 2024 16:30:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/web/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Go</title>
       <link>http://localhost:1313/blogs/tags/go/</link>
@@ -55,13 +90,6 @@
       <link>http://localhost:1313/blogs/tags/smart-contract/</link>
       <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/smart-contract/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vulnerability</title>
-      <link>http://localhost:1313/blogs/tags/vulnerability/</link>
-      <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/vulnerability/</guid>
       <description></description>
     </item>
     <item>

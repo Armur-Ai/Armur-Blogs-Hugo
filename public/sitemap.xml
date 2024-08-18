@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/tags/analysis/</loc>
-    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/static/</loc>
-    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/</loc>
-    <lastmod>2024-08-14T16:44:22+05:30</lastmod>
+    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/top-20/</loc>
+    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</loc>
+    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/what_is_static_analysis/</loc>
     <lastmod>2024-08-14T16:44:22+05:30</lastmod>

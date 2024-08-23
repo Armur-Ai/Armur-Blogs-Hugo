@@ -19,7 +19,8 @@ Armur AI is a cutting-edge platform that uses LLM Agents for sophisticated code 
 
 ### 2. Snyk Code
 
-![snyk](https://logowik.com/content/uploads/images/t_snyk2946.jpg)
+<!-- ![snyk](https://logowik.com/content/uploads/images/t_snyk2946.jpg) -->
+![snyk](https://seeklogo.com/images/S/snyk-logo-77A649EC07-seeklogo.com.png)
 
 **Best for security testing**
 

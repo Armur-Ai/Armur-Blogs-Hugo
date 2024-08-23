@@ -6,8 +6,22 @@
     <description>Recent content on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2024 09:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 09:10:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Are Code Vulnerability Scanning Tools?</title>
+      <link>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</link>
+      <pubDate>Fri, 23 Aug 2024 09:10:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</guid>
+      <description>In today’s digital landscape, security is important. As organisations increasingly rely on software to drive their operations, the risk of cyberattacks has grown. Code vulnerability scanning tools have become essential in the fight to protect sensitive data, maintain operational integrity, and safeguard against breaches. This article explains what code vulnerability scanning tools are, how they work, their importance, and the key features that make them important in modern software development and security.</description>
+    </item>
+    <item>
+      <title>How Does A Static Code Analysis Tool Work?</title>
+      <link>http://localhost:1313/blogs/posts/how_static_analysis_works/</link>
+      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/how_static_analysis_works/</guid>
+      <description>Introduction Static code analysis is an essential process in software development, enabling developers to analyze the structure of code without executing it. This method is widely used to detect security vulnerabilities, bugs, and other defects in software, making it a crucial step in ensuring the quality and security of applications. This article gets into the mechanics of static code analysis, the underlying technology that makes it possible, and the limitations that come with this approach.</description>
+    </item>
     <item>
       <title>Top 20 Static Code Analysis Tools in 2024</title>
       <link>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</link>

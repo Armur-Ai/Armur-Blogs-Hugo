@@ -3,19 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/tags/analysis/</loc>
-    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/armur/</loc>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/code/</loc>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/how_static_analysis_works/</loc>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/static/</loc>
-    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/</loc>
-    <lastmod>2024-08-18T09:00:00+05:30</lastmod>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/vulnerability/</loc>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</loc>
+    <lastmod>2024-08-23T09:00:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/top-20/</loc>
     <lastmod>2024-08-18T09:00:00+05:30</lastmod>
@@ -30,9 +45,6 @@
     <lastmod>2024-08-14T16:30:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/top_ten_web_application_security_risks/</loc>
-    <lastmod>2024-08-14T16:30:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/vulnerability/</loc>
     <lastmod>2024-08-14T16:30:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/web/</loc>

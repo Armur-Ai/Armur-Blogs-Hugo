@@ -7,22 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>Security | Armur</title>
+  <title>How Does A Static Code Analysis Tool Work? | Armur</title>
   <meta name="description" content="">
 
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/tags/security/index.xml" title="Armur">
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Security | Armur">
-  <meta name="twitter:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta name="twitter:image" content="http://localhost:1313/blogs/">
+  <meta name="twitter:title" content="How Does A Static Code Analysis Tool Work? | Armur">
+  <meta name="twitter:description" content="Introduction Static code analysis is an essential process in software development, enabling developers to analyze the structure of code without executing it. This method is widely used to detect security vulnerabilities, bugs, and other defects in software, making it a crucial step in ensuring the quality and security of applications. This article gets into the mechanics of static code analysis, the underlying technology that makes it possible, and the limitations that come with this approach.">
+  <meta name="twitter:image" content="https://wallpaperaccess.com/full/2896393.jpg">
 
   
-  <meta property="og:title" content="Security | Armur">
-  <meta property="og:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
-  <meta property="og:image" content="http://localhost:1313/blogs/">
+  <meta property="og:title" content="How Does A Static Code Analysis Tool Work? | Armur">
+  <meta property="og:description" content="Introduction Static code analysis is an essential process in software development, enabling developers to analyze the structure of code without executing it. This method is widely used to detect security vulnerabilities, bugs, and other defects in software, making it a crucial step in ensuring the quality and security of applications. This article gets into the mechanics of static code analysis, the underlying technology that makes it possible, and the limitations that come with this approach.">
+  <meta property="og:image" content="https://wallpaperaccess.com/full/2896393.jpg">
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,7 +57,7 @@ if (!doNotTrack) {
 
 
   
-<header class="header header--top">
+<header class="header">
   <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
@@ -154,194 +153,198 @@ if (!doNotTrack) {
   <main class="content" aria-label="Content">
     
 
-<div class="container">
-  <div class="row">
-    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
-      <div class="tags__box">
-        <span class="tags__meta">4 posts tagged</span>
-        <h1 class="tags__title">
-          Security
-        </h1>
+
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col col-6 col-t-12">
+        <div class="image-box">
+          <img class="post-image" src="https://wallpaperaccess.com/full/2896393.jpg" alt="How Does A Static Code Analysis Tool Work?">
+        </div>
+      </div>
+      
+
+      <div class="col col-6 col-t-12">
+        <div class="post-head__box">
+
+          <div class="post__meta">
+            <span class="post__minutes">7 min read</span>
+            <time class="post__date" datetime=" 2024-08-23T09:00:00&#43;05:30">Aug 23, 2024</time>
+          </div>
+
+          <h2 class="post__title">How Does A Static Code Analysis Tool Work?</h2>
+
+          <div class="post__bottom">
+
+            
+
+            <div class="post__bottom-meta">
+              <a class="post__author-link">Akhil Sharma</a>
+              
+              
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div class="container">
-  <div class="row grid">
+  <article class="post amimate">
+
+    <div class="post__content">
+      <h3 id="introduction">Introduction</h3>
+<p>Static code analysis is an essential process in software development, enabling developers to analyze the structure of code without executing it. This method is widely used to detect security vulnerabilities, bugs, and other defects in software, making it a crucial step in ensuring the quality and security of applications. This article gets into the mechanics of static code analysis, the underlying technology that makes it possible, and the limitations that come with this approach.</p>
+<h3 id="what-is-static-code-analysis">What is Static Code Analysis?</h3>
+<p>Static code analysis, also known as static program analysis, is a method of evaluating software by examining its source code. Unlike dynamic analysis, which involves executing the code and observing its behavior, static analysis is conducted without running the program. This approach is versatile, applying to virtually any programming language or computing environment, making it a popular choice for early-stage code review.</p>
+<p>Static analysis tools are designed to identify potential issues, such as security flaws, code inefficiencies, and violations of coding standards, by scanning the codebase. These tools can quickly process large amounts of code, providing developers with insights into possible problems before the code is ever executed.</p>
+<h3 id="the-mechanics-of-static-code-analysis">The Mechanics of Static Code Analysis</h3>
+<p>The process of static code analysis typically involves two major steps:</p>
+<ul>
+<li>Transforming Code into an Abstract Syntax Tree (AST)</li>
+<li>Applying Analysis Rules to the AST</li>
+</ul>
+<h4 id="1-transforming-code-into-an-abstract-syntax-tree-ast">1. Transforming Code into an Abstract Syntax Tree (AST)</h4>
+<p>The first step in static code analysis is transforming the source code into an Abstract Syntax Tree (AST). An AST is a tree-like representation of the syntactic structure of the code, breaking it down into its constituent elements, such as expressions, statements, and literals. This transformation is crucial because it allows the analysis tool to understand the code&rsquo;s structure in a way that is independent of its syntax.</p>
+<p>To generate an AST, the code must first be parsed. Parsing involves interpreting the code&rsquo;s structure according to the rules of the programming language in which it is written. Parsers can be custom-built, or developers can use existing parser generators like ANTLR, which is widely recognized in the field. However, parsing is not always straightforward; challenges such as syntax errors, language version discrepancies, and evolving language features can complicate the process.</p>
+<p>For instance, if a parser encounters code written in a newer version of a language that includes syntax or keywords not supported by the parser, it may fail to generate an AST. Resilient parsers attempt to produce an AST even when facing minor errors, but they may still struggle with code that utilizes the latest language features.</p>
+<h4 id="2-applying-analysis-rules-to-the-ast">2. Applying Analysis Rules to the AST</h4>
+<p>Once the AST is generated, the next step is to apply analysis rules to detect potential issues within the code. These rules are designed to walk through the AST, inspecting nodes and their relationships to identify patterns that indicate possible errors.</p>
+<p>For example, consider a rule that checks whether the get method from Python&rsquo;s requests package includes a timeout argument. The AST for the code requests.get(url) would show that the get method is called with only one argument. A rule designed to ensure that a timeout argument is always provided would traverse this AST and flag the omission as an error.</p>
+<p>Here is a simplified pseudo-code for such a rule:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>boolean checkNode(node) {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (node<span style="color:#f92672">.</span>kind <span style="color:#f92672">==</span> FunctionCall <span style="color:#f92672">&amp;&amp;</span> node<span style="color:#f92672">.</span>name <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;requests.get&#34;</span>) {
+</span></span><span style="display:flex;"><span>passed <span style="color:#f92672">=</span> false;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(Argument argument: node<span style="color:#f92672">.</span>arguments) {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (argument<span style="color:#f92672">.</span>name <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;timeout&#34;</span>) {
+</span></span><span style="display:flex;"><span>passed <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> passed;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>In this example, the rule checks each function call node in the AST to see if it matches the requests.get method and then verifies whether the timeout argument is present. If it is missing, the rule would return a false result, indicating a potential issue.</p>
+<h3 id="armur-ai-llm-agents-for-code-vulnerability-scanning">Armur AI: LLM Agents for Code Vulnerability Scanning.</h3>
+<p>Armur platform uses LLM agents to build security tooling such as (SAST) Static Code Analysis tools, (DAST) Dynamic application security testing tools, (VAPT) Vulnerability and Penetration Testing Tools and is a great Snyk alternative, Semgrep alternative and Sonarqube alternative. Armur makes it easy for developers to find, prioritize, and fix security vulnerabilities in code, dependencies, containers, and infrastructure as code.</p>
+<h4 id="using-llm-agents-over-traditional-static-analysis">Using LLM agents Over Traditional Static Analysis</h4>
+<p>While traditional static analysis tools have been a cornerstone in software security, their approach has inherent limitations. These tools, as described earlier, rely on predefined rules to scan the Abstract Syntax Tree (AST) of a program, flagging potential issues based on known patterns. However, they often struggle with false positives, limited rule coverage, and an inability to detect vulnerabilities that depend on the runtime context or the interplay of different code elements.</p>
+<p>LLMs, on the other hand, bring a new added advantage on the table. By using LLM agents, Armur platform goes beyond the boundaries of traditional static analysis and here&rsquo;s why LLMs agents are a superior choice:</p>
+<p><strong>- Contextual Understanding:</strong> Unlike static analysis tools that operate on rigid rules, LLMs can understand the broader context in which the code operates. This allows them to detect vulnerabilities that may not be apparent through simple pattern matching, such as issues arising from complex interactions between different parts of the codebase.</p>
+<p><strong>- Adaptability:</strong> LLMs are not limited by a fixed set of rules. They can learn from vast amounts of data, including the latest security research and real-world attack patterns, making them highly adaptable to new and evolving threats. This flexibility ensures that Armur can stay ahead of new vulnerabilities, unlike traditional tools that require constant manual updates to their rule sets.</p>
+<p><strong>- Reduced False Positives:</strong> One of the significant challenges with static analysis is the high rate of false positives, which can overwhelm developers and lead to important issues being overlooked. LLMs, with their advanced reasoning capabilities, can more accurately distinguish between actual vulnerabilities and benign code, significantly reducing the noise generated during analysis.</p>
+<p><strong>- Complete Coverage:</strong> Armur AI’s LLM agents provide comprehensive coverage that spans not just source code but also dependencies, containers, and infrastructure as code. This holistic approach ensures that vulnerabilities are detected across the entire software stack, offering a level of insight that traditional static analysis tools cannot match.</p>
+<p>You can start securing your code now by signing up now to <a href="https://armur.ai">Armur</a> &amp; get 100 Credits Free, No credit card required!</p>
+<h3 id="designing-and-extending-rules">Designing and Extending Rules</h3>
+<p>One of the key challenges in static code analysis is the need to design rules that cover a wide range of potential issues. For large codebases, this requires a significant investment of time and effort, as each rule must be carefully created to address specific types of errors.</p>
+<p>Popular static analysis tools, like PMD for Java, come with hundreds of pre-configured rules, but they also allow developers to extend their functionality by adding custom rules. Tools like ESLint for JavaScript provide standard interfaces that developers can use to define their own rules, tailoring the analysis to their specific needs.</p>
+<h3 id="limitations-of-static-code-analysis">Limitations of Static Code Analysis</h3>
+<p>While static code analysis is a powerful tool for identifying issues early in the development process, it does have its limitations:</p>
+<p><strong>- Time-Consuming Rule Creation:</strong> Developing rules for every possible issue across different programming languages is labor-intensive. Moreover, each tool has its own specific rules, requiring continuous development and maintenance.</p>
+<p><strong>- False Positives:</strong> One of the most significant challenges with static code analysis is the occurrence of false positives—instances where the tool flags a non-existent issue. This can create noise, making it difficult for developers to distinguish between real problems and erroneous warnings.</p>
+<p><strong>- Inability to Detect Runtime Issues:</strong> Static analysis tools cannot identify issues that depend on the program&rsquo;s runtime behavior. For example, problems that arise from specific input conditions or system configurations may go unnoticed in static analysis.</p>
+<p><strong>- Handling Undefined Behavior:</strong> Some languages, such as C++, have undefined behavior that static analysis tools cannot predict with precision. As a result, certain potential issues may not be detected until the code is executed.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Static code analysis is an indispensable tool in modern software development, helping developers catch errors and security vulnerabilities before they become critical issues. By transforming code into an Abstract Syntax Tree and applying carefully designed rules, static analysis tools can provide valuable insights into the quality and security of the codebase. However, the process is not without its challenges, including the time-consuming nature of rule creation, the risk of false positives, and the limitations in detecting runtime-dependent issues.</p>
+<p>Despite these challenges, static analysis remains a vital part of the software development lifecycle, enabling teams to deliver more reliable and secure software products. By leveraging existing tools and extending them with custom rules, developers can harness the full potential of static analysis to ensure their code meets the highest standards of quality and safety.</p>
+
+    </div>
+
+    <div class="post__share">
+  <div class="share__list">
+    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fhow_static_analysis_works%2f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
+
+    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=How%20Does%20A%20Static%20Code%20Analysis%20Tool%20Work%3f&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fhow_static_analysis_works%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
+
+    <a class="share__link share__pinterest"
+      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fhow_static_analysis_works%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f2896393.jpg&amp;description=How%20Does%20A%20Static%20Code%20Analysis%20Tool%20Work%3f"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  </div>
+</div>
+
     
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/automated-code-review-in-rust-projects/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/416144.jpg" alt="LLMs Enhancing Security: Automated Code Review in Rust Projects">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">6 min read</span>
-          <time class="article__date" datetime="2024-07-30T15:20:22&#43;05:30">Jul 30, 2024</time>
+    <div class="post__navigation">
+      
+      <a class="prev" href="http://localhost:1313/blogs/posts/top_20_static_analysis_tools/" style="background-image: url('https://wallpaperaccess.com/full/515990.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
+            Page</div>
+          <h4 class="post__nav__title">Top 20 Static Code Analysis Tools in 2024</h4>
         </div>
-        
-        <h2 class="article__title">LLMs Enhancing Security: Automated Code Review in Rust Projects</h2>
-
-        <p class="article__excerpt">Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/security/" class="article__tag">Security</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/rust/" class="article__tag">Rust</a>
-              
-            </span>
-            
-          </div>
+      </a>
+      
+      
+      <a class="next" href="http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/" style="background-image: url('https://wallpaperaccess.com/full/6992163.jpg')">
+        <div class="post__nav-box">
+          <div class="post__nav post__nav__next">Next Page <i class="fa-solid fa-arrow-right"></i></div>
+          <h4 class="post__nav__title">What Are Code Vulnerability Scanning Tools?</h4>
         </div>
+      </a>
+      
+    </div>
+    
 
+  </article>
+</div>
+
+
+
+
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="disqus-inner">
+        <div id="disqus_thread" class="post-comments">
+          <div id="disqus_empty"></div>
+        </div>
       </div>
+    </div>
   </div>
 </div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
 
-    <a class="article__image" href="/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/416197.jpg" alt="Using LLMs to Find Golang Vulnerabilities and Fixes ">
-    </a>
+<script>
+  function load_disqus() {
+    var disqus_shortname = 'anvod-studio-test',
+      is_disqus_empty = document.getElementById('disqus_empty'),
+      disqus_target = document.getElementById('disqus_thread'),
+      disqus_embed = document.createElement('script'),
+      disqus_hook = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
 
-    <div class="article__content">
+    if (disqus_target && is_disqus_empty) {
+      disqus_embed.type = 'text/javascript';
+      disqus_embed.async = true;
+      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      disqus_hook.appendChild(disqus_embed);
+      is_disqus_empty.remove();
+    }
+  }
 
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2024-07-30T15:20:22&#43;05:30">Jul 30, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Using LLMs to Find Golang Vulnerabilities and Fixes </h2>
+  window.addEventListener('scroll', function (e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
 
-        <p class="article__excerpt">Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, …</p>
+    if (disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150)) {
+      load_disqus('disqus_shortname');
+    }
+  }, false);
 
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/security/" class="article__tag">Security</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/go/" class="article__tag">Go</a>
-              
-            </span>
-            
-          </div>
-        </div>
+</script>
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
 
-    <a class="article__image" href="/blogs/posts/a-small-security-vulnerability-that-halted-the-world/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/112747.jpg" alt="A Small Security Vulnerability That Halted The World">
-    </a>
 
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">4 min read</span>
-          <time class="article__date" datetime="2024-07-22T15:20:22&#43;05:30">Jul 22, 2024</time>
-        </div>
-        
-        <h2 class="article__title">A Small Security Vulnerability That Halted The World</h2>
-
-        <p class="article__excerpt">On July 19, 2024, the world experienced a disruption that reminded us the importance of secure, robust release processes and security checks …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/security/" class="article__tag">Security</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
-  <div class="article__inner">
-
-    <a class="article__image" href="/blogs/posts/using-llms-in-code-security-and-static-analysis/">
-      <img class="lazy" data-src="https://wallpaperaccess.com/full/416167.jpg" alt="Using LLMs in Code Security and Static Analysis">
-    </a>
-
-    <div class="article__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">5 min read</span>
-          <time class="article__date" datetime="2024-07-22T15:20:22&#43;05:30">Jul 22, 2024</time>
-        </div>
-        
-        <h2 class="article__title">Using LLMs in Code Security and Static Analysis</h2>
-
-        <p class="article__excerpt">Introduction One of the fundamental building blocks of software development is code quality. High-quality code is directly linked to secure, …</p>
-
-        <div class="article__bottom">
-          <div class="article__bottom-meta">
-            
-            <span class="article-tags">
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/llms/" class="article__tag">Llms</a>
-              
-                
-                
-                  
-                
-                <a href="/blogs/tags/security/" class="article__tag">Security</a>
-              
-            </span>
-            
-          </div>
-        </div>
-
-      </div>
-  </div>
-</div>
-    
-  </div>
-</div>
 
 
   </main>
@@ -364,6 +367,26 @@ if (!doNotTrack) {
     <div class="recent-posts">
     
       
+        <a class="recent-posts__image" href="/blogs/posts/what_are_code_vulnerability_scanning_tools/"><img class="lazy" data-src="https://wallpaperaccess.com/full/6992163.jpg" alt="What Are Code Vulnerability Scanning Tools?"></a>
+      
+    
+      <div class="recent-posts__content">
+
+        <div class="article__meta">
+          <span class="article__minutes">7 min read</span>
+          <time class="article__date" datetime=" 2024-08-23T09:10:00&#43;05:30">Aug 23, 2024</time>
+        </div>
+
+        <h4 class="recent-posts__title"><a href="/blogs/posts/what_are_code_vulnerability_scanning_tools/">What Are Code Vulnerability Scanning Tools?</a></h4>
+
+        
+      </div>
+    
+    </div>
+    
+    <div class="recent-posts">
+    
+      
         <a class="recent-posts__image" href="/blogs/posts/how_static_analysis_works/"><img class="lazy" data-src="https://wallpaperaccess.com/full/2896393.jpg" alt="How Does A Static Code Analysis Tool Work?"></a>
       
     
@@ -375,26 +398,6 @@ if (!doNotTrack) {
         </div>
 
         <h4 class="recent-posts__title"><a href="/blogs/posts/how_static_analysis_works/">How Does A Static Code Analysis Tool Work?</a></h4>
-
-        
-      </div>
-    
-    </div>
-    
-    <div class="recent-posts">
-    
-      
-        <a class="recent-posts__image" href="/blogs/posts/what_are_code_vulnerability_scanning_tools/"><img class="lazy" data-src="https://wallpaperaccess.com/full/6992163.jpg" alt="What Are Code Vulnerability Scanning Tools?"></a>
-      
-    
-      <div class="recent-posts__content">
-
-        <div class="article__meta">
-          <span class="article__minutes">7 min read</span>
-          <time class="article__date" datetime=" 2024-08-23T09:00:00&#43;05:30">Aug 23, 2024</time>
-        </div>
-
-        <h4 class="recent-posts__title"><a href="/blogs/posts/what_are_code_vulnerability_scanning_tools/">What Are Code Vulnerability Scanning Tools?</a></h4>
 
         
       </div>

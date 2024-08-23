@@ -6,20 +6,41 @@
     <description>Recent content in Tags on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2024 09:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 09:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analysis</title>
       <link>http://localhost:1313/blogs/tags/analysis/</link>
-      <pubDate>Sun, 18 Aug 2024 09:00:00 +0530</pubDate>
+      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Armur</title>
+      <link>http://localhost:1313/blogs/tags/armur/</link>
+      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/armur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/blogs/tags/code/</link>
+      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Static</title>
       <link>http://localhost:1313/blogs/tags/static/</link>
-      <pubDate>Sun, 18 Aug 2024 09:00:00 +0530</pubDate>
+      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/static/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulnerability</title>
+      <link>http://localhost:1313/blogs/tags/vulnerability/</link>
+      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/vulnerability/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +55,6 @@
       <link>http://localhost:1313/blogs/tags/risks/</link>
       <pubDate>Wed, 14 Aug 2024 16:30:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/risks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vulnerability</title>
-      <link>http://localhost:1313/blogs/tags/vulnerability/</link>
-      <pubDate>Wed, 14 Aug 2024 16:30:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/vulnerability/</guid>
       <description></description>
     </item>
     <item>

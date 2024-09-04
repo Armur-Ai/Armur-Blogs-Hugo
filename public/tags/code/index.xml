@@ -6,12 +6,19 @@
     <description>Recent content in Code on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Aug 2024 09:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is a Code Vulnerability Analyzer?</title>
+      <link>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</link>
+      <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</guid>
+      <description>In the digital world we live in, software is the backbone of almost everything. But with this reliance on software comes the risk of cyberattacks. A code vulnerability analyzer is a tool that helps developers find security issues in their code before they become serious problems. Unlike basic tools, which might only scratch the surface, these analyzers dig deep into the code to spot hidden vulnerabilities that could be exploited by attackers.</description>
+    </item>
     <item>
       <title>What Are Code Vulnerability Scanning Tools?</title>
       <link>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</link>
-      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
+      <pubDate>Fri, 23 Aug 2024 09:10:00 +0530</pubDate>
       <guid>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</guid>
       <description>In today’s digital landscape, security is important. As organisations increasingly rely on software to drive their operations, the risk of cyberattacks has grown. Code vulnerability scanning tools have become essential in the fight to protect sensitive data, maintain operational integrity, and safeguard against breaches. This article explains what code vulnerability scanning tools are, how they work, their importance, and the key features that make them important in modern software development and security.</description>
     </item>

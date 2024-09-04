@@ -7,23 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/blogs/favicon.ico">
 
-  <title>A Critical Vulnerability In Windows Batch file Execution | Armur</title>
+  <title>Analyzer | Armur</title>
   <meta name="description" content="">
 
+  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/tags/analyzer/index.xml" title="Armur">
   
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="A Critical Vulnerability In Windows Batch file Execution | Armur">
-  <meta name="twitter:description" content="A command injection flaw was found in Rust, exclusive to Windows environments. When invoking batch files on Windows using the Command API, Rust explicitly uses cmd.exe which has complicated parsing rules for arguments. If an attacker can control part of the command arguments of the batch file, this could bypass the argument escaping and inject arbitrary shell commands.
-An overview of the vulnerability This issue arises when invoking batch files (with .">
-  <meta name="twitter:image" content="https://wallpaperaccess.com/full/2896393.jpg">
+  <meta name="twitter:title" content="Analyzer | Armur">
+  <meta name="twitter:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
+  <meta name="twitter:image" content="http://localhost:1313/blogs/">
 
   
-  <meta property="og:title" content="A Critical Vulnerability In Windows Batch file Execution | Armur">
-  <meta property="og:description" content="A command injection flaw was found in Rust, exclusive to Windows environments. When invoking batch files on Windows using the Command API, Rust explicitly uses cmd.exe which has complicated parsing rules for arguments. If an attacker can control part of the command arguments of the batch file, this could bypass the argument escaping and inject arbitrary shell commands.
-An overview of the vulnerability This issue arises when invoking batch files (with .">
-  <meta property="og:image" content="https://wallpaperaccess.com/full/2896393.jpg">
+  <meta property="og:title" content="Analyzer | Armur">
+  <meta property="og:description" content="Norlin – A Beautiful Dark Blog Theme for Hugo.">
+  <meta property="og:image" content="http://localhost:1313/blogs/">
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,7 +58,7 @@ if (!doNotTrack) {
 
 
   
-<header class="header">
+<header class="header header--top">
   <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
@@ -155,160 +154,74 @@ if (!doNotTrack) {
   <main class="content" aria-label="Content">
     
 
-
-
-<div class="post-head">
-  <div class="container">
-    <div class="row">
-      
-      <div class="col col-6 col-t-12">
-        <div class="image-box">
-          <img class="post-image" src="https://wallpaperaccess.com/full/2896393.jpg" alt="A Critical Vulnerability In Windows Batch file Execution">
-        </div>
-      </div>
-      
-
-      <div class="col col-6 col-t-12">
-        <div class="post-head__box">
-
-          <div class="post__meta">
-            <span class="post__minutes">3 min read</span>
-            <time class="post__date" datetime=" 2024-06-01T18:00:00&#43;05:30">Jun 1, 2024</time>
-          </div>
-
-          <h2 class="post__title">A Critical Vulnerability In Windows Batch file Execution</h2>
-
-          <div class="post__bottom">
-
-            
-
-            <div class="post__bottom-meta">
-              <a class="post__author-link">Akhil Sharma</a>
-              
-              
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container">
-  <article class="post amimate">
-
-    <div class="post__content">
-      <p>A command injection flaw was found in Rust, exclusive to Windows environments. When invoking batch files on Windows using the Command API, Rust explicitly uses cmd.exe which has complicated parsing rules for arguments. If an attacker can control part of the command arguments of the batch file, this could bypass the argument escaping and inject arbitrary shell commands.</p>
-<h3 id="an-overview-of-the-vulnerability">An overview of the vulnerability</h3>
-<p>This issue arises when invoking batch files (with .bat and .cmd extensions) on Windows using the Command API. Specifically, the standard library failed to properly escape arguments, potentially allowing an attacker to execute arbitrary shell commands by bypassing the escaping mechanism.</p>
-<p>This vulnerability is identified as CVE-2024-24576 and is considered critical when handling untrusted arguments for batch files on Windows. Fortunately, no other platforms or use cases are affected by this issue.</p>
-<p>The <code>Command::arg</code> and <code>Command::args</code> APIs are designed to pass arguments to spawned processes as is, without shell evaluation. This design should ensure the safe handling of untrusted input.</p>
-<p>However, implementing this functionality on Windows is more complex due to how the Windows API handles arguments. Windows provides a single string containing all arguments, leaving it to the spawned process to split them. Most programs use the standard C run-time argv, leading to a generally consistent argument-splitting process.</p>
-<p>An exception to this is <code>cmd.exe</code>, which executes batch files and has its own argument-splitting logic. This unique handling forces the standard library to implement custom escaping for arguments passed to batch files. Unfortunately, the escaping logic in Rust was insufficient, allowing malicious arguments to lead to arbitrary shell execution.</p>
-<h3 id="mitigations">Mitigations</h3>
-<p>Given the complexity of <code>cmd.exe</code>, a universal solution to correctly escape arguments in all cases was not identified. To address this, the Rust team enhanced the robustness of the escaping code and modified the Command API to return an <code>InvalidInput</code> error when an argument cannot be safely escaped. This error will be triggered when attempting to spawn the process. Now, with this approach, the new escaping logic for batch files errs on the conservative side and could reject valid arguments which could now be a problem.</p>
-<p>The fix is included in Rust 1.77. For developers who implement their own escaping or only handle trusted inputs, it is possible to use the <code>CommandExt::raw_arg</code> method on Windows to bypass the standard library&rsquo;s escaping logic.</p>
-<p>All Rust versions prior to <code>1.77.2</code> are affected if the code or its dependencies execute batch files with untrusted arguments on Windows. Other platforms and use cases on Windows are not impacted.</p>
-<h3 id="armur-enhancing-security-for-developers">Armur: Enhancing Security For Developers</h3>
-<p>To ensure that your code is not prone to any kind of vulnerabilities, it’s good practice to conduct a code security review and <a href="https://armur.ai">Armur</a> has one of the most trusted developer security toolkits, powered by AI and LLMs.</p>
-<p>To stay updated with the latest security discussions, you can join our <a href="https://discord.com/invite/qGMMmgFnZD">discord server</a> where we share valuable insights and learning resources such as SecOps, DevSec and Red Teaming. Additionally, you can try out <a href="https://armur.ai">Armur</a> and get free 100 credits.</p>
-<p><img src="https://i.imgur.com/q14I8yd.png" alt="armur"></p>
-
-    </div>
-
-    <div class="post__share">
-  <div class="share__list">
-    <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fwindows_batch_file_vulnerability%2f"
-      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-      title="Share on Facebook" rel="nofollow"><i class="fa-brands fa-square-facebook"></i></a>
-
-    <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=A%20Critical%20Vulnerability%20In%20Windows%20Batch%20file%20Execution&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fwindows_batch_file_vulnerability%2f" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow"><i class="fa-brands fa-x-twitter"></i></a>
-
-    <a class="share__link share__pinterest"
-      href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fposts%2fwindows_batch_file_vulnerability%2f&amp;media=https%3a%2f%2fwallpaperaccess.com%2ffull%2f2896393.jpg&amp;description=A%20Critical%20Vulnerability%20In%20Windows%20Batch%20file%20Execution"
-      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
-      title="Share on Pinterest" aria-label="Share on Pinterest"><i class="fa-brands fa-pinterest"></i></a>
-  </div>
-</div>
-
-    
-    <div class="post__navigation">
-      
-      <a class="prev" href="http://localhost:1313/blogs/posts/reentrancy_attacks/" style="background-image: url('https://wallpaperaccess.com/full/515990.jpg')">
-        <div class="post__nav-box">
-          <div class="post__nav post__nav__prev"><i class="fa-solid fa-arrow-left"></i> Prev
-            Page</div>
-          <h4 class="post__nav__title">Learn About Reentracny Attacks and how to Prevent them</h4>
-        </div>
-      </a>
-      
-      
-      <a class="next" href="http://localhost:1313/blogs/posts/race_condition_in_rust/" style="background-image: url('https://i.ibb.co/WvHLRbL/wp8769017-old-paintings-wallpapers.jpg')">
-        <div class="post__nav-box">
-          <div class="post__nav post__nav__next">Next Page <i class="fa-solid fa-arrow-right"></i></div>
-          <h4 class="post__nav__title">Race condition in std::fs::remove_dir_all in Rust</h4>
-        </div>
-      </a>
-      
-    </div>
-    
-
-  </article>
-</div>
-
-
-
-
-
-
-  
 <div class="container">
   <div class="row">
-    <div class="col col-12">
-      <div class="disqus-inner">
-        <div id="disqus_thread" class="post-comments">
-          <div id="disqus_empty"></div>
-        </div>
+    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
+      <div class="tags__box">
+        <span class="tags__meta">1 post tagged</span>
+        <h1 class="tags__title">
+          Analyzer
+        </h1>
       </div>
     </div>
   </div>
 </div>
 
-<script>
-  function load_disqus() {
-    var disqus_shortname = 'anvod-studio-test',
-      is_disqus_empty = document.getElementById('disqus_empty'),
-      disqus_target = document.getElementById('disqus_thread'),
-      disqus_embed = document.createElement('script'),
-      disqus_hook = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
+<div class="container">
+  <div class="row grid">
+    
+      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
+  <div class="article__inner">
 
-    if (disqus_target && is_disqus_empty) {
-      disqus_embed.type = 'text/javascript';
-      disqus_embed.async = true;
-      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      disqus_hook.appendChild(disqus_embed);
-      is_disqus_empty.remove();
-    }
-  }
+    <a class="article__image" href="/blogs/posts/code_vulnerability_analyzer/">
+      <img class="lazy" data-src="https://wallpaperaccess.com/full/112747.jpg" alt="What Is a Code Vulnerability Analyzer?">
+    </a>
 
-  window.addEventListener('scroll', function (e) {
-    var currentScroll = document.scrollingElement.scrollTop;
-    var disqus_target = document.getElementById('disqus_thread');
+    <div class="article__content">
 
-    if (disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150)) {
-      load_disqus('disqus_shortname');
-    }
-  }, false);
+        <div class="article__meta">
+          <span class="article__minutes">7 min read</span>
+          <time class="article__date" datetime="2024-09-03T09:00:00&#43;05:30">Sep 3, 2024</time>
+        </div>
+        
+        <h2 class="article__title">What Is a Code Vulnerability Analyzer?</h2>
 
-</script>
-<noscript>Please enable JavaScript to view the
-  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
+        <p class="article__excerpt">In the digital world we live in, software is the backbone of almost everything. But with this reliance on software comes the risk of …</p>
 
+        <div class="article__bottom">
+          <div class="article__bottom-meta">
+            
+            <span class="article-tags">
+              
+                
+                
+                  
+                
+                <a href="/blogs/tags/code/" class="article__tag">Code</a>
+              
+                
+                
+                  
+                
+                <a href="/blogs/tags/vulnerability/" class="article__tag">Vulnerability</a>
+              
+                
+                
+                  
+                
+                <a href="/blogs/tags/analyzer/" class="article__tag">Analyzer</a>
+              
+            </span>
+            
+          </div>
+        </div>
 
-
+      </div>
+  </div>
+</div>
+    
+  </div>
+</div>
 
 
   </main>

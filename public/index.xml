@@ -6,8 +6,15 @@
     <description>Recent content on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 18:31:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Static Code Analysis Tools</title>
+      <link>http://localhost:1313/blogs/posts/top_10_static_code/</link>
+      <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/top_10_static_code/</guid>
+      <description>What Is A Static Code Analysis Tool? Static code analysis tools, also known as source code analyzers, are essential for maintaining high code quality and ensuring security. These tools are utilized by software developers, cybersecurity experts, and quality assurance professionals to automatically review the source code before execution. They aim to identify potential issues such as syntax errors, code structure problems, security vulnerabilities, and other elements that may lead to software bugs or system failures.</description>
+    </item>
     <item>
       <title>What Is a Code Vulnerability Analyzer?</title>
       <link>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</link>

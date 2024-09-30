@@ -6,8 +6,29 @@
     <description>Recent content in Posts on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 15:24:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Build a Modern DevSecOps Culture</title>
+      <link>http://localhost:1313/blogs/posts/how_to_build_a_modern_devsecops_culture/</link>
+      <pubDate>Sun, 29 Sep 2024 15:24:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/how_to_build_a_modern_devsecops_culture/</guid>
+      <description>Technology has been evolving very rapidly, organizations face increasing pressure to deliver high-quality software quickly while maintaining robust security measures. This challenge has given rise to DevSecOps, a cultural and technical approach that integrates security practices into the DevOps workflow. DevSecOps isn&amp;rsquo;t just a set of tools or processes; it&amp;rsquo;s a fundamental shift in how teams think about and implement security throughout the software development lifecycle. By embracing DevSecOps, companies can significantly reduce the risk of security breaches, improve compliance, and accelerate the delivery of secure software.</description>
+    </item>
+    <item>
+      <title>Can AI Write Secure Code?</title>
+      <link>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</guid>
+      <description>Generative AI is transforming the way software is built, offering potential benefits on par with the impact of the internet, mobile devices, and cloud computing. According to Gartner, AI has the potential to automate up to 30% of the work developers currently perform, freeing them to focus on higher-value tasks. AI coding assistants like GitHub Copilot are proving to be game-changers, boosting productivity by up to 50% and enhancing code quality through faster testing cycles.</description>
+    </item>
+    <item>
+      <title>Best Static Code Analysis Tools</title>
+      <link>http://localhost:1313/blogs/posts/top_10_static_code/</link>
+      <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/top_10_static_code/</guid>
+      <description>What Is A Static Code Analysis Tool? Static code analysis tools, also known as source code analyzers, are essential for maintaining high code quality and ensuring security. These tools are utilized by software developers, cybersecurity experts, and quality assurance professionals to automatically review the source code before execution. They aim to identify potential issues such as syntax errors, code structure problems, security vulnerabilities, and other elements that may lead to software bugs or system failures.</description>
+    </item>
     <item>
       <title>What Is a Code Vulnerability Analyzer?</title>
       <link>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</link>

@@ -6,14 +6,14 @@
     <description>Recent content in Secure on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Feb 2024 18:31:22 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 15:20:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/secure/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Decentralized Botnets The Good, The Bad, and The Secure</title>
-      <link>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</link>
-      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</guid>
-      <description>Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with nothing but code. In this thrilling expanse, there&amp;rsquo;s a new player in town: decentralized botnets. Imagine a swarm of drones, each with its own mind, yet united in purpose, buzzing through the digital skies. Some are here to protect the town, while others have more nefarious plans.</description>
+      <title>Can AI Write Secure Code?</title>
+      <link>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</guid>
+      <description>Generative AI is transforming the way software is built, offering potential benefits on par with the impact of the internet, mobile devices, and cloud computing. According to Gartner, AI has the potential to automate up to 30% of the work developers currently perform, freeing them to focus on higher-value tasks. AI coding assistants like GitHub Copilot are proving to be game-changers, boosting productivity by up to 50% and enhancing code quality through faster testing cycles.</description>
     </item>
   </channel>
 </rss>

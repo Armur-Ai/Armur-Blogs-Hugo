@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chatgpt on Armur</title>
+    <link>http://localhost:1313/blogs/tags/chatgpt/</link>
+    <description>Recent content in Chatgpt on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2024 15:20:22 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can AI Write Secure Code?</title>
+      <link>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</guid>
+      <description>Generative AI is transforming the way software is built, offering potential benefits on par with the impact of the internet, mobile devices, and cloud computing. According to Gartner, AI has the potential to automate up to 30% of the work developers currently perform, freeing them to focus on higher-value tasks. AI coding assistants like GitHub Copilot are proving to be game-changers, boosting productivity by up to 50% and enhancing code quality through faster testing cycles.</description>
+    </item>
+  </channel>
+</rss>

@@ -6,20 +6,76 @@
     <description>Recent content in Tags on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 15:24:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Analyzer</title>
-      <link>http://localhost:1313/blogs/tags/analyzer/</link>
-      <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/analyzer/</guid>
+      <title>Culture</title>
+      <link>http://localhost:1313/blogs/tags/culture/</link>
+      <pubDate>Sun, 29 Sep 2024 15:24:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/culture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devsecops</title>
+      <link>http://localhost:1313/blogs/tags/devsecops/</link>
+      <pubDate>Sun, 29 Sep 2024 15:24:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/devsecops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modern</title>
+      <link>http://localhost:1313/blogs/tags/modern/</link>
+      <pubDate>Sun, 29 Sep 2024 15:24:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/modern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/blogs/tags/ai/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chatgpt</title>
+      <link>http://localhost:1313/blogs/tags/chatgpt/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secure</title>
+      <link>http://localhost:1313/blogs/tags/secure/</link>
+      <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/secure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analysis</title>
+      <link>http://localhost:1313/blogs/tags/analysis/</link>
+      <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
       <link>http://localhost:1313/blogs/tags/code/</link>
-      <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
+      <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static</title>
+      <link>http://localhost:1313/blogs/tags/static/</link>
+      <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/static/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analyzer</title>
+      <link>http://localhost:1313/blogs/tags/analyzer/</link>
+      <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/analyzer/</guid>
       <description></description>
     </item>
     <item>
@@ -34,20 +90,6 @@
       <link>http://localhost:1313/blogs/tags/armur/</link>
       <pubDate>Fri, 23 Aug 2024 09:10:00 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/armur/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Analysis</title>
-      <link>http://localhost:1313/blogs/tags/analysis/</link>
-      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Static</title>
-      <link>http://localhost:1313/blogs/tags/static/</link>
-      <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/static/</guid>
       <description></description>
     </item>
     <item>
@@ -118,13 +160,6 @@
       <link>http://localhost:1313/blogs/tags/smart-contract/</link>
       <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/smart-contract/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai</title>
-      <link>http://localhost:1313/blogs/tags/ai/</link>
-      <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/ai/</guid>
       <description></description>
     </item>
     <item>

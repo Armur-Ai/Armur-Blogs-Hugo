@@ -6,8 +6,15 @@
     <description>Recent content in Code on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Sep 2024 18:31:22 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 18:31:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing AI-Generated Code</title>
+      <link>http://localhost:1313/blogs/posts/securing_ai_generated_code/</link>
+      <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/securing_ai_generated_code/</guid>
+      <description>AI-generated code has transformed software development by automating repetitive tasks, accelerating workflows, and significantly boosting productivity. However, similar to human-written code, it introduces unique security risks that cannot be overlooked. As organizations increasingly integrate AI tools such as ChatGPT and GitHub Copilot into their development pipelines, securing AI-generated code becomes a critical priority. Vulnerabilities such as improper input handling, use of insecure third-party libraries, and susceptibility to adversarial attacks require careful attention and mitigation.</description>
+    </item>
     <item>
       <title>Best Static Code Analysis Tools</title>
       <link>http://localhost:1313/blogs/posts/top_10_static_code/</link>

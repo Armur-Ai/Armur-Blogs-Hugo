@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:24:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 05:31:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Critical</title>
+      <link>http://localhost:1313/blogs/tags/critical/</link>
+      <pubDate>Mon, 21 Oct 2024 05:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/critical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cve</title>
+      <link>http://localhost:1313/blogs/tags/cve/</link>
+      <pubDate>Mon, 21 Oct 2024 05:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/cve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zero-Day</title>
+      <link>http://localhost:1313/blogs/tags/zero-day/</link>
+      <pubDate>Mon, 21 Oct 2024 05:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/zero-day/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/blogs/tags/code/</link>
+      <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genai</title>
+      <link>http://localhost:1313/blogs/tags/genai/</link>
+      <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/genai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secure</title>
+      <link>http://localhost:1313/blogs/tags/secure/</link>
+      <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tags/secure/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Culture</title>
       <link>http://localhost:1313/blogs/tags/culture/</link>
@@ -44,24 +86,10 @@
       <description></description>
     </item>
     <item>
-      <title>Secure</title>
-      <link>http://localhost:1313/blogs/tags/secure/</link>
-      <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/secure/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Analysis</title>
       <link>http://localhost:1313/blogs/tags/analysis/</link>
       <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>http://localhost:1313/blogs/tags/code/</link>
-      <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/code/</guid>
       <description></description>
     </item>
     <item>

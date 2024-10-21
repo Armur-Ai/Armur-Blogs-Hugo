@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-09-29T15:24:22+05:30</lastmod>
+    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/critical/</loc>
+    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/critical_zero_day/</loc>
+    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/cve/</loc>
+    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/</loc>
+    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/zero-day/</loc>
+    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/code/</loc>
+    <lastmod>2024-09-29T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/genai/</loc>
+    <lastmod>2024-09-29T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/secure/</loc>
+    <lastmod>2024-09-29T18:31:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/securing_ai_generated_code/</loc>
+    <lastmod>2024-09-29T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/culture/</loc>
     <lastmod>2024-09-29T15:24:22+05:30</lastmod>
@@ -17,12 +47,6 @@
     <loc>http://localhost:1313/blogs/tags/modern/</loc>
     <lastmod>2024-09-29T15:24:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-09-29T15:24:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
-    <lastmod>2024-09-29T15:24:22+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/tags/ai/</loc>
     <lastmod>2024-09-29T15:20:22+05:30</lastmod>
   </url><url>
@@ -32,16 +56,10 @@
     <loc>http://localhost:1313/blogs/tags/chatgpt/</loc>
     <lastmod>2024-09-29T15:20:22+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/tags/secure/</loc>
-    <lastmod>2024-09-29T15:20:22+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/tags/analysis/</loc>
     <lastmod>2024-09-07T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/top_10_static_code/</loc>
-    <lastmod>2024-09-07T18:31:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/code/</loc>
     <lastmod>2024-09-07T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/static/</loc>

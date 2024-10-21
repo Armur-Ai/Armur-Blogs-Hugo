@@ -6,14 +6,28 @@
     <description>Recent content in Posts on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:24:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 05:31:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Critical Zero-Day Vulnerability CVE-2024-9680 Exploited in Firefox and Tor Browser</title>
+      <link>http://localhost:1313/blogs/posts/critical_zero_day/</link>
+      <pubDate>Mon, 21 Oct 2024 05:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/critical_zero_day/</guid>
+      <description>A critical security flaw, identified as CVE-2024-9680, has been actively exploited in the wild, impacting multiple versions of Mozilla Firefox and Tor Browser. The vulnerability, classified as a high-severity use-after-free issue in the Animation timeline component, enables attackers to execute arbitrary code, posing significant risks to users&amp;rsquo; privacy and security. The flaw was first reported by cybersecurity firm ESET and has since been patched by Mozilla in Firefox versions 131.0.2, Firefox ESR 128.</description>
+    </item>
+    <item>
+      <title>Securing AI-Generated Code</title>
+      <link>http://localhost:1313/blogs/posts/securing_ai_generated_code/</link>
+      <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/securing_ai_generated_code/</guid>
+      <description>AI-generated code has transformed software development by automating repetitive tasks, accelerating workflows, and significantly boosting productivity. However, similar to human-written code, it introduces unique security risks that cannot be overlooked. As organizations increasingly integrate AI tools such as ChatGPT and GitHub Copilot into their development pipelines, securing AI-generated code becomes a critical priority. Vulnerabilities such as improper input handling, use of insecure third-party libraries, and susceptibility to adversarial attacks require careful attention and mitigation.</description>
+    </item>
     <item>
       <title>How to Build a Modern DevSecOps Culture</title>
       <link>http://localhost:1313/blogs/posts/how_to_build_a_modern_devsecops_culture/</link>
       <pubDate>Sun, 29 Sep 2024 15:24:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/posts/how_to_build_a_modern_devsecops_culture/</guid>
-      <description>Technology has been evolving very rapidly, organizations face increasing pressure to deliver high-quality software quickly while maintaining robust security measures. This challenge has given rise to DevSecOps, a cultural and technical approach that integrates security practices into the DevOps workflow. DevSecOps isn&amp;rsquo;t just a set of tools or processes; it&amp;rsquo;s a fundamental shift in how teams think about and implement security throughout the software development lifecycle. By embracing DevSecOps, companies can significantly reduce the risk of security breaches, improve compliance, and accelerate the delivery of secure software.</description>
+      <description>Technology has been evolving very rapidly, organizations face increasing pressure to deliver high-quality software quickly while maintaining robust security measures. This challenge has given rise to DevSecOps, a cultural and technical approach that integrates security practices into the DevOps workflow. DevSecOps isn&amp;rsquo;t just a set of tools or processes; it&amp;rsquo;s a fundamental shift in how teams think about and implement security throughout the software development lifecycle.&#xA;By embracing DevSecOps, companies can significantly reduce the risk of security breaches, improve compliance, and accelerate the delivery of secure software.</description>
     </item>
     <item>
       <title>Can AI Write Secure Code?</title>

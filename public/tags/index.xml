@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Oct 2024 05:31:22 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 15:01:35 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Armur</title>
+      <link>http://localhost:1313/blogs/tags/armur/</link>
+      <pubDate>Tue, 10 Dec 2024 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/armur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attacks</title>
+      <link>http://localhost:1313/blogs/tags/attacks/</link>
+      <pubDate>Tue, 10 Dec 2024 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/attacks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Day</title>
+      <link>http://localhost:1313/blogs/tags/day/</link>
+      <pubDate>Tue, 10 Dec 2024 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/day/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zero</title>
+      <link>http://localhost:1313/blogs/tags/zero/</link>
+      <pubDate>Tue, 10 Dec 2024 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/zero/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Critical</title>
       <link>http://localhost:1313/blogs/tags/critical/</link>
@@ -111,13 +139,6 @@
       <link>http://localhost:1313/blogs/tags/vulnerability/</link>
       <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/vulnerability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Armur</title>
-      <link>http://localhost:1313/blogs/tags/armur/</link>
-      <pubDate>Fri, 23 Aug 2024 09:10:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/armur/</guid>
       <description></description>
     </item>
     <item>

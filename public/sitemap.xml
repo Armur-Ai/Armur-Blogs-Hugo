@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/armur/</loc>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/armur_against_zero_days/</loc>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/attacks/</loc>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/day/</loc>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/</loc>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/zero/</loc>
+    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/critical/</loc>
     <lastmod>2024-10-21T05:31:22+05:30</lastmod>
@@ -12,12 +33,6 @@
     <lastmod>2024-10-21T05:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/cve/</loc>
-    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-10-21T05:31:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
     <lastmod>2024-10-21T05:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/zero-day/</loc>
@@ -73,9 +88,6 @@
   </url><url>
     <loc>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</loc>
     <lastmod>2024-09-03T09:00:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/armur/</loc>
-    <lastmod>2024-08-23T09:10:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</loc>
     <lastmod>2024-08-23T09:10:00+05:30</lastmod>

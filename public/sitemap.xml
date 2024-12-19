@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/code/</loc>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/code_injection_in_python/</loc>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/injection/</loc>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/posts/</loc>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/python/</loc>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/sql/</loc>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tags/</loc>
+    <lastmod>2024-12-19T13:01:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/armur/</loc>
     <lastmod>2024-12-10T15:01:35+03:00</lastmod>
@@ -15,12 +36,6 @@
     <lastmod>2024-12-10T15:01:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/day/</loc>
-    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/posts/</loc>
-    <lastmod>2024-12-10T15:01:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/</loc>
     <lastmod>2024-12-10T15:01:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/zero/</loc>
@@ -37,9 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/blogs/tags/zero-day/</loc>
     <lastmod>2024-10-21T05:31:22+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/tags/code/</loc>
-    <lastmod>2024-09-29T18:31:22+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/tags/genai/</loc>
     <lastmod>2024-09-29T18:31:22+05:30</lastmod>

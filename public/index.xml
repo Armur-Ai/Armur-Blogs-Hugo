@@ -6,14 +6,35 @@
     <description>Recent content on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 15:01:35 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 13:01:35 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Injection in Python: Examples and Prevention</title>
+      <link>http://localhost:1313/blogs/posts/code_injection_in_python/</link>
+      <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/posts/code_injection_in_python/</guid>
+      <description>1. Introduction Code injection is a severe security vulnerability that occurs when an attacker inserts malicious code into a vulnerable application. This article focuses on code injection in Python, exploring various types of injections, providing examples, and discussing prevention techniques. Understanding these concepts is crucial for developing secure Python applications.&#xA;2. Understanding Code Injection Code injection is a technique used by malicious actors to introduce unauthorized code into a vulnerable application.</description>
+    </item>
+    <item>
+      <title>How Armur Ensures Safe Adoption of AI</title>
+      <link>http://localhost:1313/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</link>
+      <pubDate>Thu, 19 Dec 2024 13:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</guid>
+      <description>How Armur Ensures Safe Adoption of AI The rise of Artificial Intelligence (AI) is revolutionizing industries across the globe, but with this rapid growth comes a set of new challenges—particularly in terms of security. As organizations increasingly adopt AI-driven solutions for everything from code generation to business process automation, ensuring the safe and secure use of AI becomes essential. Armur, with its advanced security tools and AI-driven capabilities, is at the forefront of making AI adoption safe, efficient, and reliable.</description>
+    </item>
     <item>
       <title>Armur’s Role Against Zero-Day Exploits in AI-Generated Code</title>
       <link>http://localhost:1313/blogs/posts/armur_against_zero_days/</link>
       <pubDate>Tue, 10 Dec 2024 15:01:35 +0300</pubDate>
       <guid>http://localhost:1313/blogs/posts/armur_against_zero_days/</guid>
       <description>What Are Zero-Day Exploits? A zero-day exploit is a cyberattack that capitalizes on a previously unknown vulnerability in software, hardware, or firmware. These vulnerabilities, referred to as zero-day vulnerabilities, are flaws that have not been discovered or patched by the developer or vendor. The term “zero day” signifies that there is zero time to fix the issue before it is exploited by attackers.&#xA;When a hacker identifies and uses a zero-day vulnerability to breach systems, this is called a zero-day attack.</description>
+    </item>
+    <item>
+      <title>How AI Coding Assistants Can Replicate and Amplify Security Vulnerabilities in Your Codebase</title>
+      <link>http://localhost:1313/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</link>
+      <pubDate>Tue, 19 Nov 2024 13:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</guid>
+      <description>Generative coding assistants, such as GitHub Copilot, are designed to improve developer productivity by suggesting code completions based on patterns learned from extensive training datasets. While these tools have proven to save time and streamline development workflows, recent research has raised concerns that they may inadvertently replicate and amplify security vulnerabilities present in existing codebases.&#xA;Security researchers have demonstrated that AI coding assistants can propagate flawed coding practices, increasing the risk of insecure software.</description>
     </item>
     <item>
       <title>Critical Zero-Day Vulnerability CVE-2024-9680 Exploited in Firefox and Tor Browser</title>

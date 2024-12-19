@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 15:01:35 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 13:01:35 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/blogs/tags/code/</link>
+      <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Injection</title>
+      <link>http://localhost:1313/blogs/tags/injection/</link>
+      <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/injection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/blogs/tags/python/</link>
+      <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:1313/blogs/tags/sql/</link>
+      <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/blogs/tags/sql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Armur</title>
       <link>http://localhost:1313/blogs/tags/armur/</link>
@@ -55,13 +83,6 @@
       <link>http://localhost:1313/blogs/tags/zero-day/</link>
       <pubDate>Mon, 21 Oct 2024 05:31:22 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tags/zero-day/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>http://localhost:1313/blogs/tags/code/</link>
-      <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/tags/code/</guid>
       <description></description>
     </item>
     <item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zero on Armur</title>
-    <link>http://localhost:1313/blogs/tags/zero/</link>
+    <link>https://armur.ai/blogs/tags/zero/</link>
     <description>Recent content in Zero on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2024 15:01:35 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/tags/zero/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://armur.ai/blogs/tags/zero/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Armur’s Role Against Zero-Day Exploits in AI-Generated Code</title>
-      <link>http://localhost:1313/blogs/posts/armur_against_zero_days/</link>
+      <link>https://armur.ai/blogs/posts/armur_against_zero_days/</link>
       <pubDate>Tue, 10 Dec 2024 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/armur_against_zero_days/</guid>
+      <guid>https://armur.ai/blogs/posts/armur_against_zero_days/</guid>
       <description>What Are Zero-Day Exploits? A zero-day exploit is a cyberattack that capitalizes on a previously unknown vulnerability in software, hardware, or firmware. These vulnerabilities, referred to as zero-day vulnerabilities, are flaws that have not been discovered or patched by the developer or vendor. The term “zero day” signifies that there is zero time to fix the issue before it is exploited by attackers.&#xA;When a hacker identifies and uses a zero-day vulnerability to breach systems, this is called a zero-day attack.</description>
     </item>
   </channel>

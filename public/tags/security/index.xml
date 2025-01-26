@@ -2,38 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Armur</title>
-    <link>http://localhost:1313/blogs/tags/security/</link>
+    <link>https://armur.ai/blogs/tags/security/</link>
     <description>Recent content in Security on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jul 2024 15:20:22 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Dec 2024 13:00:00 +0530</lastBuildDate>
+    <atom:link href="https://armur.ai/blogs/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Armur Ensures Safe Adoption of AI</title>
+      <link>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</link>
+      <pubDate>Thu, 19 Dec 2024 13:00:00 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</guid>
+      <description>How Armur Ensures Safe Adoption of AI The rise of Artificial Intelligence (AI) is revolutionizing industries across the globe, but with this rapid growth comes a set of new challenges—particularly in terms of security. As organizations increasingly adopt AI-driven solutions for everything from code generation to business process automation, ensuring the safe and secure use of AI becomes essential. Armur, with its advanced security tools and AI-driven capabilities, is at the forefront of making AI adoption safe, efficient, and reliable.</description>
+    </item>
+    <item>
+      <title>How AI Coding Assistants Can Replicate and Amplify Security Vulnerabilities in Your Codebase</title>
+      <link>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</link>
+      <pubDate>Tue, 19 Nov 2024 13:30:00 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</guid>
+      <description>Generative coding assistants, such as GitHub Copilot, are designed to improve developer productivity by suggesting code completions based on patterns learned from extensive training datasets. While these tools have proven to save time and streamline development workflows, recent research has raised concerns that they may inadvertently replicate and amplify security vulnerabilities present in existing codebases.&#xA;Security researchers have demonstrated that AI coding assistants can propagate flawed coding practices, increasing the risk of insecure software.</description>
+    </item>
     <item>
       <title>LLMs Enhancing Security: Automated Code Review in Rust Projects</title>
-      <link>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</link>
+      <link>https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</guid>
+      <guid>https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/</guid>
       <description>Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&amp;rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny.</description>
     </item>
     <item>
       <title>Using LLMs to Find Golang Vulnerabilities and Fixes </title>
-      <link>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</link>
+      <link>https://armur.ai/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</guid>
+      <guid>https://armur.ai/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</guid>
       <description>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.&#xA;We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.</description>
     </item>
     <item>
       <title>A Small Security Vulnerability That Halted The World</title>
-      <link>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</link>
+      <link>https://armur.ai/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</link>
       <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</guid>
+      <guid>https://armur.ai/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</guid>
       <description>On July 19, 2024, the world experienced a disruption that reminded us the importance of secure, robust release processes and security checks in software systems. CrowdStrike, a leading cybersecurity company, released an update that inadvertently caused widespread system failures. Let&amp;rsquo;s dive into what happened, why it was so impactful, and what we can learn from it.&#xA;The Incident at a Glance CrowdStrike&amp;rsquo;s routine sensor configuration update, released at 04:09 UTC, triggered a logic error that resulted in system crashes and Blue Screen of Death (BSOD) errors on approximately 8.</description>
     </item>
     <item>
       <title>Using LLMs in Code Security and Static Analysis</title>
-      <link>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</link>
+      <link>https://armur.ai/blogs/posts/using-llms-in-code-security-and-static-analysis/</link>
       <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</guid>
+      <guid>https://armur.ai/blogs/posts/using-llms-in-code-security-and-static-analysis/</guid>
       <description>Introduction One of the fundamental building blocks of software development is code quality. High-quality code is directly linked to secure, stable, and reliable applications. Traditionally, static analysis has been a key technique to maintain this quality, but recent advancements have introduced a transformative element: Large Language Models (LLMs). These advanced AI systems are now playing a major role in enhancing code security and ensuring issues are identified before software is released into production.</description>
     </item>
   </channel>

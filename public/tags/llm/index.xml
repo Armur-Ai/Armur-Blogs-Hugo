@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LLM on Armur</title>
-    <link>http://localhost:1313/blogs/tags/llm/</link>
+    <link>https://armur.ai/blogs/tags/llm/</link>
     <description>Recent content in LLM on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Dec 2024 13:00:00 +0530</lastBuildDate>
+    <atom:link href="https://armur.ai/blogs/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Armur Ensures Safe Adoption of AI</title>
-      <link>http://localhost:1313/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</link>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</guid>
+      <link>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</link>
+      <pubDate>Thu, 19 Dec 2024 13:00:00 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</guid>
       <description>How Armur Ensures Safe Adoption of AI The rise of Artificial Intelligence (AI) is revolutionizing industries across the globe, but with this rapid growth comes a set of new challenges—particularly in terms of security. As organizations increasingly adopt AI-driven solutions for everything from code generation to business process automation, ensuring the safe and secure use of AI becomes essential. Armur, with its advanced security tools and AI-driven capabilities, is at the forefront of making AI adoption safe, efficient, and reliable.</description>
     </item>
   </channel>

@@ -2,52 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Armur</title>
-    <link>http://localhost:1313/blogs/tags/ai/</link>
+    <link>https://armur.ai/blogs/tags/ai/</link>
     <description>Recent content in Ai on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:20:22 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Dec 2024 13:00:00 +0530</lastBuildDate>
+    <atom:link href="https://armur.ai/blogs/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Armur Ensures Safe Adoption of AI</title>
+      <link>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</link>
+      <pubDate>Thu, 19 Dec 2024 13:00:00 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</guid>
+      <description>How Armur Ensures Safe Adoption of AI The rise of Artificial Intelligence (AI) is revolutionizing industries across the globe, but with this rapid growth comes a set of new challenges—particularly in terms of security. As organizations increasingly adopt AI-driven solutions for everything from code generation to business process automation, ensuring the safe and secure use of AI becomes essential. Armur, with its advanced security tools and AI-driven capabilities, is at the forefront of making AI adoption safe, efficient, and reliable.</description>
+    </item>
+    <item>
+      <title>How AI Coding Assistants Can Replicate and Amplify Security Vulnerabilities in Your Codebase</title>
+      <link>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</link>
+      <pubDate>Tue, 19 Nov 2024 13:30:00 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</guid>
+      <description>Generative coding assistants, such as GitHub Copilot, are designed to improve developer productivity by suggesting code completions based on patterns learned from extensive training datasets. While these tools have proven to save time and streamline development workflows, recent research has raised concerns that they may inadvertently replicate and amplify security vulnerabilities present in existing codebases.&#xA;Security researchers have demonstrated that AI coding assistants can propagate flawed coding practices, increasing the risk of insecure software.</description>
+    </item>
     <item>
       <title>Can AI Write Secure Code?</title>
-      <link>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</link>
+      <link>https://armur.ai/blogs/posts/can_ai_write_secure_code/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</guid>
+      <guid>https://armur.ai/blogs/posts/can_ai_write_secure_code/</guid>
       <description>Generative AI is transforming the way software is built, offering potential benefits on par with the impact of the internet, mobile devices, and cloud computing. According to Gartner, AI has the potential to automate up to 30% of the work developers currently perform, freeing them to focus on higher-value tasks. AI coding assistants like GitHub Copilot are proving to be game-changers, boosting productivity by up to 50% and enhancing code quality through faster testing cycles.</description>
     </item>
     <item>
       <title>Revolutionizing Cloud Security Posture Management with AI</title>
-      <link>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
+      <link>https://armur.ai/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
+      <guid>https://armur.ai/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
       <description>Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust cybersecurity measures has never been more critical. Picture this: a world where cybersecurity defenses not only react to threats but anticipate them, adapt to them, and neutralize them almost instantaneously. Welcome to 2024, where artificial intelligence (AI) is no longer just a buzzword but the backbone of cutting-edge cybersecurity strategies.</description>
     </item>
     <item>
       <title>Revolutionizing Cloud Security Posture Management with AI</title>
-      <link>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</link>
+      <link>https://armur.ai/blogs/posts/revolutionizing_cloud_security_posture/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</guid>
+      <guid>https://armur.ai/blogs/posts/revolutionizing_cloud_security_posture/</guid>
       <description>Introduction In today&amp;rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing traditional Cloud Security Posture Management (CSPM) strategies to their limits. A staggering 90% of organizations admit to experiencing at least one cloud-based security breach, underscoring the critical need for more advanced and dynamic defense mechanisms. Enter Artificial Intelligence (AI) &amp;mdash; the game-changer in cloud security that&amp;rsquo;s shifting the paradigm from reactive to predictive security management.</description>
     </item>
     <item>
       <title>The Role of AI in Preventing DDoS Attacks on Blockchain Networks</title>
-      <link>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</link>
+      <link>https://armur.ai/blogs/posts/the_role_of_ai_in_preventing_ddos/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</guid>
+      <guid>https://armur.ai/blogs/posts/the_role_of_ai_in_preventing_ddos/</guid>
       <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
       <title>Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI</title>
-      <link>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</link>
+      <link>https://armur.ai/blogs/posts/unlocking_the_future_predicting_the/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</guid>
+      <guid>https://armur.ai/blogs/posts/unlocking_the_future_predicting_the/</guid>
       <description>Introduction Imagine having a magic mirror rather than a crystal ball, one that doesn&amp;rsquo;t just predict the future but actively shapes it, especially in the realms of Blockchain and Artificial Intelligence (AI). That&amp;rsquo;s exactly the role we&amp;rsquo;ve embraced here at Armur AI. Far from being mere spectators, we&amp;rsquo;re at the vanguard, merging the formidable powers of AI and Blockchain to redefine cybersecurity&amp;rsquo;s landscape.&#xA;Blockchain and AI, each a behemoth in its own right, have begun to converge in ways that promise to amplify their individual strengths.</description>
     </item>
     <item>
       <title>Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</title>
-      <link>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
+      <link>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
+      <guid>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
       <description>Ah, the Internet of Things (IoT) &amp;mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from your fridge to your car. But with great connectivity comes great responsibility, or in this case, a massive cybersecurity headache. As our devices chatter away, they open doors to potential cyber threats. Enter the dynamic duo of blockchain and artificial intelligence (AI). These technologies are not just reshaping the cybersecurity landscape; they&amp;rsquo;re redefining it, with pioneers like Armur AI leading the charge.</description>
     </item>
   </channel>

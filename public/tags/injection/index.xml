@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Injection on Armur</title>
-    <link>http://localhost:1313/blogs/tags/injection/</link>
+    <link>https://armur.ai/blogs/tags/injection/</link>
     <description>Recent content in Injection on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 13:01:35 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/tags/injection/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://armur.ai/blogs/tags/injection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Injection in Python: Examples and Prevention</title>
-      <link>http://localhost:1313/blogs/posts/code_injection_in_python/</link>
+      <link>https://armur.ai/blogs/posts/code_injection_in_python/</link>
       <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/code_injection_in_python/</guid>
+      <guid>https://armur.ai/blogs/posts/code_injection_in_python/</guid>
       <description>1. Introduction Code injection is a severe security vulnerability that occurs when an attacker inserts malicious code into a vulnerable application. This article focuses on code injection in Python, exploring various types of injections, providing examples, and discussing prevention techniques. Understanding these concepts is crucial for developing secure Python applications.&#xA;2. Understanding Code Injection Code injection is a technique used by malicious actors to introduce unauthorized code into a vulnerable application.</description>
     </item>
   </channel>

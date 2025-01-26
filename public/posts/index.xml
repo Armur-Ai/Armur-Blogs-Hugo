@@ -2,262 +2,283 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Armur</title>
-    <link>http://localhost:1313/blogs/posts/</link>
+    <link>https://armur.ai/blogs/posts/</link>
     <description>Recent content in Posts on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Dec 2024 13:01:35 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jan 2025 15:20:22 +0530</lastBuildDate>
+    <atom:link href="https://armur.ai/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Massive Chrome Extension Breach Exposes Millions to Data Theft</title>
+      <link>https://armur.ai/blogs/posts/chrome_extension_vulnerabilities/</link>
+      <pubDate>Sat, 25 Jan 2025 15:20:22 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/chrome_extension_vulnerabilities/</guid>
+      <description>A widespread cyberattack has compromised at least 35 Chrome browser extensions, putting over 2.6 million users at risk of data theft and credential exposure. This targeted campaign exploited publisher accounts on the Chrome Web Store through phishing tactics, embedding malicious code into trusted extensions to steal cookies and access tokens.&#xA;The Attack Campaign The breach came to light after cybersecurity firm Cyberhaven reported that one of its employees fell victim to a phishing attack on December 24.</description>
+    </item>
     <item>
       <title>Code Injection in Python: Examples and Prevention</title>
-      <link>http://localhost:1313/blogs/posts/code_injection_in_python/</link>
+      <link>https://armur.ai/blogs/posts/code_injection_in_python/</link>
       <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/code_injection_in_python/</guid>
+      <guid>https://armur.ai/blogs/posts/code_injection_in_python/</guid>
       <description>1. Introduction Code injection is a severe security vulnerability that occurs when an attacker inserts malicious code into a vulnerable application. This article focuses on code injection in Python, exploring various types of injections, providing examples, and discussing prevention techniques. Understanding these concepts is crucial for developing secure Python applications.&#xA;2. Understanding Code Injection Code injection is a technique used by malicious actors to introduce unauthorized code into a vulnerable application.</description>
     </item>
     <item>
+      <title>How Armur Ensures Safe Adoption of AI</title>
+      <link>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</link>
+      <pubDate>Thu, 19 Dec 2024 13:00:00 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/how_armur_helps_in_safe_adoption_of_ai/</guid>
+      <description>How Armur Ensures Safe Adoption of AI The rise of Artificial Intelligence (AI) is revolutionizing industries across the globe, but with this rapid growth comes a set of new challenges—particularly in terms of security. As organizations increasingly adopt AI-driven solutions for everything from code generation to business process automation, ensuring the safe and secure use of AI becomes essential. Armur, with its advanced security tools and AI-driven capabilities, is at the forefront of making AI adoption safe, efficient, and reliable.</description>
+    </item>
+    <item>
       <title>Armur’s Role Against Zero-Day Exploits in AI-Generated Code</title>
-      <link>http://localhost:1313/blogs/posts/armur_against_zero_days/</link>
+      <link>https://armur.ai/blogs/posts/armur_against_zero_days/</link>
       <pubDate>Tue, 10 Dec 2024 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/armur_against_zero_days/</guid>
+      <guid>https://armur.ai/blogs/posts/armur_against_zero_days/</guid>
       <description>What Are Zero-Day Exploits? A zero-day exploit is a cyberattack that capitalizes on a previously unknown vulnerability in software, hardware, or firmware. These vulnerabilities, referred to as zero-day vulnerabilities, are flaws that have not been discovered or patched by the developer or vendor. The term “zero day” signifies that there is zero time to fix the issue before it is exploited by attackers.&#xA;When a hacker identifies and uses a zero-day vulnerability to breach systems, this is called a zero-day attack.</description>
     </item>
     <item>
+      <title>How AI Coding Assistants Can Replicate and Amplify Security Vulnerabilities in Your Codebase</title>
+      <link>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</link>
+      <pubDate>Tue, 19 Nov 2024 13:30:00 +0530</pubDate>
+      <guid>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</guid>
+      <description>Generative coding assistants, such as GitHub Copilot, are designed to improve developer productivity by suggesting code completions based on patterns learned from extensive training datasets. While these tools have proven to save time and streamline development workflows, recent research has raised concerns that they may inadvertently replicate and amplify security vulnerabilities present in existing codebases.&#xA;Security researchers have demonstrated that AI coding assistants can propagate flawed coding practices, increasing the risk of insecure software.</description>
+    </item>
+    <item>
       <title>Critical Zero-Day Vulnerability CVE-2024-9680 Exploited in Firefox and Tor Browser</title>
-      <link>http://localhost:1313/blogs/posts/critical_zero_day/</link>
+      <link>https://armur.ai/blogs/posts/critical_zero_day/</link>
       <pubDate>Mon, 21 Oct 2024 05:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/critical_zero_day/</guid>
+      <guid>https://armur.ai/blogs/posts/critical_zero_day/</guid>
       <description>A critical security flaw, identified as CVE-2024-9680, has been actively exploited in the wild, impacting multiple versions of Mozilla Firefox and Tor Browser. The vulnerability, classified as a high-severity use-after-free issue in the Animation timeline component, enables attackers to execute arbitrary code, posing significant risks to users&amp;rsquo; privacy and security. The flaw was first reported by cybersecurity firm ESET and has since been patched by Mozilla in Firefox versions 131.0.2, Firefox ESR 128.</description>
     </item>
     <item>
       <title>Securing AI-Generated Code</title>
-      <link>http://localhost:1313/blogs/posts/securing_ai_generated_code/</link>
+      <link>https://armur.ai/blogs/posts/securing_ai_generated_code/</link>
       <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/securing_ai_generated_code/</guid>
+      <guid>https://armur.ai/blogs/posts/securing_ai_generated_code/</guid>
       <description>AI-generated code has transformed software development by automating repetitive tasks, accelerating workflows, and significantly boosting productivity. However, similar to human-written code, it introduces unique security risks that cannot be overlooked. As organizations increasingly integrate AI tools such as ChatGPT and GitHub Copilot into their development pipelines, securing AI-generated code becomes a critical priority. Vulnerabilities such as improper input handling, use of insecure third-party libraries, and susceptibility to adversarial attacks require careful attention and mitigation.</description>
     </item>
     <item>
       <title>How to Build a Modern DevSecOps Culture</title>
-      <link>http://localhost:1313/blogs/posts/how_to_build_a_modern_devsecops_culture/</link>
+      <link>https://armur.ai/blogs/posts/how_to_build_a_modern_devsecops_culture/</link>
       <pubDate>Sun, 29 Sep 2024 15:24:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/how_to_build_a_modern_devsecops_culture/</guid>
+      <guid>https://armur.ai/blogs/posts/how_to_build_a_modern_devsecops_culture/</guid>
       <description>Technology has been evolving very rapidly, organizations face increasing pressure to deliver high-quality software quickly while maintaining robust security measures. This challenge has given rise to DevSecOps, a cultural and technical approach that integrates security practices into the DevOps workflow. DevSecOps isn&amp;rsquo;t just a set of tools or processes; it&amp;rsquo;s a fundamental shift in how teams think about and implement security throughout the software development lifecycle.&#xA;By embracing DevSecOps, companies can significantly reduce the risk of security breaches, improve compliance, and accelerate the delivery of secure software.</description>
     </item>
     <item>
       <title>Can AI Write Secure Code?</title>
-      <link>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</link>
+      <link>https://armur.ai/blogs/posts/can_ai_write_secure_code/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</guid>
+      <guid>https://armur.ai/blogs/posts/can_ai_write_secure_code/</guid>
       <description>Generative AI is transforming the way software is built, offering potential benefits on par with the impact of the internet, mobile devices, and cloud computing. According to Gartner, AI has the potential to automate up to 30% of the work developers currently perform, freeing them to focus on higher-value tasks. AI coding assistants like GitHub Copilot are proving to be game-changers, boosting productivity by up to 50% and enhancing code quality through faster testing cycles.</description>
     </item>
     <item>
       <title>Best Static Code Analysis Tools</title>
-      <link>http://localhost:1313/blogs/posts/top_10_static_code/</link>
+      <link>https://armur.ai/blogs/posts/top_10_static_code/</link>
       <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/top_10_static_code/</guid>
+      <guid>https://armur.ai/blogs/posts/top_10_static_code/</guid>
       <description>What Is A Static Code Analysis Tool? Static code analysis tools, also known as source code analyzers, are essential for maintaining high code quality and ensuring security. These tools are utilized by software developers, cybersecurity experts, and quality assurance professionals to automatically review the source code before execution. They aim to identify potential issues such as syntax errors, code structure problems, security vulnerabilities, and other elements that may lead to software bugs or system failures.</description>
     </item>
     <item>
       <title>What Is a Code Vulnerability Analyzer?</title>
-      <link>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</link>
+      <link>https://armur.ai/blogs/posts/code_vulnerability_analyzer/</link>
       <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</guid>
+      <guid>https://armur.ai/blogs/posts/code_vulnerability_analyzer/</guid>
       <description>In the digital world we live in, software is the backbone of almost everything. But with this reliance on software comes the risk of cyberattacks. A code vulnerability analyzer is a tool that helps developers find security issues in their code before they become serious problems. Unlike basic tools, which might only scratch the surface, these analyzers dig deep into the code to spot hidden vulnerabilities that could be exploited by attackers.</description>
     </item>
     <item>
       <title>What Are Code Vulnerability Scanning Tools?</title>
-      <link>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</link>
+      <link>https://armur.ai/blogs/posts/what_are_code_vulnerability_scanning_tools/</link>
       <pubDate>Fri, 23 Aug 2024 09:10:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</guid>
+      <guid>https://armur.ai/blogs/posts/what_are_code_vulnerability_scanning_tools/</guid>
       <description>In today’s digital landscape, security is important. As organisations increasingly rely on software to drive their operations, the risk of cyberattacks has grown. Code vulnerability scanning tools have become essential in the fight to protect sensitive data, maintain operational integrity, and safeguard against breaches. This article explains what code vulnerability scanning tools are, how they work, their importance, and the key features that make them important in modern software development and security.</description>
     </item>
     <item>
       <title>How Does A Static Code Analysis Tool Work?</title>
-      <link>http://localhost:1313/blogs/posts/how_static_analysis_works/</link>
+      <link>https://armur.ai/blogs/posts/how_static_analysis_works/</link>
       <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/how_static_analysis_works/</guid>
+      <guid>https://armur.ai/blogs/posts/how_static_analysis_works/</guid>
       <description>Introduction Static code analysis is an essential process in software development, enabling developers to analyze the structure of code without executing it. This method is widely used to detect security vulnerabilities, bugs, and other defects in software, making it a crucial step in ensuring the quality and security of applications. This article gets into the mechanics of static code analysis, the underlying technology that makes it possible, and the limitations that come with this approach.</description>
     </item>
     <item>
       <title>Top 20 Static Code Analysis Tools in 2024</title>
-      <link>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</link>
+      <link>https://armur.ai/blogs/posts/top_20_static_analysis_tools/</link>
       <pubDate>Sun, 18 Aug 2024 09:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</guid>
+      <guid>https://armur.ai/blogs/posts/top_20_static_analysis_tools/</guid>
       <description>Static code analysis tools play a crucial role in maintaining code quality, security, and performance. These tools help developers identify vulnerabilities, bugs, and adherence to coding standards, ensuring robust software. Here’s a comprehensive overview of the top 20 static code analysis tools for 2024, highlighting their key features, ease of use, integrations, and overall effectiveness.&#xA;1. Armur AI Best for AI-driven security analysis&#xA;Armur AI is a cutting-edge platform that uses LLM Agents for sophisticated code vulnerability scanning.</description>
     </item>
     <item>
       <title>Understanding Static Analysis: The Backbone of Secure Software Development</title>
-      <link>http://localhost:1313/blogs/posts/what_is_static_analysis/</link>
+      <link>https://armur.ai/blogs/posts/what_is_static_analysis/</link>
       <pubDate>Wed, 14 Aug 2024 16:44:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/what_is_static_analysis/</guid>
+      <guid>https://armur.ai/blogs/posts/what_is_static_analysis/</guid>
       <description>In today&amp;rsquo;s fast-paced digital world, software applications drive every aspect of business operations, from customer engagement to data management. As organizations increasingly rely on these applications, ensuring their security, performance, and quality becomes paramount. However, testing and securing code late in the Software Development Lifecycle (SDLC) can lead to costly errors, security vulnerabilities, and even catastrophic failures in production. To mitigate these risks, engineering teams must adopt robust practices like static analysis early in the SDLC.</description>
     </item>
     <item>
       <title>The Top 10 Web Application Security Risks: A Detailed Guide for Industry Leaders</title>
-      <link>http://localhost:1313/blogs/posts/top_ten_web_application_security_risks/</link>
+      <link>https://armur.ai/blogs/posts/top_ten_web_application_security_risks/</link>
       <pubDate>Wed, 14 Aug 2024 16:30:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/top_ten_web_application_security_risks/</guid>
+      <guid>https://armur.ai/blogs/posts/top_ten_web_application_security_risks/</guid>
       <description>Introduction In the rapidly evolving digital landscape, web applications have become the backbone of modern businesses, enabling seamless interactions and transactions. However, with this increasing reliance comes heightened security risks that can jeopardize sensitive data and disrupt operations. Understanding these risks is not just important—it’s imperative for anyone responsible for the security of web applications. In this comprehensive guide, we’ll dive deep into the top 10 web application security risks that every organization should be aware of.</description>
     </item>
     <item>
       <title>LLMs Enhancing Security: Automated Code Review in Rust Projects</title>
-      <link>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</link>
+      <link>https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/automated-code-review-in-rust-projects/</guid>
+      <guid>https://armur.ai/blogs/posts/automated-code-review-in-rust-projects/</guid>
       <description>Recently, we’ve been seeing , how simple bugs can result to huge errors in software. It shows that there should be no room for errors in the code we write. Rust, a systems programming language known for its focus on memory safety and concurrency, has gained significant traction among developers seeking to build robust and secure applications. However, even with Rust&amp;rsquo;s inherent safety features, the complexity of modern software systems demands additional layers of security scrutiny.</description>
     </item>
     <item>
       <title>Using LLMs to Find Golang Vulnerabilities and Fixes </title>
-      <link>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</link>
+      <link>https://armur.ai/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</link>
       <pubDate>Tue, 30 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</guid>
+      <guid>https://armur.ai/blogs/posts/using-llms-to-find-golang-vulnerabilities-and-fixes/</guid>
       <description>Ensuring the security of software applications is becoming more important as technology evolves. Go, known for its simplicity and efficiency, is a popular choice for building high-performance applications. However, like any programming language, Go is prone to security vulnerabilities. Detecting and fixing these vulnerabilities early is crucial to safeguarding applications.&#xA;We will be using Armur which uses LLM Agents for Code Vulnerability Scanning. Armur is a platform designed to help developers find and fix security vulnerabilities in your code.</description>
     </item>
     <item>
       <title>A Small Security Vulnerability That Halted The World</title>
-      <link>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</link>
+      <link>https://armur.ai/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</link>
       <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</guid>
+      <guid>https://armur.ai/blogs/posts/a-small-security-vulnerability-that-halted-the-world/</guid>
       <description>On July 19, 2024, the world experienced a disruption that reminded us the importance of secure, robust release processes and security checks in software systems. CrowdStrike, a leading cybersecurity company, released an update that inadvertently caused widespread system failures. Let&amp;rsquo;s dive into what happened, why it was so impactful, and what we can learn from it.&#xA;The Incident at a Glance CrowdStrike&amp;rsquo;s routine sensor configuration update, released at 04:09 UTC, triggered a logic error that resulted in system crashes and Blue Screen of Death (BSOD) errors on approximately 8.</description>
     </item>
     <item>
       <title>Using LLMs in Code Security and Static Analysis</title>
-      <link>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</link>
+      <link>https://armur.ai/blogs/posts/using-llms-in-code-security-and-static-analysis/</link>
       <pubDate>Mon, 22 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/using-llms-in-code-security-and-static-analysis/</guid>
+      <guid>https://armur.ai/blogs/posts/using-llms-in-code-security-and-static-analysis/</guid>
       <description>Introduction One of the fundamental building blocks of software development is code quality. High-quality code is directly linked to secure, stable, and reliable applications. Traditionally, static analysis has been a key technique to maintain this quality, but recent advancements have introduced a transformative element: Large Language Models (LLMs). These advanced AI systems are now playing a major role in enhancing code security and ensuring issues are identified before software is released into production.</description>
     </item>
     <item>
       <title>What is Front Running and MEV?</title>
-      <link>http://localhost:1313/blogs/posts/what-is-front-running-and-mev/</link>
+      <link>https://armur.ai/blogs/posts/what-is-front-running-and-mev/</link>
       <pubDate>Thu, 18 Jul 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/what-is-front-running-and-mev/</guid>
+      <guid>https://armur.ai/blogs/posts/what-is-front-running-and-mev/</guid>
       <description>Front-running in Blockchain occurs when someone intentionally enters a transaction into a block before you to try to extract some value. Imagine you&amp;rsquo;re at a high-stakes auction, bidding on a rare artifact. Just as you&amp;rsquo;re about to place your bid, someone with inside information swoops in, outbids you, and resells the item at a profit moments later. This is the essence of front running in the crypto space, but with far-reaching implications for market integrity and individual traders.</description>
     </item>
     <item>
       <title>Race condition in std::fs::remove_dir_all in Rust</title>
-      <link>http://localhost:1313/blogs/posts/race_condition_in_rust/</link>
+      <link>https://armur.ai/blogs/posts/race_condition_in_rust/</link>
       <pubDate>Mon, 03 Jun 2024 15:20:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/race_condition_in_rust/</guid>
+      <guid>https://armur.ai/blogs/posts/race_condition_in_rust/</guid>
       <description>Introduction In Rust, the std::fs::remove_dir_all function is vulnerable to a race condition that can lead to unintended following. This type of vulnerability is clasified under CWE-363, which describes scenarios where a race condition allows an attacker to manipulate file links, potentially leading to unauthorized file or directory access.&#xA;This issue has been assigned CVE-2022-21658.&#xA;An Overview of this vulnerability The vulnerability in std::fs::remove_dir_all presents a significant security risk. To illustrate, consider an attacker who has obtained unprivileged access to a system and wants to delete a system directory called sensitive/, but lacks the necessary permissions and privileges.</description>
     </item>
     <item>
       <title>A Critical Vulnerability In Windows Batch file Execution</title>
-      <link>http://localhost:1313/blogs/posts/windows_batch_file_vulnerability/</link>
+      <link>https://armur.ai/blogs/posts/windows_batch_file_vulnerability/</link>
       <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/windows_batch_file_vulnerability/</guid>
+      <guid>https://armur.ai/blogs/posts/windows_batch_file_vulnerability/</guid>
       <description>A command injection flaw was found in Rust, exclusive to Windows environments. When invoking batch files on Windows using the Command API, Rust explicitly uses cmd.exe which has complicated parsing rules for arguments. If an attacker can control part of the command arguments of the batch file, this could bypass the argument escaping and inject arbitrary shell commands.&#xA;An overview of the vulnerability This issue arises when invoking batch files (with .</description>
     </item>
     <item>
       <title>Learn About Reentracny Attacks and how to Prevent them</title>
-      <link>http://localhost:1313/blogs/posts/reentrancy_attacks/</link>
+      <link>https://armur.ai/blogs/posts/reentrancy_attacks/</link>
       <pubDate>Sat, 01 Jun 2024 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/reentrancy_attacks/</guid>
+      <guid>https://armur.ai/blogs/posts/reentrancy_attacks/</guid>
       <description>What is a Solidity Reentrancy Attack? In Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
     </item>
     <item>
       <title>Critical Vulnerability found in the ‘net’ package in Go and Rust.</title>
-      <link>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
+      <link>https://armur.ai/blogs/posts/critical_vulnerability_found_in_the_net_package/</link>
       <pubDate>Fri, 31 May 2024 09:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
+      <guid>https://armur.ai/blogs/posts/critical_vulnerability_found_in_the_net_package/</guid>
       <description>The popular ‘net’ library used in GO and Rust was recently impacted by the mixed-format IP address validation vulnerability, a critical bug that made many applications extremely vulnerable. In this article, we will break it down and understand all about it.&#xA;Understanding the Vulnerability If you perform a simple search for &amp;ldquo;import net&amp;rdquo; on GitHub, it’ll reveal over 4 million files for Go alone relying on the net library, this means it’s a vulnerability of significant proportions.</description>
     </item>
     <item>
       <title>A Security Vulnerability In Rust&#39;s Cargo Tool</title>
-      <link>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
+      <link>https://armur.ai/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</link>
       <pubDate>Sun, 26 May 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
+      <guid>https://armur.ai/blogs/posts/a_security_vulnerability_in_rusts_cargo_tool/</guid>
       <description>Introduction The tools we use to develop software should be secure and it is crucial to ensure that. Recently, a security vulnerability was found that surfaced in Rust&amp;rsquo;s Cargo tool. If you’re not familiar, Cargo is an essential tool for managing Rust projects.&#xA;It handles tasks like building code and managing dependencies. However, a significant flaw was discovered in this tool. This vulnerability is tied to the way Cargo generates reports with the cargo build &amp;ndash;timings command.</description>
     </item>
     <item>
       <title>Decentralized Botnets The Good, The Bad, and The Secure</title>
-      <link>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</link>
+      <link>https://armur.ai/blogs/posts/decentralized_botnets_the_good_the/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</guid>
+      <guid>https://armur.ai/blogs/posts/decentralized_botnets_the_good_the/</guid>
       <description>Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with nothing but code. In this thrilling expanse, there&amp;rsquo;s a new player in town: decentralized botnets. Imagine a swarm of drones, each with its own mind, yet united in purpose, buzzing through the digital skies. Some are here to protect the town, while others have more nefarious plans.</description>
     </item>
     <item>
       <title>Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity</title>
-      <link>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</link>
+      <link>https://armur.ai/blogs/posts/learning_to_swarm_how_swarm_learning/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</guid>
+      <guid>https://armur.ai/blogs/posts/learning_to_swarm_how_swarm_learning/</guid>
       <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
       <title>Measuring the Impact of Shift Left on Cybersecurity Posture</title>
-      <link>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</link>
+      <link>https://armur.ai/blogs/posts/measuring_the_impact_of_shift_left/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</guid>
+      <guid>https://armur.ai/blogs/posts/measuring_the_impact_of_shift_left/</guid>
       <description>In today&amp;rsquo;s digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present challenge to organizations across the globe. As these threats evolve, so too must the strategies to counteract them. Among the most innovative and effective strategies emerging in recent years is the Shift Left approach, which seeks to integrate security measures at the earliest stages of the software development lifecycle (SDLC).&#xA;This proactive methodology represents a paradigm shift from traditional reactive security measures, aiming to identify and mitigate vulnerabilities well before software products reach production.</description>
     </item>
     <item>
       <title>Revolutionizing Cloud Security Posture Management with AI</title>
-      <link>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
+      <link>https://armur.ai/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
+      <guid>https://armur.ai/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
       <description>Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust cybersecurity measures has never been more critical. Picture this: a world where cybersecurity defenses not only react to threats but anticipate them, adapt to them, and neutralize them almost instantaneously. Welcome to 2024, where artificial intelligence (AI) is no longer just a buzzword but the backbone of cutting-edge cybersecurity strategies.</description>
     </item>
     <item>
       <title>Revolutionizing Cloud Security Posture Management with AI</title>
-      <link>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</link>
+      <link>https://armur.ai/blogs/posts/revolutionizing_cloud_security_posture/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/revolutionizing_cloud_security_posture/</guid>
+      <guid>https://armur.ai/blogs/posts/revolutionizing_cloud_security_posture/</guid>
       <description>Introduction In today&amp;rsquo;s cloud-centric digital landscape, the complexity and volume of security threats have escalated, pushing traditional Cloud Security Posture Management (CSPM) strategies to their limits. A staggering 90% of organizations admit to experiencing at least one cloud-based security breach, underscoring the critical need for more advanced and dynamic defense mechanisms. Enter Artificial Intelligence (AI) &amp;mdash; the game-changer in cloud security that&amp;rsquo;s shifting the paradigm from reactive to predictive security management.</description>
     </item>
     <item>
       <title>The Role of AI in Preventing DDoS Attacks on Blockchain Networks</title>
-      <link>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</link>
+      <link>https://armur.ai/blogs/posts/the_role_of_ai_in_preventing_ddos/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the_role_of_ai_in_preventing_ddos/</guid>
+      <guid>https://armur.ai/blogs/posts/the_role_of_ai_in_preventing_ddos/</guid>
       <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
       <title>Understanding Web3 Cybersecurity Challenges</title>
-      <link>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</link>
+      <link>https://armur.ai/blogs/posts/understanding_web3_cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</guid>
+      <guid>https://armur.ai/blogs/posts/understanding_web3_cybersecurity/</guid>
       <description>Introduction: The New Frontier of Web3 As we stand on the brink of a digital revolution, the emergence of Web3 heralds a transformative era for the internet as we know it. This new phase, characterized by decentralization, blockchain technologies, and a push towards user sovereignty, redefines our interactions online, promising a future where users have unprecedented control over their data and digital identities.&#xA;Web3, in essence, represents a shift from centralized platforms, where data is stored in servers owned by a handful of corporations, to a decentralized network, built on the principles of blockchain technology.</description>
     </item>
     <item>
       <title>Unlocking the Future: Predicting the Next Big Revolution in Blockchain and AI</title>
-      <link>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</link>
+      <link>https://armur.ai/blogs/posts/unlocking_the_future_predicting_the/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/unlocking_the_future_predicting_the/</guid>
+      <guid>https://armur.ai/blogs/posts/unlocking_the_future_predicting_the/</guid>
       <description>Introduction Imagine having a magic mirror rather than a crystal ball, one that doesn&amp;rsquo;t just predict the future but actively shapes it, especially in the realms of Blockchain and Artificial Intelligence (AI). That&amp;rsquo;s exactly the role we&amp;rsquo;ve embraced here at Armur AI. Far from being mere spectators, we&amp;rsquo;re at the vanguard, merging the formidable powers of AI and Blockchain to redefine cybersecurity&amp;rsquo;s landscape.&#xA;Blockchain and AI, each a behemoth in its own right, have begun to converge in ways that promise to amplify their individual strengths.</description>
     </item>
     <item>
       <title>Best Practices for Securing Smart Contracts</title>
-      <link>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</link>
+      <link>https://armur.ai/blogs/posts/best_practices_for_securing_smart/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/best_practices_for_securing_smart/</guid>
+      <guid>https://armur.ai/blogs/posts/best_practices_for_securing_smart/</guid>
       <description>Introduction In the fascinating world of blockchain technology, smart contracts are akin to the wizards of automation, casting spells that execute transactions and agreements seamlessly, without the need for intermediaries. These digital contracts run on blockchain networks, self-executing when predetermined conditions are met, revolutionizing how agreements are formed and upheld in the digital age. From creating decentralized applications (dApps) to automating complex financial instruments, smart contracts are at the heart of blockchain&amp;rsquo;s promise for a more transparent, efficient, and secure digital future.</description>
     </item>
     <item>
       <title>Crafting Your First Secure Smart Contract in Solidity A Beginner’s Guide</title>
-      <link>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
+      <link>https://armur.ai/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
+      <guid>https://armur.ai/blogs/posts/crafting_your_first_secure_smart_contract_in_solidity_a_beginners_guide/</guid>
       <description>Introduction Imagine a world where agreements and transactions happen seamlessly without the need for a middleman, where trust is built into the system, and where your digital assets are securely managed by code. Welcome to the revolutionary world of smart contracts! These aren&amp;rsquo;t your average contracts written on paper but are smart, digital, and automated contracts that live on the blockchain. And when it comes to these digital marvels, security isn&amp;rsquo;t just a feature; it&amp;rsquo;s the cornerstone.</description>
     </item>
     <item>
       <title>Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</title>
-      <link>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
+      <link>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
+      <guid>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
       <description>Ah, the Internet of Things (IoT) &amp;mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from your fridge to your car. But with great connectivity comes great responsibility, or in this case, a massive cybersecurity headache. As our devices chatter away, they open doors to potential cyber threats. Enter the dynamic duo of blockchain and artificial intelligence (AI). These technologies are not just reshaping the cybersecurity landscape; they&amp;rsquo;re redefining it, with pioneers like Armur AI leading the charge.</description>
     </item>
     <item>
       <title>The Blockchain Security Checklist by Armur AI</title>
-      <link>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</link>
+      <link>https://armur.ai/blogs/posts/the_blockchain_security_checklist_armur_ai/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the_blockchain_security_checklist_armur_ai/</guid>
+      <guid>https://armur.ai/blogs/posts/the_blockchain_security_checklist_armur_ai/</guid>
       <description>In the digital era, where blockchain technology is as revolutionary as it is complex, the armor of cybersecurity needs to be as unbreachable as possible. With cyber threats morphing faster than a chameleon on a rainbow, safeguarding the integrity and security of blockchain networks is more crucial than ever. Armur AI, standing tall as a beacon in the AI-driven cybersecurity landscape, unveils its master blueprint: The Blockchain Security Checklist. Consider this your compass in the vast sea of blockchain technology, guiding you through the stormy waters of cyber threats with wisdom gleaned from the very forefront of industry expertise.</description>
     </item>
     <item>
       <title>The Importance of Privacy in Blockchain Applications</title>
-      <link>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</link>
+      <link>https://armur.ai/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</guid>
+      <guid>https://armur.ai/blogs/posts/the_importance_of_privacy_in_blockchain_applications/</guid>
       <description>Introduction In the realm of blockchain technology, a paradox exists at its very core: the need for both transparency and privacy. On one hand, blockchain&amp;rsquo;s transparency is lauded for its ability to offer unparalleled visibility into transactions, fostering trust among users. On the other, this very openness poses significant privacy concerns, revealing transaction details that users might prefer to keep private. This tension between transparency and privacy raises an essential question: How can blockchain applications maintain their inherent security and openness while also protecting the privacy of their users?</description>
     </item>
   </channel>

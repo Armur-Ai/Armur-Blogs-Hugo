@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on Armur</title>
-    <link>http://localhost:1313/blogs/tags/code/</link>
+    <link>https://armur.ai/blogs/tags/code/</link>
     <description>Recent content in Code on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 13:01:35 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://armur.ai/blogs/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Injection in Python: Examples and Prevention</title>
-      <link>http://localhost:1313/blogs/posts/code_injection_in_python/</link>
+      <link>https://armur.ai/blogs/posts/code_injection_in_python/</link>
       <pubDate>Thu, 19 Dec 2024 13:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/code_injection_in_python/</guid>
+      <guid>https://armur.ai/blogs/posts/code_injection_in_python/</guid>
       <description>1. Introduction Code injection is a severe security vulnerability that occurs when an attacker inserts malicious code into a vulnerable application. This article focuses on code injection in Python, exploring various types of injections, providing examples, and discussing prevention techniques. Understanding these concepts is crucial for developing secure Python applications.&#xA;2. Understanding Code Injection Code injection is a technique used by malicious actors to introduce unauthorized code into a vulnerable application.</description>
     </item>
     <item>
       <title>Securing AI-Generated Code</title>
-      <link>http://localhost:1313/blogs/posts/securing_ai_generated_code/</link>
+      <link>https://armur.ai/blogs/posts/securing_ai_generated_code/</link>
       <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/securing_ai_generated_code/</guid>
+      <guid>https://armur.ai/blogs/posts/securing_ai_generated_code/</guid>
       <description>AI-generated code has transformed software development by automating repetitive tasks, accelerating workflows, and significantly boosting productivity. However, similar to human-written code, it introduces unique security risks that cannot be overlooked. As organizations increasingly integrate AI tools such as ChatGPT and GitHub Copilot into their development pipelines, securing AI-generated code becomes a critical priority. Vulnerabilities such as improper input handling, use of insecure third-party libraries, and susceptibility to adversarial attacks require careful attention and mitigation.</description>
     </item>
     <item>
       <title>Best Static Code Analysis Tools</title>
-      <link>http://localhost:1313/blogs/posts/top_10_static_code/</link>
+      <link>https://armur.ai/blogs/posts/top_10_static_code/</link>
       <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/top_10_static_code/</guid>
+      <guid>https://armur.ai/blogs/posts/top_10_static_code/</guid>
       <description>What Is A Static Code Analysis Tool? Static code analysis tools, also known as source code analyzers, are essential for maintaining high code quality and ensuring security. These tools are utilized by software developers, cybersecurity experts, and quality assurance professionals to automatically review the source code before execution. They aim to identify potential issues such as syntax errors, code structure problems, security vulnerabilities, and other elements that may lead to software bugs or system failures.</description>
     </item>
     <item>
       <title>What Is a Code Vulnerability Analyzer?</title>
-      <link>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</link>
+      <link>https://armur.ai/blogs/posts/code_vulnerability_analyzer/</link>
       <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</guid>
+      <guid>https://armur.ai/blogs/posts/code_vulnerability_analyzer/</guid>
       <description>In the digital world we live in, software is the backbone of almost everything. But with this reliance on software comes the risk of cyberattacks. A code vulnerability analyzer is a tool that helps developers find security issues in their code before they become serious problems. Unlike basic tools, which might only scratch the surface, these analyzers dig deep into the code to spot hidden vulnerabilities that could be exploited by attackers.</description>
     </item>
     <item>
       <title>What Are Code Vulnerability Scanning Tools?</title>
-      <link>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</link>
+      <link>https://armur.ai/blogs/posts/what_are_code_vulnerability_scanning_tools/</link>
       <pubDate>Fri, 23 Aug 2024 09:10:00 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/what_are_code_vulnerability_scanning_tools/</guid>
+      <guid>https://armur.ai/blogs/posts/what_are_code_vulnerability_scanning_tools/</guid>
       <description>In today’s digital landscape, security is important. As organisations increasingly rely on software to drive their operations, the risk of cyberattacks has grown. Code vulnerability scanning tools have become essential in the fight to protect sensitive data, maintain operational integrity, and safeguard against breaches. This article explains what code vulnerability scanning tools are, how they work, their importance, and the key features that make them important in modern software development and security.</description>
     </item>
   </channel>

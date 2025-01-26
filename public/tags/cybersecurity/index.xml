@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cybersecurity on Armur</title>
-    <link>http://localhost:1313/blogs/tags/cybersecurity/</link>
+    <link>https://armur.ai/blogs/tags/cybersecurity/</link>
     <description>Recent content in Cybersecurity on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Feb 2024 18:31:22 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://armur.ai/blogs/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decentralized Botnets The Good, The Bad, and The Secure</title>
-      <link>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</link>
+      <link>https://armur.ai/blogs/posts/decentralized_botnets_the_good_the/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/decentralized_botnets_the_good_the/</guid>
+      <guid>https://armur.ai/blogs/posts/decentralized_botnets_the_good_the/</guid>
       <description>Introduction Welcome to the Wild, Wild Web! A place where the digital gold rush meets the cyber outlaws, and the sheriffs are armed with nothing but code. In this thrilling expanse, there&amp;rsquo;s a new player in town: decentralized botnets. Imagine a swarm of drones, each with its own mind, yet united in purpose, buzzing through the digital skies. Some are here to protect the town, while others have more nefarious plans.</description>
     </item>
     <item>
       <title>Learning to Swarm: How Swarm Learning Powers Next-Gen Cybersecurity</title>
-      <link>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</link>
+      <link>https://armur.ai/blogs/posts/learning_to_swarm_how_swarm_learning/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/learning_to_swarm_how_swarm_learning/</guid>
+      <guid>https://armur.ai/blogs/posts/learning_to_swarm_how_swarm_learning/</guid>
       <description>Introduction In the vast digital ecosystem, where threats evolve at breakneck speed, a revolutionary approach is making waves: swarm learning. This isn&amp;rsquo;t your ordinary tech trend; it&amp;rsquo;s a paradigm shift inspired by nature itself. Just like flocks of birds move in harmony or schools of fish pivot to evade predators, swarm learning harnesses the power of collective intelligence to fortify our digital defenses.&#xA;Imagine a network of computers learning from each other in real-time, sharing insights and strategies without a central command, each node contributing to a more resilient and adaptive security system.</description>
     </item>
     <item>
       <title>Measuring the Impact of Shift Left on Cybersecurity Posture</title>
-      <link>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</link>
+      <link>https://armur.ai/blogs/posts/measuring_the_impact_of_shift_left/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/measuring_the_impact_of_shift_left/</guid>
+      <guid>https://armur.ai/blogs/posts/measuring_the_impact_of_shift_left/</guid>
       <description>In today&amp;rsquo;s digital landscape, the sophistication and frequency of cyber threats are on a relentless rise, posing an ever-present challenge to organizations across the globe. As these threats evolve, so too must the strategies to counteract them. Among the most innovative and effective strategies emerging in recent years is the Shift Left approach, which seeks to integrate security measures at the earliest stages of the software development lifecycle (SDLC).&#xA;This proactive methodology represents a paradigm shift from traditional reactive security measures, aiming to identify and mitigate vulnerabilities well before software products reach production.</description>
     </item>
     <item>
       <title>Revolutionizing Cloud Security Posture Management with AI</title>
-      <link>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
+      <link>https://armur.ai/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
+      <guid>https://armur.ai/blogs/posts/how_ai_is_revolutionizing_cybersecurity/</guid>
       <description>Introduction In the digital age, where cyber threats loom larger and more sophisticated with each passing day, the quest for robust cybersecurity measures has never been more critical. Picture this: a world where cybersecurity defenses not only react to threats but anticipate them, adapt to them, and neutralize them almost instantaneously. Welcome to 2024, where artificial intelligence (AI) is no longer just a buzzword but the backbone of cutting-edge cybersecurity strategies.</description>
     </item>
     <item>
       <title>Understanding Web3 Cybersecurity Challenges</title>
-      <link>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</link>
+      <link>https://armur.ai/blogs/posts/understanding_web3_cybersecurity/</link>
       <pubDate>Fri, 02 Feb 2024 18:31:22 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/posts/understanding_web3_cybersecurity/</guid>
+      <guid>https://armur.ai/blogs/posts/understanding_web3_cybersecurity/</guid>
       <description>Introduction: The New Frontier of Web3 As we stand on the brink of a digital revolution, the emergence of Web3 heralds a transformative era for the internet as we know it. This new phase, characterized by decentralization, blockchain technologies, and a push towards user sovereignty, redefines our interactions online, promising a future where users have unprecedented control over their data and digital identities.&#xA;Web3, in essence, represents a shift from centralized platforms, where data is stored in servers owned by a handful of corporations, to a decentralized network, built on the principles of blockchain technology.</description>
     </item>
     <item>
       <title>Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</title>
-      <link>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
+      <link>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
+      <guid>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
       <description>Ah, the Internet of Things (IoT) &amp;mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from your fridge to your car. But with great connectivity comes great responsibility, or in this case, a massive cybersecurity headache. As our devices chatter away, they open doors to potential cyber threats. Enter the dynamic duo of blockchain and artificial intelligence (AI). These technologies are not just reshaping the cybersecurity landscape; they&amp;rsquo;re redefining it, with pioneers like Armur AI leading the charge.</description>
     </item>
   </channel>

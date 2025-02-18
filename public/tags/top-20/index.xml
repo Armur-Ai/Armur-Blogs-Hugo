@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Top 20 on Armur</title>
-    <link>https://armur.ai/blogs/tags/top-20/</link>
+    <link>http://localhost:1313/blogs/tags/top-20/</link>
     <description>Recent content in Top 20 on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Aug 2024 09:00:00 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/top-20/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/top-20/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Top 20 Static Code Analysis Tools in 2024</title>
-      <link>https://armur.ai/blogs/posts/top_20_static_analysis_tools/</link>
+      <link>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</link>
       <pubDate>Sun, 18 Aug 2024 09:00:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/top_20_static_analysis_tools/</guid>
+      <guid>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</guid>
       <description>Static code analysis tools play a crucial role in maintaining code quality, security, and performance. These tools help developers identify vulnerabilities, bugs, and adherence to coding standards, ensuring robust software. Here’s a comprehensive overview of the top 20 static code analysis tools for 2024, highlighting their key features, ease of use, integrations, and overall effectiveness.&#xA;1. Armur AI Best for AI-driven security analysis&#xA;Armur AI is a cutting-edge platform that uses LLM Agents for sophisticated code vulnerability scanning.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Secure on Armur</title>
-    <link>https://armur.ai/blogs/tags/secure/</link>
+    <link>http://localhost:1313/blogs/tags/secure/</link>
     <description>Recent content in Secure on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Sep 2024 18:31:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/secure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/secure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securing AI-Generated Code</title>
-      <link>https://armur.ai/blogs/posts/securing_ai_generated_code/</link>
+      <link>http://localhost:1313/blogs/posts/securing_ai_generated_code/</link>
       <pubDate>Sun, 29 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/securing_ai_generated_code/</guid>
+      <guid>http://localhost:1313/blogs/posts/securing_ai_generated_code/</guid>
       <description>AI-generated code has transformed software development by automating repetitive tasks, accelerating workflows, and significantly boosting productivity. However, similar to human-written code, it introduces unique security risks that cannot be overlooked. As organizations increasingly integrate AI tools such as ChatGPT and GitHub Copilot into their development pipelines, securing AI-generated code becomes a critical priority. Vulnerabilities such as improper input handling, use of insecure third-party libraries, and susceptibility to adversarial attacks require careful attention and mitigation.</description>
     </item>
     <item>
       <title>Can AI Write Secure Code?</title>
-      <link>https://armur.ai/blogs/posts/can_ai_write_secure_code/</link>
+      <link>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</link>
       <pubDate>Sun, 29 Sep 2024 15:20:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/can_ai_write_secure_code/</guid>
+      <guid>http://localhost:1313/blogs/posts/can_ai_write_secure_code/</guid>
       <description>Generative AI is transforming the way software is built, offering potential benefits on par with the impact of the internet, mobile devices, and cloud computing. According to Gartner, AI has the potential to automate up to 30% of the work developers currently perform, freeing them to focus on higher-value tasks. AI coding assistants like GitHub Copilot are proving to be game-changers, boosting productivity by up to 50% and enhancing code quality through faster testing cycles.</description>
     </item>
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaming on Armur</title>
+    <link>http://localhost:1313/blogs/tags/teaming/</link>
+    <description>Recent content in Teaming on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Feb 2025 15:20:22 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/tags/teaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Red Teaming: Strengthening Security in the Age of Generative AI</title>
+      <link>http://localhost:1313/blogs/posts/ai_red_teaming/</link>
+      <pubDate>Sat, 15 Feb 2025 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/ai_red_teaming/</guid>
+      <description>As generative AI continues to transform industries and everyday interactions, ensuring the safety and security of these technologies is more important than ever. AI systems are becoming increasingly complex, and red teaming has emerged as a key practice for identifying potential risks. By probing AI systems for vulnerabilities, organizations can mitigate threats and enhance overall reliability.&#xA;What is AI Red Teaming? AI red teaming is the practice of testing AI systems to identify security weaknesses and potential risks.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zero-Day on Armur</title>
-    <link>https://armur.ai/blogs/tags/zero-day/</link>
+    <link>http://localhost:1313/blogs/tags/zero-day/</link>
     <description>Recent content in Zero-Day on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2024 05:31:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/zero-day/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/zero-day/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Critical Zero-Day Vulnerability CVE-2024-9680 Exploited in Firefox and Tor Browser</title>
-      <link>https://armur.ai/blogs/posts/critical_zero_day/</link>
+      <link>http://localhost:1313/blogs/posts/critical_zero_day/</link>
       <pubDate>Mon, 21 Oct 2024 05:31:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/critical_zero_day/</guid>
+      <guid>http://localhost:1313/blogs/posts/critical_zero_day/</guid>
       <description>A critical security flaw, identified as CVE-2024-9680, has been actively exploited in the wild, impacting multiple versions of Mozilla Firefox and Tor Browser. The vulnerability, classified as a high-severity use-after-free issue in the Animation timeline component, enables attackers to execute arbitrary code, posing significant risks to users&amp;rsquo; privacy and security. The flaw was first reported by cybersecurity firm ESET and has since been patched by Mozilla in Firefox versions 131.0.2, Firefox ESR 128.</description>
     </item>
   </channel>

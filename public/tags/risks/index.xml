@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Risks on Armur</title>
-    <link>https://armur.ai/blogs/tags/risks/</link>
+    <link>http://localhost:1313/blogs/tags/risks/</link>
     <description>Recent content in Risks on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Aug 2024 16:30:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/risks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/risks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Top 10 Web Application Security Risks: A Detailed Guide for Industry Leaders</title>
-      <link>https://armur.ai/blogs/posts/top_ten_web_application_security_risks/</link>
+      <link>http://localhost:1313/blogs/posts/top_ten_web_application_security_risks/</link>
       <pubDate>Wed, 14 Aug 2024 16:30:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/top_ten_web_application_security_risks/</guid>
+      <guid>http://localhost:1313/blogs/posts/top_ten_web_application_security_risks/</guid>
       <description>Introduction In the rapidly evolving digital landscape, web applications have become the backbone of modern businesses, enabling seamless interactions and transactions. However, with this increasing reliance comes heightened security risks that can jeopardize sensitive data and disrupt operations. Understanding these risks is not just important—it’s imperative for anyone responsible for the security of web applications. In this comprehensive guide, we’ll dive deep into the top 10 web application security risks that every organization should be aware of.</description>
     </item>
   </channel>

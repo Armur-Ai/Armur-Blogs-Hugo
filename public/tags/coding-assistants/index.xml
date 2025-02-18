@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding Assistants on Armur</title>
-    <link>https://armur.ai/blogs/tags/coding-assistants/</link>
+    <link>http://localhost:1313/blogs/tags/coding-assistants/</link>
     <description>Recent content in Coding Assistants on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Nov 2024 13:30:00 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/coding-assistants/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/coding-assistants/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How AI Coding Assistants Can Replicate and Amplify Security Vulnerabilities in Your Codebase</title>
-      <link>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</link>
+      <link>http://localhost:1313/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</link>
       <pubDate>Tue, 19 Nov 2024 13:30:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</guid>
+      <guid>http://localhost:1313/blogs/posts/how_ai_assistants_amplify_code_vluneraties/</guid>
       <description>Generative coding assistants, such as GitHub Copilot, are designed to improve developer productivity by suggesting code completions based on patterns learned from extensive training datasets. While these tools have proven to save time and streamline development workflows, recent research has raised concerns that they may inadvertently replicate and amplify security vulnerabilities present in existing codebases.&#xA;Security researchers have demonstrated that AI coding assistants can propagate flawed coding practices, increasing the risk of insecure software.</description>
     </item>
   </channel>

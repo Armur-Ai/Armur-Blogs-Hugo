@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analyzer on Armur</title>
-    <link>https://armur.ai/blogs/tags/analyzer/</link>
+    <link>http://localhost:1313/blogs/tags/analyzer/</link>
     <description>Recent content in Analyzer on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/analyzer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/analyzer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is a Code Vulnerability Analyzer?</title>
-      <link>https://armur.ai/blogs/posts/code_vulnerability_analyzer/</link>
+      <link>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</link>
       <pubDate>Tue, 03 Sep 2024 09:00:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/code_vulnerability_analyzer/</guid>
+      <guid>http://localhost:1313/blogs/posts/code_vulnerability_analyzer/</guid>
       <description>In the digital world we live in, software is the backbone of almost everything. But with this reliance on software comes the risk of cyberattacks. A code vulnerability analyzer is a tool that helps developers find security issues in their code before they become serious problems. Unlike basic tools, which might only scratch the surface, these analyzers dig deep into the code to spot hidden vulnerabilities that could be exploited by attackers.</description>
     </item>
   </channel>

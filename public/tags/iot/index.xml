@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iot on Armur</title>
-    <link>https://armur.ai/blogs/tags/iot/</link>
+    <link>http://localhost:1313/blogs/tags/iot/</link>
     <description>Recent content in Iot on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Dec 2023 15:01:35 +0300</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cybersecurity in the IoT Era How Blockchain &amp; AI Shield Your Devices</title>
-      <link>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
+      <link>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</link>
       <pubDate>Mon, 18 Dec 2023 15:01:35 +0300</pubDate>
-      <guid>https://armur.ai/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
+      <guid>http://localhost:1313/blogs/posts/cybersecurity_in_the_iot_era_how_blockchain_ai_shield_your_devices/</guid>
       <description>Ah, the Internet of Things (IoT) &amp;mdash; that futuristic concept we all dreamed about is now a tangible reality, connecting everything from your fridge to your car. But with great connectivity comes great responsibility, or in this case, a massive cybersecurity headache. As our devices chatter away, they open doors to potential cyber threats. Enter the dynamic duo of blockchain and artificial intelligence (AI). These technologies are not just reshaping the cybersecurity landscape; they&amp;rsquo;re redefining it, with pioneers like Armur AI leading the charge.</description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static on Armur</title>
-    <link>https://armur.ai/blogs/tags/static/</link>
+    <link>http://localhost:1313/blogs/tags/static/</link>
     <description>Recent content in Static on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Sep 2024 18:31:22 +0530</lastBuildDate>
-    <atom:link href="https://armur.ai/blogs/tags/static/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/tags/static/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Static Code Analysis Tools</title>
-      <link>https://armur.ai/blogs/posts/top_10_static_code/</link>
+      <link>http://localhost:1313/blogs/posts/top_10_static_code/</link>
       <pubDate>Sat, 07 Sep 2024 18:31:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/top_10_static_code/</guid>
+      <guid>http://localhost:1313/blogs/posts/top_10_static_code/</guid>
       <description>What Is A Static Code Analysis Tool? Static code analysis tools, also known as source code analyzers, are essential for maintaining high code quality and ensuring security. These tools are utilized by software developers, cybersecurity experts, and quality assurance professionals to automatically review the source code before execution. They aim to identify potential issues such as syntax errors, code structure problems, security vulnerabilities, and other elements that may lead to software bugs or system failures.</description>
     </item>
     <item>
       <title>How Does A Static Code Analysis Tool Work?</title>
-      <link>https://armur.ai/blogs/posts/how_static_analysis_works/</link>
+      <link>http://localhost:1313/blogs/posts/how_static_analysis_works/</link>
       <pubDate>Fri, 23 Aug 2024 09:00:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/how_static_analysis_works/</guid>
+      <guid>http://localhost:1313/blogs/posts/how_static_analysis_works/</guid>
       <description>Introduction Static code analysis is an essential process in software development, enabling developers to analyze the structure of code without executing it. This method is widely used to detect security vulnerabilities, bugs, and other defects in software, making it a crucial step in ensuring the quality and security of applications. This article gets into the mechanics of static code analysis, the underlying technology that makes it possible, and the limitations that come with this approach.</description>
     </item>
     <item>
       <title>Top 20 Static Code Analysis Tools in 2024</title>
-      <link>https://armur.ai/blogs/posts/top_20_static_analysis_tools/</link>
+      <link>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</link>
       <pubDate>Sun, 18 Aug 2024 09:00:00 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/top_20_static_analysis_tools/</guid>
+      <guid>http://localhost:1313/blogs/posts/top_20_static_analysis_tools/</guid>
       <description>Static code analysis tools play a crucial role in maintaining code quality, security, and performance. These tools help developers identify vulnerabilities, bugs, and adherence to coding standards, ensuring robust software. Here’s a comprehensive overview of the top 20 static code analysis tools for 2024, highlighting their key features, ease of use, integrations, and overall effectiveness.&#xA;1. Armur AI Best for AI-driven security analysis&#xA;Armur AI is a cutting-edge platform that uses LLM Agents for sophisticated code vulnerability scanning.</description>
     </item>
     <item>
       <title>Understanding Static Analysis: The Backbone of Secure Software Development</title>
-      <link>https://armur.ai/blogs/posts/what_is_static_analysis/</link>
+      <link>http://localhost:1313/blogs/posts/what_is_static_analysis/</link>
       <pubDate>Wed, 14 Aug 2024 16:44:22 +0530</pubDate>
-      <guid>https://armur.ai/blogs/posts/what_is_static_analysis/</guid>
+      <guid>http://localhost:1313/blogs/posts/what_is_static_analysis/</guid>
       <description>In today&amp;rsquo;s fast-paced digital world, software applications drive every aspect of business operations, from customer engagement to data management. As organizations increasingly rely on these applications, ensuring their security, performance, and quality becomes paramount. However, testing and securing code late in the Software Development Lifecycle (SDLC) can lead to costly errors, security vulnerabilities, and even catastrophic failures in production. To mitigate these risks, engineering teams must adopt robust practices like static analysis early in the SDLC.</description>
     </item>
   </channel>

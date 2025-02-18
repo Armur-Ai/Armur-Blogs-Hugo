@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Securiy on Armur</title>
+    <link>http://localhost:1313/blogs/tags/securiy/</link>
+    <description>Recent content in Securiy on Armur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2025 07:30:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/tags/securiy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The DarkMing Threat</title>
+      <link>http://localhost:1313/blogs/posts/darkmind_security_risk/</link>
+      <pubDate>Tue, 18 Feb 2025 07:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/darkmind_security_risk/</guid>
+      <description>Large Language Models have become indispensable tools for millions worldwide. From generating text to analyzing data, these models are transforming industries and reshaping how we interact with technology. However, as their capabilities grow, so do their vulnerabilities. The recent discovery of DarkMind, a stealthy backdoor attack targeting LLMs, underscores the urgent need for good and solid security measures in AI systems. This article explores why LLM security is paramount and how threats like DarkMind could have far-reaching consequences.</description>
+    </item>
+  </channel>
+</rss>

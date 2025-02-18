@@ -13,7 +13,7 @@ DarkMind, developed by researchers Zhen Guo and Reza Tourani, exploits the **Cha
 
 For example, in a mathematical reasoning task, DarkMind could subtly replace addition with subtraction during intermediate steps, leading to incorrect results. This manipulation is not only effective but also persistent across various domains, including commonsense and symbolic reasoning. What makes DarkMind particularly alarming is its ability to target state-of-the-art models like GPT-4 and LLaMA-3, which are widely regarded as highly secure.
 
-### Why LLM Security Matters
+### Why LLM Security Matters a lot
 
 #### 1. **Protecting Critical Services**
 

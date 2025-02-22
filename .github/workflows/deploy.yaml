@@ -10,22 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Deploy to server
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_PRIVATE_KEY }}
-        SSH_USER: ${{ secrets.SERVER_SSH_USER }}
-        SSH_HOST: ${{ secrets.SERVER_SSH_HOST }}
-      run: |
-        mkdir -p ~/.ssh
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST '
-          cd /home/vm11082001/Armur-Blogs-Hugo &&
-          git stash &&
-          git pull &&
-          hugo &&
-          pm2 restart hugo
-        '
+      - name: Deploy to server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_PRIVATE_KEY }}
+          SSH_USER: ${{ secrets.SERVER_SSH_USER }}
+          SSH_HOST: ${{ secrets.SERVER_SSH_HOST }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST '
+            cd /home/vm11082001/Armur-Blogs-Hugo &&
+            git stash &&
+            git pull &&
+            HUGO_ENV=production hugo --minify &&
+            sudo rm -rf /var/www/html/blogs/public/* &&
+            sudo cp -r public/* /var/www/html/blogs/public/ &&
+            pm2 restart hugo
+          '

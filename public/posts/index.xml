@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Armur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Feb 2025 18:31:22 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 15:20:22 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bybit’s $1.4 Billion ETH Hack and the Need for ARMUR</title>
+      <link>http://localhost:1313/blogs/posts/bybit_crypto_hack/</link>
+      <pubDate>Sat, 22 Feb 2025 15:20:22 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/bybit_crypto_hack/</guid>
+      <description>The cryptocurrency industry was shaken on February 21, 2025, when Bybit, confirmed a hack resulting in the loss of approximately $1.4 billion in Ethereum (ETH) and related tokens, marking it as the largest cryptocurrency theft in history. This incident, detailed in various reports, underscores the escalating sophistication of cyber attacks, particularly those leveraging artificial intelligence (AI). The user&amp;rsquo;s request to write an article for Armur AI (armur.ai) provides an opportunity to analyze this breach and advocate for their AI-powered cybersecurity solution, ARMUR, as a critical defense mechanism for tech firms.</description>
+    </item>
+    <item>
+      <title>The DarkMind Threat</title>
+      <link>http://localhost:1313/blogs/posts/darkmind_security_risk/</link>
+      <pubDate>Tue, 18 Feb 2025 07:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/posts/darkmind_security_risk/</guid>
+      <description>Large Language Models have become indispensable tools for millions worldwide. From generating text to analyzing data, these models are transforming industries and reshaping how we interact with technology. However, as their capabilities grow, so do their vulnerabilities. The recent discovery of DarkMind, a stealthy backdoor attack targeting LLMs, underscores the urgent need for good and solid security measures in AI systems. This article explores why LLM security is paramount and how threats like DarkMind could have far-reaching consequences.</description>
+    </item>
     <item>
       <title>AI and Security: Navigating New Challenges</title>
       <link>http://localhost:1313/blogs/posts/ai_and_security/</link>
